@@ -17,11 +17,25 @@
         },
         "firmwares": [
           {
-            "version": "xxxx",
-            "region": "Antartica",
+            "version": "1_08_1402_01_1_11c_32_19_27",
+            "region": "China (unconfirmed)",
             "type": "RUU (Exe)",
-            "size": "280MB",
-            "url": "https://archive.org/"
+            "size": "575.3MB",
+            "url": "https://t.me/wp_firmwares/35/37"
+          },
+          {
+            "version": "2_00_707_01_1_11b_32_19_23",
+            "region": "Asia",
+            "type": "RUU (Exe)",
+            "size": "635.1MB",
+            "url": "https://t.me/wp_firmwares/35/38"
+          },
+          {
+            "version": "8.10.14203.306",
+            "region": "Unknown",
+            "type": "NBH File",
+            "size": "763.7MB",
+            "url": "https://t.me/wp_firmwares/35/80"
           }
         ],
         "guide": [
@@ -36,6 +50,10 @@
           {
             "title": "step 69",
             "text": "buy an android phone"
+          },
+          {
+            "title": "step 69",
+            "text": "placeholder text, please ignore."
           }
         ]
       },
@@ -43,7 +61,7 @@
         "name": "HTC 8S",
         "codename": "rio",
         "image": "/assets/htc8s.png",
-        "required_tool": "SD Card Method",
+        "required_tool": "--",
         "specs": {
           "cpu": "Snapdragon S4 (Dual-core 1.0 GHz)",
           "ram": "512MB",
@@ -53,19 +71,26 @@
         },
         "firmwares": [
           {
-            "version": "xxxx",
+            "version": "Windows Phone 8.0 GDR3",
             "region": "Europe",
             "type": "NBH File",
-            "size": "210MB",
-            "url": "https://archive.org/"
+            "size": "631.3MB",
+            "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/qxowBTqB"
+          },
+          {
+            "version": "Windows Phone 8.0 RTM",
+            "region": "Europe",
+            "type": "Full RUU",
+            "size": "574.5MB",
+            "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/m4gQVRIQ"
           }
         ]
       },
       {
-        "name": "HTC One M8 (Win)",
-        "codename": "m8_wlv",
+        "name": "HTC One (M8) for Windows",
+        "codename": "w8",
         "image": "/assets/htconem8.png",
-        "required_tool": "RUU Wrapper",
+        "required_tool": "--",
         "specs": {
           "cpu": "Snapdragon 801 (Quad-core 2.3 GHz)",
           "ram": "2GB",
@@ -75,11 +100,11 @@
         },
         "firmwares": [
           {
-            "version": "xxx",
+            "version": "N/A",
             "region": "USA (Verizon)",
-            "type": "RUU (Exe)",
-            "size": "1.1GB",
-            "url": "https://archive.org/"
+            "type": "NBH File",
+            "size": "830.4MB",
+            "url": "https://www.mediafire.com/download/dwfnbffjwl623j0/PDM_W8_WL_BLUE_00_VERIZON+WWE_1.06.605.02_Radio_1.00.50.0806_release.zip"
           }
         ]
       }
@@ -90,10 +115,10 @@
     "slug": "samsung",
     "devices": [
       {
-        "name": "Samsung ATIV S",
+        "name": "Samsung ATIV S (GT-I8750)",
         "codename": "GT-I8750",
         "image": "/assets/ssativs.png",
-        "required_tool": "WP8 SMD Downloader",
+        "required_tool": "Samsung Odin? (needs confirmation)",
         "specs": {
           "cpu": "Snapdragon S4 (Dual-core 1.5 GHz)",
           "ram": "1GB",
@@ -103,20 +128,204 @@
         },
         "firmwares": [
           {
-            "version": "I8750XXBMF1",
-            "region": "Global (ATO)",
+            "version": "VJALL3_P",
+            "region": "Unknown",
             "type": "Full Flash",
-            "size": "980MB",
+            "size": "0MB",
             "files": [
               {
                 "type": "WP8 (OS)",
-                "size": "850MB",
-                "url": "https://archive.org/"
+                "size": "1.35GB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/yxwV2ZiS"
               },
               {
                 "type": "CSC (Region)",
-                "size": "130MB",
-                "url": "https://archive.org/"
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/zpx03Z6R"
+              }
+            ]
+          },
+          {
+            "version": "VJALL3_R",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS)",
+                "size": "1.35GB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/folder/PwhhlQpJ"
+              },
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/jl5inZDC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Samsung ATIV S (SGH-T899M)",
+        "codename": "SGH-T899M",
+        "image": "/assets/ssativs.png",
+        "required_tool": "Samsung Odin? (needs confirmation)",
+        "specs": {
+          "cpu": "Snapdragon S4 (Dual-core 1.5 GHz)",
+          "ram": "1GB",
+          "storage": "16GB (+MicroSD)",
+          "display": "4.8\" Super AMOLED (1280x720)",
+          "battery": "2300 mAh (Removable)"
+        },
+        "firmwares": [
+          {
+            "version": "OYACMK2_R",
+            "region": "Unknown",
+            "type": "CSC Only",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/DtpUgZoS"
+              }
+            ]
+          },
+          {
+            "version": "VLCMK2_PS",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "Unknown (PS)",
+                "size": "758.7MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/Dhw0xB6A"
+              },
+              {
+                "type": "Unknown (R)",
+                "size": "775.3MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/ao4m2TQA"
+              },
+              {
+                "type": "Unknown (S)",
+                "size": "775.3MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/KlwSCLSZ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Samsung ATIV S Neo (SPH-I800)",
+        "codename": "SPH-I800",
+        "image": "/assets/ssativsneo.png",
+        "required_tool": "Samsung Odin? (needs confirmation)",
+        "specs": {
+          "cpu": "Dual-core 1.4 GHz",
+          "ram": "1GB",
+          "storage": "16GB (+MicroSD)",
+          "display": "4.77\" TFT (1280x720)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "VPUAMG6_R",
+            "region": "USA (Sprint)",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS)",
+                "size": "1.44GB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/r9whhLwI"
+              },
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/C05UgRZL"
+              }
+            ]
+          },
+          {
+            "version": "VPUANA2_R",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS)",
+                "size": "1.44GB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/P0pwVJwR"
+              },
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/3oowBbTD"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Samsung ATIV S Neo (SGH-I187)",
+        "codename": "SGH-I187",
+        "image": "/assets/ssativsneo.png",
+        "required_tool": "Samsung Odin? (needs confirmation)",
+        "specs": {
+          "cpu": "Dual-core 1.4 GHz",
+          "ram": "1GB",
+          "storage": "16GB (+MicroSD)",
+          "display": "4.77\" TFT (1280x720)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "UCUBNJ2_R",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS)",
+                "size": "1.61GB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/74IGSTQT"
+              },
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/agoyxTbQ"
+              }
+            ]
+          },
+          {
+            "version": "UCUAMI4_R",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS)",
+                "size": "1.50GB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/3oRWgZiL"
+              },
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/ashkED7S"
+              }
+            ]
+          },
+          {
+            "version": "UMI4",
+            "region": "USA (Verizon)",
+            "type": "Full Fash",
+            "size": "1.51GB",
+            "files": [
+              {
+                "type": "OneClickDownloader (exe)",
+                "size": "1.51GB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/zxZmmTKK"
               }
             ]
           }
@@ -126,7 +335,7 @@
         "name": "Samsung ATIV SE",
         "codename": "SM-W750V",
         "image": "/assets/ssativse.png",
-        "required_tool": "WP8 SMD Downloader",
+        "required_tool": "Samsung Odin? (needs confirmation)",
         "specs": {
           "cpu": "Snapdragon 800 (Quad-core 2.3 GHz)",
           "ram": "2GB",
@@ -136,11 +345,62 @@
         },
         "firmwares": [
           {
-            "version": "W750VRUAVF1",
+            "version": "VRU0ANC2_P",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS)",
+                "size": "652.4MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/ikwWlZwB"
+              },
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/DsoAHZaD"
+              }
+            ]
+          },
+          {
+            "version": "VRU0ANC2_R",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS)",
+                "size": "661.5MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/GsowHBjL"
+              },
+              {
+                "type": "CSC (Region)",
+                "size": "10MB",
+                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/PohAHTAI"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Samsung ATIV Odyssey",
+        "codename": "SCH-I930",
+        "image": "/assets/ssativodyssey.png",
+        "required_tool": "Samsung Odin? (needs confirmation)",
+        "specs": {
+          "cpu": "Snapdragon S4 Plus (Dual-core 1.5 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+MicroSD)",
+          "display": "4.0\" AMOLED (480p)",
+          "battery": "2100 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "HK11-VB717-38",
             "region": "USA (Verizon)",
-            "type": "Single Archive",
-            "size": "1.2GB",
-            "url": "https://archive.org/"
+            "type": "CSC Only?",
+            "size": "9.5MB",
+            "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/PkpiGLzB"
           }
         ]
       }
@@ -168,7 +428,106 @@
             "region": "Global (Retail)",
             "type": "FFU",
             "size": "2.4GB",
-            "url": "https://archive.org/"
+            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3/MR5_Elite_x3-retail-0002.0000.0037.0001-signed_0002.0000.0037.0001.ffu"
+          },
+          {
+            "version": "0006.0000.0002.0092",
+            "region": "Telstra",
+            "type": "FFU",
+            "size": "2.4GB",
+            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Telstra/HP_Elite_x3_Telstra-retail-0006.0000.0002.0092-signed_0006.0000.0002.0092.ffu"
+          },
+          {
+            "version": "0007.0000.0030.0024",
+            "region": "Verizon",
+            "type": "FFU",
+            "size": "2.6GB",
+            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Verizon/RTM_Elite_x3_Verizon-retail-0007.0000.0030.0024-signed_0007.0000.0030.0024.ffu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Micromax",
+    "slug": "micromax",
+    "devices": [
+      {
+        "name": "Canvas Win W121",
+        "codename": "w121",
+        "image": "/assets/canvaswinw121.png",
+        "required_tool": "--",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+MicroSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1 RTM - 8.10.12393",
+            "region": "Asia",
+            "type": "FFU",
+            "size": "812.77MB",
+            "url": "https://www.mediafire.com/file/az4kaba1e1lpw5a/Micromax_W121_15072014.zip/file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Acer",
+    "slug": "acer",
+    "devices": [
+      {
+        "name": "Liquid M220",
+        "codename": "m220",
+        "image": "/assets/liquidm220.png",
+        "required_tool": "WPinternals / Thor2 / QFIL",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "512MB",
+          "storage": "4GB (+MicroSD)",
+          "display": "4.0\" TFT (800x480)",
+          "battery": "1300 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1",
+            "region": "Unknown",
+            "type": "FFU?",
+            "size": "1.01GB",
+            "url": "https://www.mediafire.com/file/ddqpc88jm320lcj/Acer_Liquid_M220_RV04RC02_27112012_Win_8.1_QFIL.zip/file"
+          },
+          {
+            "version": "Windows Phone 8.1 GDR1",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.5GB",
+            "url": "https://archive.org/download/W10M_FFUs/Acer/Liquid%20M220/"
+          }
+        ]
+      },
+      {
+        "name": "Liquid Jade Primo",
+        "codename": "Jade Primo",
+        "image": "/assets/liquidjadeprimo.png",
+        "required_tool": "WPinternals / Thor2",
+        "specs": {
+          "cpu": "Snapdragon 808 (Quad-core 1.2 GHz)",
+          "ram": "3GB",
+          "storage": "32GB (+MicroSD)",
+          "display": "5.5\" AMOLED (1080x1920)",
+          "battery": "2800 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows 10 Mobile - 1078.241.00000.32800",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "3.1GB",
+            "url": "https://archive.org/download/W10M_FFUs/Acer/Jade%20Primo%20%28S58xWWxGEN1%29/Acer_S58_RV00RC28_WW_GEN1retail_1078.241.00000.32800.ffu"
           }
         ]
       }
