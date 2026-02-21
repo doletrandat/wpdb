@@ -199,7 +199,7 @@
       {
         "name": "HTC HD7",
         "codename": "schubert",
-        "image": "/assets/htc8s.png",
+        "image": "/assets/htchd7.png",
         "required_tool": "RUU Wrapper",
         "model": "HD7",
         "specs": {
