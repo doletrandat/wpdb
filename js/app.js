@@ -433,10 +433,8 @@ function switchPivot(tabName) {
         const btn = document.getElementById(`pivot-btn-${t}`);
         const content = document.getElementById(`pivot-content-${t}`);
         if (btn && content) {
-            btn.classList.replace('text-black', 'text-gray-300');
-            btn.classList.replace('', '');
-            btn.classList.replace('border-black', 'border-transparent');
-            btn.classList.replace('', 'border-transparent');
+            btn.classList.remove('text-black', 'border-black');
+            btn.classList.add('text-gray-300', 'border-transparent');
             content.classList.add('hidden');
             content.classList.remove('animate-content-slide');
         }
@@ -446,10 +444,8 @@ function switchPivot(tabName) {
     const activeContent = document.getElementById(`pivot-content-${tabName}`);
 
     if (activeBtn && activeContent) {
-        activeBtn.classList.replace('text-gray-300', 'text-black');
-        activeBtn.classList.replace('', '');
-        activeBtn.classList.replace('border-transparent', 'border-black');
-        activeBtn.classList.replace('border-transparent', '');
+        activeBtn.classList.remove('text-gray-300', 'border-transparent');
+        activeBtn.classList.add('text-black', 'border-black');
 
         activeContent.classList.remove('hidden');
         void activeContent.offsetWidth;
