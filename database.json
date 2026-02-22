@@ -63,7 +63,7 @@
           },
           {
             "version": "1.22.401.01",
-            "region": "Orange UK",
+            "region": "Europe",
             "type": "RUU",
             "size": "219MB",
             "url": "https://www.4shared.com/zip/J9xj52wqgm/RUU_Gold_HTC_Europe_12240101_R.html"
@@ -655,7 +655,7 @@
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "SM-W750V VRU0ANC2_R.csc"
+                "filename": "SM-W750V VRU0ANC2_R.csc"
               }
             ]
           }
