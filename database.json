@@ -42,7 +42,7 @@
       },
       {
         "name": "HTC 7 Pro",
-        "codename": "7 pro",
+        "codename": "gold",
         "image": "/assets/htc7pro.png",
         "required_tool": "RUU Wrapper",
         "model": "7 Pro",
@@ -85,7 +85,7 @@
         },
         "firmwares": [
           {
-            "version": "4.03.502.02",
+            "version": "4.03.502.02 (custom ROM?)",
             "region": "Cingular",
             "type": "RUU",
             "size": "217.33MB",
@@ -174,7 +174,7 @@
             "region": "Europe",
             "type": "Full RUU",
             "size": "574.5MB",
-            "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/m4gQVRIQ"
+            "filename": "RUU_RIO_U_APO_00_HTC_Europe_1.04.401.03_1.11b.3054.25_10.13.30_RETAIL_ENC_RELEASE.exe"
           }
         ],
         "guide": [
@@ -212,59 +212,150 @@
         "firmwares": [
           {
             "version": "1.57.728.02",
-            "region": "AsiaSEA",
+            "region": "Southeast Asia",
             "type": "RUU",
             "size": "185.13MB",
-            "url": "http://www.mediafire.com/download.php?z51m35byxr0951g"
+            "filename": "HTC_HD7_T9292_AsiaSEA_ROM_1.57.728.02_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10.exe"
           },
           {
             "version": "1.57.707.02",
-            "region": "AsiaWWE",
+            "region": "Asia",
             "type": "RUU",
             "size": "197.29MB",
-            "url": "http://www.mediafire.com/download.php?9wjpb6c6sft6c6b"
+            "filename": "HTC_HD7_T9292_AsiaWWE_ROM_1.57.707.02_OS_7.0.7004.0_FW_2250.09.15702.707_RA_5.52.09.16_22.33a.50.10U_BL_1.57.2250.0(113571).exe"
           },
           {
             "version": "2.16.666.02",
-            "region": "Bell Mobility",
+            "region": "Canada (Bell Mobility)",
             "type": "RUU",
             "size": "214.75MB",
-            "url": "http://www.mediafire.com/download.php?w8hps78bb7dp7s8"
+            "filename": "HTC_HD7_T9292_BellMobility_ROM_2.16.666.02_OS_7.0.7004.0_FW_2250.10.21602.666_RA_5.64.09.11a_22.40.50.15U_BL_2.16.2250.0(117476) .exe"
           },
           {
             "version": "1.60.401.01",
             "region": "Europe",
             "type": "RUU",
             "size": "220.39MB",
-            "url": "http://www.mediafire.com/download.php?9zrxchfomif3s49"
+            "filename": "HTC_HD7_T9292_Europe_ROM_1.60.401.01_OS_7.0.7004.0_FW_2250.09.16001.401_RA_5.52.09.16_22.33a.50.10U_BL_1.60.2250.0(114364).exe"
           },
           {
             "version": "1.61.207.01",
-            "region": "O2 Germany",
+            "region": "Germany (O2)",
             "type": "RUU",
             "size": "211.1MB",
-            "url": "http://www.mediafire.com/download.php?1udj83jbfje2dda"
+            "filename": "HTC_HD7_T9292_O2DE_ROM_1.61.207.01_OS_7.0.7004.0_FW_2250.09.16101.207_RA_5.52.09.16_22.33a.50.10U_BL_1.61.2250.0(114451).exe"
           },
           {
             "version": "1.68.206.03",
-            "region": "O2 UK",
+            "region": "UK (O2)",
             "type": "RUU",
             "size": "204.12MB",
-            "url": "http://www.mediafire.com/download.php?yofidjpvi13d41g"
+            "filename": "HTC_HD7_T9292_O2UK_ROM_1.68.206.03_OS_7.0.7004.0_FW_2250.09.16803.206_RA_5.63.09.13_3a_22.36.50.15U_BL_1.68.2250.0(117041).exe"
           },
           {
             "version": "1.64.901.03",
-            "region": "TIM Italy",
+            "region": "Italy (TIM)",
             "type": "RUU",
             "size": "216.35MB",
-            "url": "http://www.mediafire.com/download.php?2aaf0a045sr1mar"
+            "filename": "HTC_HD7_T9292_TIMIT_ROM_1.64.901.03_OS_7.0.7004.0_FW_2250.09.16403.901_RA_5.63.09.13_3a_22.36.50.15U_BL_1.64.2250.0(116289).exe"
           },
           {
             "version": "1.54.531.02",
-            "region": "T-Mobile US",
+            "region": "USA (T-Mobile)",
             "type": "RUU",
             "size": "189.29MB",
-            "url": "http://www.mediafire.com/download.php?zwmkeic577x71r4"
+            "filename": "HTC_HD7_T9292_TMOUS_ROM_1.54.531.02_OS_7.0.7004.0_FW_2250.09.15402.531_RA_5.51T.09.29a_22.32.50.10U_BL_1.54.2250.0(112696).zip"
+          },
+          {
+            "version": "3.03.502.04",
+            "region": "USA (AT&T)",
+            "type": "RUU",
+            "size": "209MB",
+            "filename": "HTC_HD7S_T9295_AT&T_ROM_3.03.502.04_OS_7.0.7390.0_FW_2250.21.30304.502_RA_5.66.09.09a_22.46.50.21U_BL_3.3.2250.0(120323).exe"
+          },
+          {
+            "version": "1.69.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "221.7MB",
+            "filename": "HTC_HD7_T9292_Europe_ROM_1.69.401.01_OS_7.0.7389.0_FW_2250.09.16901.401_RA_5.54.09.21_22.33b.50.10U_BL_1.69.2250.0(117833).exe"
+          },
+          {
+            "version": "3.04.207.01",
+            "region": "Germany (O2)",
+            "type": "RUU",
+            "size": "196.9MB",
+            "filename": "HTC_HD7_T9292_O2DE_ROM_3.04.207.01_OS_7.0.7390.0_FW_2250.21.30401.207_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe"
+          },
+          {
+            "version": "3.04.206.01",
+            "region": "UK (O2)",
+            "type": "RUU",
+            "size": "197.5MB",
+            "filename": "HTC_HD7_T9292_O2UK_ROM_3.04.206.01_OS_7.0.7390.0_FW_2250.21.30401.206_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe"
+          },
+          {
+            "version": "1.54.531.02",
+            "region": "Italy (TIM)",
+            "type": "RUU",
+            "size": "216.9MB",
+            "filename": "HTC_HD7_T9292_TIMIT_ROM_1.70.901.02_OS_7.0.7389.0_FW_2250.09.17002.901_RA_5.64.09.27a_22.43.50.15U_BL_1.70.2250.0(118122).exe"
+          },
+          {
+            "version": "3.01.531.02",
+            "region": "USA (T-Mobile)",
+            "type": "RUU",
+            "size": "207.6MB",
+            "filename": "HTC_HD7_T9292_TMOUS_ROM_3.01.531.02_OS_7.0.7392.0_FW_2250.21.30102.531_RA_5.65.09.25a_22.45.50.21U_BL_3.1.2250.0(119314).exe"
+          },
+          {
+            "version": "2.20.841.02",
+            "region": "Australia (Telstra)",
+            "type": "RUU",
+            "size": "185.9MB",
+            "filename": "HTC_HD7_T9296_Telstra_ROM_2.20.841.02_OS_7.0.7389.0_FW_2250.10.22002.841_RA_5.65.09.11_22.44.50.15U_BL_2.20.2250.0(118798).exe"
+          },
+          {
+            "version": "4.05.728.01",
+            "region": "Southeast Asia",
+            "type": "RUU",
+            "size": "320.4MB",
+            "filename": "HTC_HD7_T9292_AsiaSEA_ROM_4.05.728.01_OS_7.10.7720.68_FW_2250.21.40501.728_RA_5.69.09.29a_22.50.50.21U_BL_4.05.2250.0(129185).exe"
+          },
+          {
+            "version": "4.05.401.02",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "306.6MB",
+            "filename": "HTC_HD7_T9292_Europe_ROM_4.05.401.02_OS_7.10.7720.68_FW_2250.21.40502.401_RA_5.69.09.29a_22.50.50.21U_BL_4.5.2250.0(129185).exe"
+          },
+          {
+            "version": "5.12.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "307MB",
+            "filename": "HTC_HD7_T9292_Europe_ROM_5.12.401.01_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.21.exe"
+          },
+          {
+            "version": "4.05.206.01",
+            "region": "UK (O2)",
+            "type": "RUU",
+            "size": "300.7MB",
+            "filename": "HTC_HD7_T9292_O2UK_ROM_4.05.206.01_OS_7.10.7720.68_RA_5.69.09.29a_22.50.50.21.exe"
+          },
+          {
+            "version": "4.05.531.03",
+            "region": "USA (T-Mobile)",
+            "type": "RUU",
+            "size": "306.7MB",
+            "filename": "HTC_HD7_T9292_TMOUS_ROM_4.05.531.03_OS_7.10.7720.68_FW_2250.21.40503.531_RA_5.69.09.29a_22.50.50.21U_BL_4.5.2250.0(129966).exe"
+          },
+          {
+            "version": "SLSPL 5.10.401.04 (flash this to allow downgrading on 5.xx SPLs)",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "300.7MB",
+            "filename": "RUU_Schubert_HTC_Europe_5.10.401.04_SLSPL_Signed_by_ansar.zip"
           }
         ]
       },
@@ -272,7 +363,7 @@
         "name": "HTC One (M8) for Windows",
         "codename": "w8",
         "image": "/assets/htconem8.png",
-        "required_tool": "--",
+        "required_tool": "RUU Wrapper",
         "model": "One_M8_for_Windows",
         "specs": {
           "cpu": "Snapdragon 801 (Quad-core 2.3 GHz)",
@@ -283,11 +374,11 @@
         },
         "firmwares": [
           {
-            "version": "N/A",
+            "version": "1.06.605.02",
             "region": "USA (Verizon)",
             "type": "NBH File",
             "size": "830.4MB",
-            "url": "https://www.mediafire.com/download/dwfnbffjwl623j0/PDM_W8_WL_BLUE_00_VERIZON+WWE_1.06.605.02_Radio_1.00.50.0806_release.zip"
+            "filename": "PDM_W8_WL_BLUE_00_VERIZON WWE_1.06.605.02_Radio_1.00.50.0806_release.zip"
           }
         ]
       }
@@ -320,12 +411,12 @@
               {
                 "type": "WP8 (OS)",
                 "size": "1.35GB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/yxwV2ZiS"
+                "filename": "GT-I8750 VJALL3_P.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/zpx03Z6R"
+                "filename": "GT-I8750 VJALL3_P.csc"
               }
             ]
           },
@@ -338,12 +429,12 @@
               {
                 "type": "WP8 (OS)",
                 "size": "1.35GB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/folder/PwhhlQpJ"
+                "filename": "GT-I8750 VJALL3_R_signed.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/jl5inZDC"
+                "filename": "GT-I8750_VJALL3_R_SIGNED.csc"
               }
             ]
           }
@@ -372,7 +463,7 @@
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/DtpUgZoS"
+                "filename": "SGH-T899M_OYACMK2_R_signed.csc"
               }
             ]
           },
@@ -385,17 +476,17 @@
               {
                 "type": "Unknown (PS)",
                 "size": "758.7MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/Dhw0xB6A"
+                "filename": "SGH-T899M VLCMK2_PS.wp8"
               },
               {
                 "type": "Unknown (R)",
                 "size": "775.3MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/ao4m2TQA"
+                "filename": "SGH-T899M VLCMK2_R.wp8"
               },
               {
                 "type": "Unknown (S)",
                 "size": "775.3MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/KlwSCLSZ"
+                "filename": "SGH-T899M VLCMK2_S.wp8"
               }
             ]
           }
@@ -424,12 +515,12 @@
               {
                 "type": "WP8 (OS)",
                 "size": "1.44GB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/r9whhLwI"
+                "filename": "SPH-I800_VPUAMG6_R_SIGNED.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/C05UgRZL"
+                "filename": "SPH-I800_VPUAMG6_R_SIGNED.csc"
               }
             ]
           },
@@ -442,12 +533,12 @@
               {
                 "type": "WP8 (OS)",
                 "size": "1.44GB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/P0pwVJwR"
+                "filename": "SPH-I800_VPUANA2_R_SIGNED.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/3oowBbTD"
+                "filename": "SPH-I800_VPUANA2_R_SIGNED.csc"
               }
             ]
           }
@@ -476,12 +567,12 @@
               {
                 "type": "WP8 (OS)",
                 "size": "1.61GB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/74IGSTQT"
+                "filename": "SGH-I187 UCUBNJ2_R_signed.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/agoyxTbQ"
+                "filename": "SGH-I187 UCUBNJ2_R.csc"
               }
             ]
           },
@@ -494,25 +585,25 @@
               {
                 "type": "WP8 (OS)",
                 "size": "1.50GB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/3oRWgZiL"
+                "filename": "SGH-I187_UCUAMI4_R_signed.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/ashkED7S"
+                "filename": "SGH-I187_UCUAMI4_R.csc"
               }
             ]
           },
           {
             "version": "UMI4",
             "region": "USA (Verizon)",
-            "type": "Full Fash",
+            "type": "Full Flash",
             "size": "1.51GB",
             "files": [
               {
                 "type": "OneClickDownloader (exe)",
                 "size": "1.51GB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/zxZmmTKK"
+                "filename": "WP8_OneClickDownloader_SGH-I187_UMI4_Retail_SIGNED.exe"
               }
             ]
           }
@@ -541,12 +632,12 @@
               {
                 "type": "WP8 (OS)",
                 "size": "652.4MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/ikwWlZwB"
+                "filename": "SM-W750V VRU0ANC2_P.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/DsoAHZaD"
+                "filename": "SM-W750V VRU0ANC2_P.csc"
               }
             ]
           },
@@ -559,12 +650,12 @@
               {
                 "type": "WP8 (OS)",
                 "size": "661.5MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/GsowHBjL"
+                "filename": "SM-W750V VRU0ANC2_R_signed.wp8"
               },
               {
                 "type": "CSC (Region)",
                 "size": "10MB",
-                "url": "https://mega.nz/folder/b0Ri1J7D#Q96P3V5V-VboIjMQTFXKTQ/file/PohAHTAI"
+                "url": "SM-W750V VRU0ANC2_R.csc"
               }
             ]
           }
@@ -661,7 +752,7 @@
             "region": "Asia",
             "type": "FFU",
             "size": "812.77MB",
-            "url": "https://www.mediafire.com/file/az4kaba1e1lpw5a/Micromax_W121_15072014.zip/file"
+            "filename": "Flash.FFU"
           }
         ]
       }
