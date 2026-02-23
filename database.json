@@ -1,5 +1,247 @@
 [
   {
+    "brand": "Acer",
+    "slug": "acer",
+    "devices": [
+      {
+        "name": "Liquid M220",
+        "codename": "m220",
+        "image": "/assets/liquidm220.png",
+        "required_tool": "WPinternals / Thor2 / QFIL",
+        "model": "Liquid_M220",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "512MB",
+          "storage": "4GB (+MicroSD)",
+          "display": "4.0\" TFT (480x800)",
+          "battery": "1300 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1",
+            "region": "Unknown",
+            "type": "Emergency files for QFIL",
+            "size": "1.01GB",
+            "url": "https://www.mediafire.com/file/ddqpc88jm320lcj/Acer_Liquid_M220_RV04RC02_27112012_Win_8.1_QFIL.zip/file"
+          },
+          {
+            "version": "Windows Phone 8.1 GDR1",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.5GB",
+            "url": "https://archive.org/download/W10M_FFUs/Acer/Liquid%20M220/"
+          }
+        ]
+      },
+      {
+        "name": "Liquid Jade Primo",
+        "codename": "Jade Primo",
+        "image": "/assets/liquidjadeprimo.png",
+        "required_tool": "WPinternals / Thor2",
+        "model": "Liquid_Jade_Primo",
+        "specs": {
+          "cpu": "Snapdragon 808 (Quad-core 1.2 GHz)",
+          "ram": "3GB",
+          "storage": "32GB (+MicroSD)",
+          "display": "5.5\" AMOLED (1080x1920)",
+          "battery": "2800 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows 10 Mobile - 1078.241.00000.32800",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "3.1GB",
+            "url": "https://archive.org/download/W10M_FFUs/Acer/Jade%20Primo%20%28S58xWWxGEN1%29/Acer_S58_RV00RC28_WW_GEN1retail_1078.241.00000.32800.ffu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "BLU",
+    "slug": "blu",
+    "devices": [
+      {
+        "name": "BLU Win HD LTE",
+        "codename": "Win HD LTE",
+        "image": "/assets/bluwinhd.png",
+        "required_tool": "thor2",
+        "model": "X150",
+        "specs": {
+          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+MicroSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1 (X150E)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.7GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20LTE/Win%20HD%20LTE%20X150E/BLU_WIN_HD_LTE_00150.03720.20001.15010_RETAIL_FLASH_20160226_00150.04717.20001.15010.FFU"
+          },
+          {
+            "version": "Windows Phone 8.1 (X150Q)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.7GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20LTE/Win%20HD%20LTE%20X150Q/BLU_WIN_HD_LTE_00150.04717.20001.15013_RETAIL_FLASH_20160226_00150.04717.20001.15013.FFU"
+          }
+        ]
+      },
+      {
+        "name": "BLU Win HD W510",
+        "codename": "Win HD",
+        "image": "/assets/bluwinhd.png",
+        "required_tool": "thor2",
+        "model": "W510",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+MicroSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2200 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1 (W510l)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.1GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20W510/WIN%20HD%20W510l/BLU_WinHD_w510L_00510.12500.20001.12041_Retail_00510.12500.20001.12041.FFU"
+          },
+          {
+            "version": "Windows Phone 8.1 (W510u)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.1GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20W510/WIN%20HD%20W510u/BLU_WinHD_w510u_00510.24500.20001.15010_Retail_00510.24500.20001.15010.FFU"
+          }
+        ]
+      },
+      {
+        "name": "BLU Win JR LTE",
+        "codename": "Win JR LTE",
+        "image": "/assets/bluwinjrlte.png",
+        "required_tool": "thor2",
+        "model": "X130",
+        "specs": {
+          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "ram": "512MB",
+          "storage": "4GB (+MicroSD)",
+          "display": "4.0\" TFT (480x854)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1 (X130E)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.7GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20LTE/Win%20JR%20LTE%20X130E/BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU"
+          },
+          {
+            "version": "Windows Phone 8.1 (X130Q)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.7GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20LTE/Win%20JR%20LTE%20X130Q/BLU_Win-JR-LTE_X130Q_00130.04717.20001.15023_RETAIL_Flash_00130.04717.20001.15023.FFU"
+          }
+        ]
+      },
+      {
+        "name": "BLU Win JR W410",
+        "codename": "Win JR",
+        "image": "/assets/bluwinjr.png",
+        "required_tool": "thor2",
+        "model": "W410",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "512MB",
+          "storage": "4GB (+MicroSD)",
+          "display": "4.0\" TFT (480x800)",
+          "battery": "1950 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1 (W410a)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410a/BLU_WinJr_W410a_00410.25000.20001.15010_Retail_00410.25000.20001.15010.FFU"
+          },
+          {
+            "version": "Windows Phone 8.1 (W410i)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410i/BLU_WinJr_w410i_15010_Retail_00410.15000.20001.15010.FFU"
+          },
+          {
+            "version": "Windows Phone 8.1 (W410l)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410l/BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU"
+          },
+          {
+            "version": "Windows Phone 8.1 (W410u)",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1GB",
+            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410u/BLU_WinJr_W410u_Retail_00410.24500.20001.15010.FFU"
+          }
+        ]
+  }
+    ]
+  },
+  {
+    "brand": "HP",
+    "slug": "hp",
+    "devices": [
+      {
+        "name": "HP Elite x3",
+        "codename": "falcon",
+        "image": "/assets/hpelitex3.png",
+        "required_tool": "WPinternals / Thor2",
+        "model": "Elite_x3",
+        "specs": {
+          "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
+          "ram": "4GB",
+          "storage": "64GB (+MicroSD)",
+          "display": "5.96\" AMOLED (1440x2560)",
+          "battery": "4150 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "0002.0000.0037.0001",
+            "region": "Global (Retail)",
+            "type": "FFU",
+            "size": "2.4GB",
+            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3/MR5_Elite_x3-retail-0002.0000.0037.0001-signed_0002.0000.0037.0001.ffu"
+          },
+          {
+            "version": "0006.0000.0002.0092",
+            "region": "Telstra",
+            "type": "FFU",
+            "size": "2.4GB",
+            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Telstra/HP_Elite_x3_Telstra-retail-0006.0000.0002.0092-signed_0006.0000.0002.0092.ffu"
+          },
+          {
+            "version": "0007.0000.0030.0024",
+            "region": "Verizon",
+            "type": "FFU",
+            "size": "2.6GB",
+            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Verizon/RTM_Elite_x3_Verizon-retail-0007.0000.0030.0024-signed_0007.0000.0030.0024.ffu"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "brand": "HTC",
     "slug": "htc",
     "devices": [
@@ -13,7 +255,7 @@
           "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
           "ram": "576MB",
           "storage": "8GB (Non-expandable)",
-          "display": "3.7\" S-LCD (800x480)",
+          "display": "3.7\" S-LCD (480x800)",
           "battery": "1300 mAh"
         },
         "firmwares": [
@@ -50,7 +292,7 @@
           "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
           "ram": "576MB",
           "storage": "8GB (Non-expandable)",
-          "display": "3.6\" TFT (800x480)",
+          "display": "3.6\" TFT (480x800)",
           "battery": "1300 mAh"
         },
         "firmwares": [
@@ -80,7 +322,7 @@
           "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
           "ram": "448MB",
           "storage": "16GB (Non-expandable)",
-          "display": "3.8\" IPS LCD (800x480)",
+          "display": "3.8\" IPS LCD (480x800)",
           "battery": "1300 mAh"
         },
         "firmwares": [
@@ -103,7 +345,7 @@
           "cpu": "Snapdragon S4 Plus (Dual-core 1.5 GHz)",
           "ram": "1GB",
           "storage": "16GB (Non-expandable)",
-          "display": "4.3\" S-LCD2 (1280x720)",
+          "display": "4.3\" S-LCD2 (720x1280)",
           "battery": "1800 mAh"
         },
         "firmwares": [
@@ -152,13 +394,13 @@
         "name": "HTC 8S",
         "codename": "rio",
         "image": "/assets/htc8s.png",
-        "required_tool": "--",
+        "required_tool": "thor2",
         "model": "8S",
         "specs": {
           "cpu": "Snapdragon S4 (Dual-core 1.0 GHz)",
           "ram": "512MB",
           "storage": "4GB (+MicroSD)",
-          "display": "4.0\" S-LCD (800x480)",
+          "display": "4.0\" S-LCD (480x800)",
           "battery": "1700 mAh"
         },
         "firmwares": [
@@ -206,7 +448,7 @@
           "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
           "ram": "576MB",
           "storage": "8/16GB (Non-expandable)",
-          "display": "4.3\" LCD (800x480)",
+          "display": "4.3\" LCD (480x800)",
           "battery": "1230 mAh"
         },
         "firmwares": [
@@ -379,6 +621,35 @@
             "type": "NBH File",
             "size": "830.4MB",
             "filename": "PDM_W8_WL_BLUE_00_VERIZON WWE_1.06.605.02_Radio_1.00.50.0806_release.zip"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Micromax",
+    "slug": "micromax",
+    "devices": [
+      {
+        "name": "Canvas Win W121",
+        "codename": "w121",
+        "image": "/assets/canvaswinw121.png",
+        "required_tool": "thor2",
+        "model": "Canvas_Win_W121",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+MicroSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows Phone 8.1 RTM - 8.10.12393",
+            "region": "Asia",
+            "type": "FFU",
+            "size": "812.77MB",
+            "filename": "Flash.FFU"
           }
         ]
       }
@@ -681,137 +952,6 @@
             "type": "Unknown",
             "size": "183MB",
             "url": "https://web.archive.org/web/20150101121503if_/https://dl.dropboxusercontent.com/u/5011238/Data/I8700XXJJ4.7z"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "brand": "HP",
-    "slug": "hp",
-    "devices": [
-      {
-        "name": "HP Elite x3",
-        "codename": "falcon",
-        "image": "/assets/hpelitex3.png",
-        "required_tool": "WPinternals / Thor2",
-        "model": "Elite_x3",
-        "specs": {
-          "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
-          "ram": "4GB",
-          "storage": "64GB (+MicroSD)",
-          "display": "5.96\" AMOLED (2560x1440)",
-          "battery": "4150 mAh"
-        },
-        "firmwares": [
-          {
-            "version": "0002.0000.0037.0001",
-            "region": "Global (Retail)",
-            "type": "FFU",
-            "size": "2.4GB",
-            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3/MR5_Elite_x3-retail-0002.0000.0037.0001-signed_0002.0000.0037.0001.ffu"
-          },
-          {
-            "version": "0006.0000.0002.0092",
-            "region": "Telstra",
-            "type": "FFU",
-            "size": "2.4GB",
-            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Telstra/HP_Elite_x3_Telstra-retail-0006.0000.0002.0092-signed_0006.0000.0002.0092.ffu"
-          },
-          {
-            "version": "0007.0000.0030.0024",
-            "region": "Verizon",
-            "type": "FFU",
-            "size": "2.6GB",
-            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Verizon/RTM_Elite_x3_Verizon-retail-0007.0000.0030.0024-signed_0007.0000.0030.0024.ffu"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "brand": "Micromax",
-    "slug": "micromax",
-    "devices": [
-      {
-        "name": "Canvas Win W121",
-        "codename": "w121",
-        "image": "/assets/canvaswinw121.png",
-        "required_tool": "--",
-        "model": "Canvas_Win_W121",
-        "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
-          "ram": "1GB",
-          "storage": "8GB (+MicroSD)",
-          "display": "5.0\" IPS LCD (720x1280)",
-          "battery": "2000 mAh"
-        },
-        "firmwares": [
-          {
-            "version": "Windows Phone 8.1 RTM - 8.10.12393",
-            "region": "Asia",
-            "type": "FFU",
-            "size": "812.77MB",
-            "filename": "Flash.FFU"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "brand": "Acer",
-    "slug": "acer",
-    "devices": [
-      {
-        "name": "Liquid M220",
-        "codename": "m220",
-        "image": "/assets/liquidm220.png",
-        "required_tool": "WPinternals / Thor2 / QFIL",
-        "model": "Liquid_M220",
-        "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
-          "ram": "512MB",
-          "storage": "4GB (+MicroSD)",
-          "display": "4.0\" TFT (800x480)",
-          "battery": "1300 mAh"
-        },
-        "firmwares": [
-          {
-            "version": "Windows Phone 8.1",
-            "region": "Unknown",
-            "type": "Emergency files for QFIL",
-            "size": "1.01GB",
-            "url": "https://www.mediafire.com/file/ddqpc88jm320lcj/Acer_Liquid_M220_RV04RC02_27112012_Win_8.1_QFIL.zip/file"
-          },
-          {
-            "version": "Windows Phone 8.1 GDR1",
-            "region": "Unknown",
-            "type": "FFU",
-            "size": "1.5GB",
-            "url": "https://archive.org/download/W10M_FFUs/Acer/Liquid%20M220/"
-          }
-        ]
-      },
-      {
-        "name": "Liquid Jade Primo",
-        "codename": "Jade Primo",
-        "image": "/assets/liquidjadeprimo.png",
-        "required_tool": "WPinternals / Thor2",
-        "model": "Liquid_Jade_Primo",
-        "specs": {
-          "cpu": "Snapdragon 808 (Quad-core 1.2 GHz)",
-          "ram": "3GB",
-          "storage": "32GB (+MicroSD)",
-          "display": "5.5\" AMOLED (1080x1920)",
-          "battery": "2800 mAh"
-        },
-        "firmwares": [
-          {
-            "version": "Windows 10 Mobile - 1078.241.00000.32800",
-            "region": "Unknown",
-            "type": "FFU",
-            "size": "3.1GB",
-            "url": "https://archive.org/download/W10M_FFUs/Acer/Jade%20Primo%20%28S58xWWxGEN1%29/Acer_S58_RV00RC28_WW_GEN1retail_1078.241.00000.32800.ffu"
           }
         ]
       }
