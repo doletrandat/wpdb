@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guides - wpdb</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        ::-webkit-scrollbar {
+            width: 5px;
+            height: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #2d89ef44;
+            border-radius: 0;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2d89ef99;
+        }
+
+        body {
+            font-family: "Segoe UI", sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: "Segoe UI Light", "Segoe UI", sans-serif;
+            font-weight: 300;
+        }
+
+        .font-metro {
+            font-family: "Segoe UI Semilight", sans-serif;
+        }
+
+        @keyframes contentSlide {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-content-slide {
+            animation: contentSlide 0.5s ease-out forwards;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-[#333] h-screen flex flex-col overflow-hidden transition-colors duration-300">
+    <header class="bg-black text-white h-14 flex items-center justify-between px-4 md:px-6 shrink-0 z-50 shadow-md">
+        <div class="flex items-center gap-4">
+            <button onclick="toggleMobileSidebar()"
+                class="md:hidden text-white hover:text-wp-blue transition-colors p-2">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+            <a href="index.html" class="flex items-center gap-2 cursor-pointer group">
+                <div class="relative w-8 h-8 flex items-center justify-center">
+                    <div
+                        class="absolute inset-0 bg-wp-blue transform rotate-3 group-hover:rotate-0 transition-transform duration-300 ease-metro rounded-sm">
+                    </div>
+                    <div
+                        class="absolute inset-0 bg-white/20 transform -rotate-3 group-hover:rotate-0 transition-transform duration-300 ease-metro rounded-sm">
+                    </div>
+                    <i class="fa-solid fa-layer-group text-white relative z-10 text-sm"></i>
+                </div>
+                <div class="flex flex-col leading-none">
+                    <span class="text-base font-bold tracking-wide">wpdb</span>
+                    <span class="text-[9px] text-gray-400 tracking-[0.2em] font-light">BETA</span>
+                </div>
+            </a>
+        </div>
+        <div class="hidden md:flex items-center gap-8 text-sm font-metro tracking-wide">
+            <a href="index.html" class="hover:text-wp-blue transition-colors duration-200 ease-metro">devices</a>
+            <a href="guides.html" class="text-wp-blue font-bold">guides</a>
+            <button onclick="toggleModal('toolsModal')"
+                class="hover:text-wp-blue transition-colors duration-200 ease-metro">tools</button>
+            <button onclick="toggleModal('aboutModal')"
+                class="hover:text-wp-blue transition-colors duration-200 ease-metro">about</button>
+        </div>
+    </header>
+
+    <div class="flex flex-1 overflow-hidden relative">
+        <div id="mobile-overlay" onclick="toggleMobileSidebar()"
+            class="fixed inset-0 bg-black/50 z-30 hidden md:hidden transition-opacity duration-300 opacity-0"></div>
+
+        <aside id="main-sidebar"
+            class="fixed inset-y-0 left-0 z-40 w-full md:w-72 bg-[#f5f5f5] border-r border-gray-200 flex flex-col transform -translate-x-full md:translate-x-0 md:relative md:flex shrink-0 transition-transform duration-300 ease-metro shadow-2xl md:shadow-none pt-14 md:pt-0">
+            <div class="md:hidden flex justify-between items-center px-4 pt-4 pb-2">
+                <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Guides</span>
+                <button onclick="toggleMobileSidebar()"
+                    class="w-7 h-7 flex items-center justify-center text-gray-400 hover:text-black hover:bg-gray-100 transition-colors rounded-sm">&times;</button>
+            </div>
+            <div id="guideSidebar" class="flex-1 overflow-y-auto p-3 space-y-4">
+                <!-- Populated by guides.js -->
+            </div>
+        </aside>
+
+        <main id="guideContent" class="flex-1 bg-white overflow-y-auto p-6 md:p-12 w-full max-w-5xl mx-auto shadow-sm">
+            <!-- Populated by guides.js -->
+        </main>
+    </div>
+
+    <!-- Modals (Re-using from index) -->
+    <div id="toolsModal"
+        class="fixed inset-0 z-50 hidden bg-black/50 backdrop-blur-sm transition-opacity duration-300 ease-metro"
+        onclick="toggleModal('toolsModal')">
+        <div class="absolute right-0 top-0 h-full w-full md:w-96 bg-white shadow-2xl transform transition-transform duration-500 ease-metro translate-x-full flex flex-col"
+            onclick="event.stopPropagation()">
+            <!-- Modal Content -->
+            <div class="h-1 bg-wp-blue shrink-0"></div>
+            <div class="p-8 flex-1 overflow-y-auto">
+                <h2 class="text-4xl font-light text-wp-blue mb-8">tools</h2>
+                <div class="space-y-8">
+                    <a href="https://github.com/ReneLergner/WPinternals/releases/latest" target="_blank"
+                        class="group block cursor-pointer">
+                        <h3 class="text-xl font-semibold group-hover:text-wp-blue transition-colors">Windows Phone
+                            Internals</h3>
+                        <p class="text-sm text-gray-500">Unlock bootloader on Lumia devices.</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/guides.js"></script>
+</body>
+
+</html>

@@ -76,7 +76,7 @@ function renderSidebar() {
         `;
         delay += 50;
     });
-    sidebar.innerHTML = html;
+    if (sidebar) sidebar.innerHTML = html;
 }
 
 function renderHome() {
@@ -121,7 +121,7 @@ function renderHome() {
             delay += 50;
         });
     });
-    homeGrid.innerHTML = html;
+    if (homeGrid) homeGrid.innerHTML = html;
 
     // Build brand filter strip
     const brands = wpdbData.map(b => b.brand);
@@ -222,7 +222,6 @@ function openDevice(codename, updateHistory = true) {
     deviceView.classList.add('animate-page-enter');
 
     const specs = device.specs || { cpu: "N/A", ram: "N/A", storage: "N/A", display: "N/A", battery: "N/A" };
-    const guide = device.guide || [{ title: "No Guide", text: "No flashing guide is available for this device yet." }];
     const model = device.model || device.codename;
 
     deviceView.innerHTML = `
@@ -254,6 +253,10 @@ function openDevice(codename, updateHistory = true) {
                              <i class="fa-solid fa-database text-gray-300"></i>
                              <span>${device.firmwares.length} ${device.firmwares.length === 1 ? 'rom' : 'roms'}</span>
                         </div>
+                        <a href="guides.html#${brandName.toLowerCase()}" class="flex items-center gap-2 text-wp-blue hover:underline cursor-pointer">
+                             <i class="fa-solid fa-book"></i>
+                             <span>view flashing guide</span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -264,9 +267,6 @@ function openDevice(codename, updateHistory = true) {
                 </button>
                 <button id="pivot-btn-specs" onclick="switchPivot('specs')" class="text-2xl md:text-4xl font-light pb-2 transition-colors duration-300 text-gray-300 hover:text-gray-500 border-b-4 border-transparent whitespace-nowrap">
                     specs
-                </button>
-                <button id="pivot-btn-guide" onclick="switchPivot('guide')" class="text-2xl md:text-4xl font-light pb-2 transition-colors duration-300 text-gray-300 hover:text-gray-500 border-b-4 border-transparent whitespace-nowrap">
-                    guide
                 </button>
             </div>
 
@@ -400,34 +400,13 @@ function openDevice(codename, updateHistory = true) {
                     </div>
                 </div>
 
-                <div id="pivot-content-guide" class="hidden">
-                    <div class="max-w-3xl space-y-8">
-                        ${guide.map((step, i) => `
-                            <div class="flex gap-4 md:gap-6 group">
-                                <div class="shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-wp-blue text-wp-blue flex items-center justify-center font-bold text-lg md:text-xl group-hover:bg-wp-blue group-hover:text-white transition-colors duration-300">
-                                    ${i + 1}
-                                </div>
-                                <div class="pt-1">
-                                    <h3 class="text-xl md:text-2xl font-light text-black mb-2">${step.title}</h3>
-                                    <p class="text-gray-600 leading-relaxed text-sm md:text-base">${step.text}</p>
-                                </div>
-                            </div>
-                        `).join('')}
-                        
-                        <div class="bg-gray-50 p-6 mt-8 border-l-4 border-gray-300">
-                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-1">Disclaimer</p>
-                            <p class="text-sm text-gray-500 italic">We are not responsible for bricked devices. Flashing firmware always carries a risk.</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     `;
 }
 
 function switchPivot(tabName) {
-    const tabs = ['downloads', 'specs', 'guide'];
+    const tabs = ['downloads', 'specs'];
 
     tabs.forEach(t => {
         const btn = document.getElementById(`pivot-btn-${t}`);

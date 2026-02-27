@@ -93,12 +93,16 @@
         <div class="hidden md:flex items-center gap-8 text-sm font-metro tracking-wide">
             <button onclick="goToHome()"
                 class="hover:text-wp-blue transition-colors duration-200 ease-metro">devices</button>
+            <a href="guides.html" class="hover:text-wp-blue transition-colors duration-200 ease-metro">guides</a>
             <button onclick="toggleModal('toolsModal')"
                 class="hover:text-wp-blue transition-colors duration-200 ease-metro">tools</button>
             <button onclick="toggleModal('aboutModal')"
                 class="hover:text-wp-blue transition-colors duration-200 ease-metro">about</button>
         </div>
         <div class="flex md:hidden items-center gap-2">
+            <a href="guides.html" class="p-2 text-gray-300 hover:text-white transition-colors" title="Guides">
+                <i class="fa-solid fa-book"></i>
+            </a>
             <button onclick="toggleModal('toolsModal')" class="p-2 text-gray-300 hover:text-white transition-colors"
                 title="Tools">
                 <i class="fa-solid fa-screwdriver-wrench"></i>
@@ -131,8 +135,7 @@
         <main id="mainContent" class="flex-1 bg-white overflow-y-auto relative p-0 w-full">
             <div id="homeView" class="w-full min-h-full flex flex-col">
                 <div class="p-6 md:p-10 pb-0">
-                    <div
-                        class="mb-6 md:mb-10 border-b border-gray-200 pb-5 animate-content-slide">
+                    <div class="mb-6 md:mb-10 border-b border-gray-200 pb-5 animate-content-slide">
                         <h1 class="text-4xl md:text-6xl text-black mb-1">welcome to wpdb</h1>
                         <div class="flex flex-wrap items-center gap-3 mt-3">
                             <span
@@ -152,8 +155,7 @@
                         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 pb-10"></div>
                 </div>
             </div>
-            <div id="deviceView"
-                class="absolute inset-0 bg-white hidden flex flex-col overflow-y-auto w-full"></div>
+            <div id="deviceView" class="absolute inset-0 bg-white hidden flex flex-col overflow-y-auto w-full"></div>
         </main>
     </div>
     <div id="toolsModal"

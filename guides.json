@@ -1,0 +1,52 @@
+{
+  "htc": [
+    {
+      "title": "Step 1.",
+      "text": "Turn off the phone."
+    },
+    {
+      "title": "Step 2.",
+      "text": "Hold Volume Down + Camera + Power until you see a white screen with device info and barcodes (Bootloader mode)."
+    },
+    {
+      "title": "Step 3.",
+      "text": "Connect your phone to your computer, wait until the \"Serial\" text changes to \"USB\"."
+    },
+    {
+      "title": "Step 4.",
+      "text": "Open the downloaded RUU executable and follow the on-screen instructions. <br><br><strong>Note:</strong> If you see a missing DLL error, install the Windows Device Recovery Tool (WDRT) to get the necessary drivers. If you encounter an 'INVALID VENDER ID' error, you may need to use the <strong>Gold Card</strong> method to debrand your device."
+    }
+  ],
+  "samsung": [
+    {
+      "title": "Step 1.",
+      "text": "Install the Samsung USB drivers and open the <strong class=\"text-black\">SMD Binary Downloader</strong> tool."
+    },
+    {
+      "title": "Step 2.",
+      "text": "Put the phone into Download Mode: Turn off, then hold <strong class=\"text-black\">Volume Up + Power</strong> until the lightning bolt icon appears."
+    },
+    {
+      "title": "Step 3.",
+      "text": "Load the <strong class=\"text-black\">.wp8 (OS)</strong> and <strong class=\"text-black\">.csc (Region/CSC)</strong> files into the downloader tool."
+    },
+    {
+      "title": "Step 4.",
+      "text": "Click Start and wait for the process to complete. The phone will reboot once finished."
+    }
+  ],
+  "hp": [
+    {
+      "title": "Step 1.",
+      "text": "Install the Windows Device Recovery Tool to get the <strong class=\"text-black\">Thor2</strong> command-line utility."
+    },
+    {
+      "title": "Step 2.",
+      "text": "Connect the phone in Flash Mode (usually hold Volume Up while powering on)."
+    },
+    {
+      "title": "Step 3.",
+      "text": "Run the following command: <code class=\"bg-gray-100 px-1.5 py-0.5 rounded text-wp-blue\">thor2 -mode uefiflash -ffufile \"C:\\path\\to\\firmware.ffu\"</code>"
+    }
+  ]
+}
