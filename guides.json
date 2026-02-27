@@ -20,11 +20,11 @@
   "samsung": [
     {
       "title": "Step 1.",
-      "text": "Install the Samsung USB drivers and open the <strong class=\"text-black\">SMD Binary Downloader</strong> tool."
+      "text": "Install the <a href=\"https://developer.samsung.com/SDP/file/65386e3a-909e-4da5-86d2-7ded21d84b79\">Samsung USB drivers</a> and open the <strong class=\"text-black\">SMD Binary Downloader</strong> tool."
     },
     {
       "title": "Step 2.",
-      "text": "Put the phone into Download Mode: Turn off, then hold <strong class=\"text-black\">Volume Up + Power</strong> until the lightning bolt icon appears."
+      "text": "Put the phone into Download Mode: Turn off, then hold <strong class=\"text-black\">Volume Up + Power + Camera</strong> until the phone vibrates, then release the power button, and then release all buttons when the phone vibrates for the second time. You should now see a \"Windows 8 Phone\" logo with a Download Mode message underneath."
     },
     {
       "title": "Step 3.",

@@ -25,11 +25,32 @@
             "filename": "EDL.zip"
           },
           {
-            "version": "Windows Phone 8.1 GDR1",
-            "region": "Unknown",
+            "version": "RV07RC06_AAP_GLOBE_2053.1.00090.37800",
+            "region": "Philippines (Globe Telecom)",
             "type": "FFU",
             "size": "1.5GB",
-            "url": "https://archive.org/download/W10M_FFUs/Acer/Liquid%20M220/"
+            "filename": "Acer_M220_RV07RC06_AAP_GLOBE_2053.1.00090.37800.ffu"
+          },
+          {
+            "version": "RV07RC03_WW_GEN1H_2053.1.00090.37500",
+            "region": "Worldwide",
+            "type": "FFU",
+            "size": "1.8GB",
+            "filename": "Acer_M220_RV07RC03_WW_GEN1H_2053.1.00090.37500.ffu"
+          },
+          {
+            "version": "RV07RC02_WW_GEN1_2053.1.00090.37400",
+            "region": "Worldwide",
+            "type": "FFU",
+            "size": "1.5GB",
+            "filename": "Acer_M220_RV07RC02_WW_GEN1_2053.1.00090.37400.ffu"
+          },
+          {
+            "version": "RV07RC02_PA_CUS1H_2053.1.00090.37400",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.8GB",
+            "filename": "Acer_M220_RV07RC02_PA_CUS1H_2053.1.00090.37400.ffu"
           }
         ]
       },
@@ -52,7 +73,7 @@
             "region": "Unknown",
             "type": "FFU",
             "size": "3.1GB",
-            "url": "https://archive.org/download/W10M_FFUs/Acer/Jade%20Primo%20%28S58xWWxGEN1%29/Acer_S58_RV00RC28_WW_GEN1retail_1078.241.00000.32800.ffu"
+            "filename": "Acer_S58_RV00RC28_WW_GEN1retail_1078.241.00000.32800.ffu"
           }
         ]
       }
@@ -163,14 +184,14 @@
             "region": "Unknown",
             "type": "FFU",
             "size": "1.7GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20LTE/Win%20HD%20LTE%20X150E/BLU_WIN_HD_LTE_00150.03720.20001.15010_RETAIL_FLASH_20160226_00150.04717.20001.15010.FFU"
+            "filename": "BLU_WIN_HD_LTE_00150.03720.20001.15010_RETAIL_FLASH_20160226_00150.04717.20001.15010.FFU"
           },
           {
             "version": "Windows Phone 8.1 (X150Q)",
             "region": "Unknown",
             "type": "FFU",
             "size": "1.7GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20LTE/Win%20HD%20LTE%20X150Q/BLU_WIN_HD_LTE_00150.04717.20001.15013_RETAIL_FLASH_20160226_00150.04717.20001.15013.FFU"
+            "filename": "BLU_WIN_HD_LTE_00150.04717.20001.15013_RETAIL_FLASH_20160226_00150.04717.20001.15013.FFU"
           }
         ]
       },
@@ -223,14 +244,14 @@
             "region": "Unknown",
             "type": "FFU",
             "size": "1.7GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20LTE/Win%20JR%20LTE%20X130E/BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU"
+            "filename": "BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU"
           },
           {
             "version": "Windows Phone 8.1 (X130Q)",
             "region": "Unknown",
             "type": "FFU",
             "size": "1.7GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20LTE/Win%20JR%20LTE%20X130Q/BLU_Win-JR-LTE_X130Q_00130.04717.20001.15023_RETAIL_Flash_00130.04717.20001.15023.FFU"
+            "filename": "BLU_WIN_JR_LTE__X130Q_00130.04717.20001.15023_RETAIL_FLASH_20160310_00130.04717.20001.15023.FFU"
           }
         ]
       },
@@ -253,28 +274,28 @@
             "region": "Unknown",
             "type": "FFU",
             "size": "1GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410a/BLU_WinJr_W410a_00410.25000.20001.15010_Retail_00410.25000.20001.15010.FFU"
+            "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU"
           },
           {
             "version": "Windows Phone 8.1 (W410i)",
             "region": "Unknown",
             "type": "FFU",
             "size": "1GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410i/BLU_WinJr_w410i_15010_Retail_00410.15000.20001.15010.FFU"
+            "filename": "BLU_WinJr_w410i_15010_Retail_00410.15000.20001.15010.FFU"
           },
           {
             "version": "Windows Phone 8.1 (W410l)",
             "region": "Unknown",
             "type": "FFU",
             "size": "1GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410l/BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU"
+            "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU"
           },
           {
             "version": "Windows Phone 8.1 (W410u)",
             "region": "Unknown",
             "type": "FFU",
             "size": "1GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20JR%20W410/WIN%20JR%20W410u/BLU_WinJr_W410u_Retail_00410.24500.20001.15010.FFU"
+            "filename": "BLU_WinJr_W410u_Retail_00410.24500.20001.15010.FFU"
           }
         ]
   }
