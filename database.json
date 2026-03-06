@@ -214,14 +214,14 @@
             "region": "Unknown",
             "type": "FFU",
             "size": "1.1GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20W510/WIN%20HD%20W510l/BLU_WinHD_w510L_00510.12500.20001.12041_Retail_00510.12500.20001.12041.FFU"
+            "filename": "BLU_WinHD_w510L_00510.12500.20001.12041_Retail_00510.12500.20001.12041.FFU"
           },
           {
             "version": "Windows Phone 8.1 (W510u)",
             "region": "Unknown",
             "type": "FFU",
             "size": "1.1GB",
-            "url": "https://archive.org/download/W10M_FFUs/BLU/Win%20HD%20W510/WIN%20HD%20W510u/BLU_WinHD_w510u_00510.24500.20001.15010_Retail_00510.24500.20001.15010.FFU"
+            "filename": "BLU_WinHD_w510u_00510.24500.20001.15010_Retail_00510.24500.20001.15010.FFU"
           }
         ]
       },
@@ -768,7 +768,7 @@
         "codename": "w8",
         "image": "/assets/htconem8.png",
         "required_tool": "RUU Wrapper",
-        "model": "One_M8_for_Windows",
+        "model": "One M8 for Windows",
         "specs": {
           "cpu": "Snapdragon 801 (Quad-core 2.3 GHz)",
           "ram": "2GB",
@@ -811,7 +811,88 @@
             "region": "Japan (SoftBank)",
             "type": "FFU",
             "size": "1.2GB",
-            "url": "https://archive.org/download/W10M_FFUs/Lenovo/Softank%20503LV%20%28503LV%29/Lenovo_503LV_V41-Retail_flash_41.ffu"
+            "filename": "Lenovo_503LV_V41-Retail_flash_41.ffu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "JENESIS",
+    "slug": "jenesis",
+    "devices":[
+      {
+        "name": "JENESIS WPJ40-10 (L310-JP)",
+        "codename": "WPJ40-10",
+        "image": "/assets/jenesiswpj4010.png",
+        "required_tool": "thor2",
+        "model": "WPJ40-10",
+        "specs": {
+          "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "4.0\" TN LCD (480x800)",
+          "battery": "1800 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1078.29.1.179",
+            "region": "Japan",
+            "type": "FFU",
+            "size": "1.6GB",
+            "filename": "L310_JENESIS_B160114V179_RETAIL_FACMODE_SINGLE_1078.29.1.179.FFU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Mouse Computer",
+    "slug": "mcj",
+    "devices":[
+      {
+        "name": "MCJ Madosma Q501",
+        "codename": "Madosma Q501",
+        "image": "/assets/madosmaq501.png",
+        "required_tool": "thor2",
+        "model": "Q501",
+        "specs": {
+          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2300 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1.0.0.12",
+            "region": "Japan",
+            "type": "FFU",
+            "size": "1.8GB",
+            "filename": "JSR_MCJ_Madosma_1.0.0.12_1.0.0.12.FFU"
+          }
+        ]
+      },
+      {
+        "name": "MCJ Madosma Q601",
+        "codename": "Madosma Q601",
+        "image": "/assets/madosmaq601.png",
+        "required_tool": "thor2",
+        "model": "Q601",
+        "specs": {
+          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
+          "ram": "3GB",
+          "storage": "32GB (+ microSD)",
+          "display": "6.0\" IPS LCD (1080p)",
+          "battery": "2250 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "v64_1028.020.100.64_1028.020.100.64",
+            "region": "Japan",
+            "type": "FFU",
+            "size": "1.9GB",
+            "filename": "MADOSMA_Q601_v64_1028.020.100.64_1028.020.100.64.ffu"
           }
         ]
       }
@@ -826,7 +907,7 @@
         "codename": "w121",
         "image": "/assets/canvaswinw121.png",
         "required_tool": "thor2",
-        "model": "Canvas_Win_W121",
+        "model": "W121",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
           "ram": "1GB",
@@ -1149,6 +1230,35 @@
     ]
   },
   {
+    "brand": "Trekstor",
+    "slug": "trekstor",
+    "devices": [
+      {
+        "name": "Trekstor WinPhone 5.0 LTE",
+        "codename": "WinPhone 5.0",
+        "image": "/assets/trekstortwinphone50.png",
+        "required_tool": "thor2",
+        "model": "WinPhone 5.0",
+        "specs": {
+          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
+          "ram": "3GB",
+          "storage": "32GB (+ microSD)",
+          "display": "5.0\" IPS LCD (720p)",
+          "battery": "2250 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1028.020.005.23",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.4GB",
+            "url": "https://archive.org/download/W10M_FFUs/TREKSTOR/TREKSTOR%20WinPhone%205.0%20LTE%20%28WHOCOWL01332%29/flash_RS2_trekstor_RTM_1028.020.005.23_14393.0_1028.020.005.23.ffu"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "brand": "VAIO",
     "slug": "vaio",
     "devices": [
@@ -1265,7 +1375,7 @@
             "region": "Asia",
             "type": "FFU",
             "size": "1.7GB",
-            "url": "https://archive.org/download/W10M_FFUs/XOLO/Win%20Q900s%20%28WIN-Q900S_1000%29/I7B_XOLO_Retail_1068.0020.0000.0169_CatalogSigned_FFU_1068.0020.0000.0169.FFU"
+            "filename": "I7B_XOLO_Retail_1068.0020.0000.0169_CatalogSigned_FFU_1068.0020.0000.0169.FFU"
           }
         ]
       }
