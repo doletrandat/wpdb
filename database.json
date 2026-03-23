@@ -514,41 +514,41 @@
           {
             "version": "1_08_1402_01_1_11c_32_19_27",
             "region": "China (unconfirmed)",
-            "type": "RUU (Exe)",
+            "type": "Full RUU",
             "size": "575.3MB",
-            "url": "https://t.me/wp_firmwares/35/37"
+            "filename": "RUU_ACCORD_U_POT_00_HTCCN_CHS_CU_1_08_1402_01_1_11c_32_19_27_2_15.rar"
           },
           {
             "version": "2_00_707_01_1_11b_32_19_23",
             "region": "Asia",
-            "type": "RUU (Exe)",
+            "type": "Full RUU",
             "size": "635.1MB",
-            "url": "https://t.me/wp_firmwares/35/38"
+            "filename": "RUU_ACCORD_U_APO_00_hTC_Asia_WWE_2_00_707_01_1_11b_32_19_23_2_15.rar"
           },
           {
             "version": "8.10.14203.306",
-            "region": "Unknown",
+            "region": "Unknown (Orange)",
             "type": "NBH File",
             "size": "763.7MB",
-            "url": "https://t.me/wp_firmwares/35/80"
-          }
-        ],
-        "guide": [
-          {
-            "title": "Step 1.",
-            "text": "Turn off the phone."
+            "filename": "RUU_signed_8.10.14203.306_ORANGE_PM232000_.nbh"
           },
           {
-            "title": "Step 2.",
-            "text": "Hold Volume Down + Camera + Power until you see a white screen with device info and barcodes."
-          },
-          {
-            "title": "Step 3.",
-            "text": "Connect your phone to your computer, wait until the \"Serial\" text on the bottom of the screen changes to say USB."
-          },
-          {
-            "title": "Step 4.",
-            "text": "Open the downloaded RUU executable, follow the instructions on screen. If you see a missing DLL error or connection errors, install WDRT. If you see \"INVALID VENDER ID\", you have the incorrect region firmware and need to use goldcard method to debrand."
+            "version": "8.10.14203.306",
+            "region": "Taiwan",
+            "type": "NBH File",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "UEFI",
+                "size": "8.1MB",
+                "filename": "UEFI_signed_8.10.14203.306_621.nbh"
+              },
+              {
+                "type": "Firmware",
+                "size": "674.8MB",
+                "filename": "RUU_signed_8.10.14203.306_621.nbh"
+              }
+            ]
           }
         ]
       },
@@ -579,24 +579,6 @@
             "type": "Full RUU",
             "size": "574.5MB",
             "filename": "RUU_RIO_U_APO_00_HTC_Europe_1.04.401.03_1.11b.3054.25_10.13.30_RETAIL_ENC_RELEASE.exe"
-          }
-        ],
-        "guide": [
-          {
-            "title": "Step 1.",
-            "text": "Turn off the phone."
-          },
-          {
-            "title": "Step 2.",
-            "text": "Hold Volume Down + Camera + Power until you see a white screen with device info and barcodes."
-          },
-          {
-            "title": "Step 3.",
-            "text": "Connect your phone to your computer, wait until the \"Serial\" text on the bottom of the screen changes to say USB."
-          },
-          {
-            "title": "Step 4.",
-            "text": "Open the downloaded RUU executable, follow the instructions on screen. If you see a missing DLL error or connection errors, install WDRT. If you see \"INVALID VENDER ID\", you have the incorrect region firmware and need to use goldcard method to debrand."
           }
         ]
       },
