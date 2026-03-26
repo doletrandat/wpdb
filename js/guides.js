@@ -1,5 +1,7 @@
 let wpdbData = [];
 let guidesData = {};
+const PANEL_DURATION = 460;
+const OVERLAY_DURATION = 260;
 
 async function init() {
     try {
@@ -29,18 +31,20 @@ function renderSidebar() {
     if (!sidebar) return;
 
     let html = '';
+    let delay = 0;
 
     // Core Brand Guides
     html += `
-        <div class="mb-5 brand-group">
+        <div class="mb-5 brand-group animate-list-cascade" style="animation-delay: ${delay}ms; opacity: 0; animation-fill-mode: forwards;">
             <h3 class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5 px-3">Standard Guides</h3>
             <ul class="space-y-0.5">
-                <li onclick="showGuide('htc')" id="nav-htc" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-all">HTC RUU</li>
-                <li onclick="showGuide('samsung')" id="nav-samsung" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-all">Samsung SMD</li>
-                <li onclick="showGuide('hp')" id="nav-hp" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-all">Generic Thor2</li>
+                <li onclick="showGuide('htc')" id="nav-htc" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro">HTC RUU</li>
+                <li onclick="showGuide('samsung')" id="nav-samsung" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro">Samsung SMD</li>
+                <li onclick="showGuide('hp')" id="nav-hp" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro">Generic Thor2</li>
             </ul>
         </div>
     `;
+    delay += 48;
 
     // Device-specific guides (if any exist in database)
     // For now we don't have many, but we prepare the UI
@@ -48,15 +52,16 @@ function renderSidebar() {
     if (brandsWithCustom.length > 0) {
         brandsWithCustom.forEach(brand => {
             html += `
-                <div class="mb-5 brand-group">
+                <div class="mb-5 brand-group animate-list-cascade" style="animation-delay: ${delay}ms; opacity: 0; animation-fill-mode: forwards;">
                     <h3 class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5 px-3">${brand.brand} Special</h3>
                     <ul class="space-y-0.5">
                         ${brand.devices.filter(d => d.guide).map(d => `
-                            <li onclick="showGuide('${d.codename}')" id="nav-${d.codename}" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-all truncate">${d.name}</li>
+                            <li onclick="showGuide('${d.codename}')" id="nav-${d.codename}" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro truncate">${d.name}</li>
                         `).join('')}
                     </ul>
                 </div>
             `;
+            delay += 48;
         });
     }
 
@@ -106,15 +111,15 @@ function showGuide(id) {
     }
 
     let html = `
-        <div class="animate-content-slide">
-            <div class="mb-10 border-b border-gray-200 pb-5">
+        <div>
+            <div class="mb-10 border-b border-gray-200 pb-5 animate-content-slide opacity-0" style="animation-delay: 40ms; animation-fill-mode: forwards;">
                 <h1 class="text-4xl md:text-6xl text-black mb-1">${title.toLowerCase()}</h1>
                 <p class="text-base md:text-xl text-gray-500 mt-3">${description}</p>
             </div>
             <div class="space-y-8">
                 ${steps.map((step, i) => `
-                    <div class="flex gap-4 md:gap-6 group">
-                        <div class="shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-wp-blue text-wp-blue flex items-center justify-center font-bold text-lg md:text-xl group-hover:bg-wp-blue group-hover:text-white transition-colors duration-300">
+                    <div class="flex gap-4 md:gap-6 group animate-content-slide opacity-0" style="animation-delay: ${120 + (i * 70)}ms; animation-fill-mode: forwards;">
+                        <div class="shrink-0 w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-wp-blue text-wp-blue flex items-center justify-center font-bold text-lg md:text-xl group-hover:bg-wp-blue group-hover:text-white transition-colors duration-200 ease-metro">
                             ${i + 1}
                         </div>
                         <div class="pt-1">
@@ -124,7 +129,7 @@ function showGuide(id) {
                     </div>
                 `).join('')}
             </div>
-            <div class="bg-gray-50 p-6 mt-12 border-l-4 border-gray-300">
+            <div class="bg-gray-50 p-6 mt-12 border-l-4 border-gray-300 animate-content-slide opacity-0" style="animation-delay: ${180 + (steps.length * 70)}ms; animation-fill-mode: forwards;">
                 <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-1">Disclaimer</p>
                 <p class="text-sm text-gray-500 italic">We are not responsible for bricked devices. Flashing firmware always carries a risk.</p>
             </div>
@@ -145,13 +150,14 @@ function toggleMobileSidebar() {
         sidebar.classList.add('-translate-x-full');
         overlay.classList.remove('opacity-100');
         overlay.classList.add('opacity-0');
-        setTimeout(() => overlay.classList.add('hidden'), 300);
+        setTimeout(() => overlay.classList.add('hidden'), OVERLAY_DURATION);
     } else {
         overlay.classList.remove('hidden');
-        void overlay.offsetWidth;
-        overlay.classList.add('opacity-100');
-        overlay.classList.remove('opacity-0');
-        sidebar.classList.remove('-translate-x-full');
+        requestAnimationFrame(() => {
+            overlay.classList.add('opacity-100');
+            overlay.classList.remove('opacity-0');
+            sidebar.classList.remove('-translate-x-full');
+        });
     }
 }
 
@@ -163,14 +169,16 @@ function toggleModal(id) {
     if (m.classList.contains('hidden')) {
         m.classList.remove('hidden');
         void m.offsetWidth;
-        m.classList.remove('opacity-0');
-        panel.classList.remove('translate-x-full');
+        requestAnimationFrame(() => {
+            m.classList.remove('opacity-0');
+            panel.classList.remove('translate-x-full');
+        });
     } else {
         m.classList.add('opacity-0');
         panel.classList.add('translate-x-full');
         setTimeout(() => {
             m.classList.add('hidden');
-        }, 300);
+        }, PANEL_DURATION);
     }
 }
 

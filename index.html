@@ -26,6 +26,10 @@
     <script src="js/tailwind.config.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
+        :root {
+            --metro-motion: cubic-bezier(0.2, 0.9, 0.2, 1);
+        }
+
         ::-webkit-scrollbar {
             width: 5px;
             height: 5px;
@@ -44,6 +48,72 @@
             background: #2d89ef99;
         }
 
+        .metro-scroll-x,
+        .metro-strip-scroll {
+            scrollbar-width: thin;
+            scroll-padding-inline: 12px;
+        }
+
+        .metro-scroll-x {
+            padding-bottom: 5px;
+            scrollbar-color: #bcc7d3 transparent;
+        }
+
+        .metro-scroll-x::-webkit-scrollbar {
+            height: 7px;
+        }
+
+        .metro-scroll-x::-webkit-scrollbar-track {
+            background: #eceff2;
+        }
+
+        .metro-scroll-x::-webkit-scrollbar-thumb {
+            min-width: 40px;
+            background: #bcc7d3;
+        }
+
+        .metro-scroll-x::-webkit-scrollbar-thumb:hover {
+            background: #97adc4;
+        }
+
+        .metro-strip-scroll {
+            padding-bottom: 2px;
+            scrollbar-color: #d6dbe1 transparent;
+        }
+
+        .metro-strip-scroll::-webkit-scrollbar {
+            height: 4px;
+        }
+
+        .metro-strip-scroll::-webkit-scrollbar-track {
+            background: #f1f3f5;
+        }
+
+        .metro-strip-scroll::-webkit-scrollbar-thumb {
+            min-width: 36px;
+            background: #d6dbe1;
+        }
+
+        .metro-strip-scroll:hover::-webkit-scrollbar-thumb {
+            background: #b8c2cc;
+        }
+
+        .metro-strip-scroll::-webkit-scrollbar-thumb:hover {
+            background: #9eacbb;
+        }
+
+        .metro-scroll-x::-webkit-scrollbar-corner,
+        .metro-strip-scroll::-webkit-scrollbar-corner {
+            background: transparent;
+        }
+
+        .metro-scroll-x::-webkit-scrollbar-button,
+        .metro-strip-scroll::-webkit-scrollbar-button {
+            display: none;
+            width: 0;
+            height: 0;
+        }
+
         body {
             font-family: "Segoe UI", sans-serif;
         }
@@ -60,14 +130,27 @@
         }
 
         .tile-pressed {
-            transform: scale(0.95) !important;
-            transition: transform 0.1s ease-out;
+            transform: scale(0.985) translateY(1px) !important;
+            filter: brightness(0.98);
+            transition: transform 0.26s var(--metro-motion), filter 0.26s var(--metro-motion);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+
+            *,
+            *::before,
+            *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
         }
     </style>
 </head>
 
 <body
-    class="bg-white text-[#333] h-screen flex flex-col overflow-hidden selection:bg-wp-blue selection:text-white transition-colors duration-300">
+    class="bg-white text-[#333] h-screen flex flex-col overflow-hidden selection:bg-wp-blue selection:text-white transition-colors duration-300 ease-metro">
     <header class="bg-black text-white h-14 flex items-center justify-between px-4 md:px-6 shrink-0 z-50 shadow-md">
         <div class="flex items-center gap-4">
             <button onclick="toggleMobileSidebar()"
@@ -77,10 +160,10 @@
             <div class="flex items-center gap-2 cursor-pointer group" onclick="goToHome()">
                 <div class="relative w-8 h-8 flex items-center justify-center">
                     <div
-                        class="absolute inset-0 bg-wp-blue transform rotate-3 group-hover:rotate-0 transition-transform duration-300 ease-metro rounded-sm">
+                        class="absolute inset-0 bg-wp-blue transform rotate-[1.5deg] group-hover:rotate-0 transition-transform duration-520 ease-metro rounded-sm">
                     </div>
                     <div
-                        class="absolute inset-0 bg-white/20 transform -rotate-3 group-hover:rotate-0 transition-transform duration-300 ease-metro rounded-sm">
+                        class="absolute inset-0 bg-white/20 transform -rotate-[1.5deg] group-hover:rotate-0 transition-transform duration-520 ease-metro rounded-sm">
                     </div>
                     <i class="fa-solid fa-layer-group text-white relative z-10 text-sm"></i>
                 </div>
@@ -115,9 +198,9 @@
     </header>
     <div class="flex flex-1 overflow-hidden relative">
         <div id="mobile-overlay" onclick="toggleMobileSidebar()"
-            class="fixed inset-0 bg-black/50 z-30 hidden md:hidden transition-opacity duration-300 opacity-0"></div>
+            class="fixed inset-0 bg-black/50 z-30 hidden md:hidden transition-opacity duration-300 ease-metro opacity-0"></div>
         <aside id="main-sidebar"
-            class="fixed inset-y-0 left-0 z-40 w-full md:w-72 bg-[#f5f5f5] border-r border-gray-200 flex flex-col transform -translate-x-full md:translate-x-0 md:relative md:flex shrink-0 transition-transform duration-300 ease-metro shadow-2xl md:shadow-none pt-14 md:pt-0">
+            class="fixed inset-y-0 left-0 z-40 w-full md:w-72 bg-[#f5f5f5] border-r border-gray-200 flex flex-col transform -translate-x-full md:translate-x-0 md:relative md:flex shrink-0 transition-transform duration-500 ease-metro shadow-2xl md:shadow-none pt-14 md:pt-0">
             <div class="md:hidden flex justify-between items-center px-4 pt-4 pb-2">
                 <span class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Collection</span>
                 <button onclick="toggleMobileSidebar()"
@@ -127,7 +210,7 @@
                 <div class="relative">
                     <i class="fa-solid fa-magnifying-glass absolute left-2.5 top-2.5 text-gray-300 text-[11px]"></i>
                     <input type="text" id="searchInput" onkeyup="filterDevices()" placeholder="Search devices..."
-                        class="w-full bg-white border border-gray-200 pl-7 pr-3 py-2 text-xs focus:border-wp-blue focus:ring-1 focus:ring-wp-blue outline-none transition-all duration-200 rounded-none text-gray-700 placeholder-gray-300">
+                        class="w-full bg-white border border-gray-200 pl-7 pr-3 py-2 text-xs focus:border-wp-blue focus:ring-1 focus:ring-wp-blue outline-none transition-colors duration-200 ease-metro rounded-none text-gray-700 placeholder-gray-300">
                 </div>
             </div>
             <div id="deviceSidebar" class="flex-1 overflow-y-auto p-3 space-y-4"></div>
@@ -149,7 +232,7 @@
                     </div>
 
                     <div id="brandFilter"
-                        class="flex gap-6 md:gap-8 mb-6 border-b border-gray-100 overflow-x-auto pb-0 animate-content-slide opacity-0"
+                        class="metro-strip-scroll flex gap-6 md:gap-8 mb-6 border-b border-gray-100 overflow-x-auto animate-content-slide opacity-0"
                         style="animation-delay: 50ms; animation-fill-mode: forwards;"></div>
                     <div id="homeGrid"
                         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 pb-10"></div>
@@ -159,7 +242,7 @@
         </main>
     </div>
     <div id="toolsModal"
-        class="fixed inset-0 z-50 hidden bg-black/50 backdrop-blur-sm transition-opacity duration-300 ease-metro"
+        class="fixed inset-0 z-50 hidden bg-black/50 opacity-0 transition-opacity duration-300 ease-metro"
         onclick="toggleModal('toolsModal')">
         <div class="absolute right-0 top-0 h-full w-full md:w-96 bg-white shadow-2xl transform transition-transform duration-500 ease-metro translate-x-full flex flex-col"
             onclick="event.stopPropagation()">
@@ -211,7 +294,7 @@
         </div>
     </div>
     <div id="aboutModal"
-        class="fixed inset-0 z-50 hidden bg-black/50 backdrop-blur-sm transition-opacity duration-300 ease-metro"
+        class="fixed inset-0 z-50 hidden bg-black/50 opacity-0 transition-opacity duration-300 ease-metro"
         onclick="toggleModal('aboutModal')">
         <div class="absolute right-0 top-0 h-full w-full md:w-96 bg-white shadow-2xl transform transition-transform duration-500 ease-metro translate-x-full flex flex-col"
             onclick="event.stopPropagation()">

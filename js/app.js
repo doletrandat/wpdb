@@ -20,6 +20,26 @@ const metroColors = [
 ];
 
 let wpdbData = [];
+const MODAL_DURATION = 460;
+const OVERLAY_DURATION = 260;
+
+function replayAnimation(element, animationClass) {
+    if (!element) return;
+    element.classList.remove(animationClass);
+    void element.offsetWidth;
+    element.classList.add(animationClass);
+}
+
+function animateVisibleTiles(tiles) {
+    tiles.forEach((tile, index) => {
+        tile.classList.remove('animate-tile-enter');
+        tile.style.opacity = '0';
+        tile.style.animationDelay = `${Math.min(index, 8) * 40}ms`;
+        tile.style.animationFillMode = 'forwards';
+        void tile.offsetWidth;
+        tile.classList.add('animate-tile-enter');
+    });
+}
 
 // init
 async function init() {
@@ -65,7 +85,7 @@ function renderSidebar() {
                         <li 
                             onclick="openDevice('${d.codename}')"
                             id="nav-${d.codename}"
-                            class="sidebar-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent transition-all duration-200 ease-metro hover:text-black hover:bg-white hover:border-gray-300 truncate active:scale-[0.98]"
+                            class="sidebar-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent transition-colors duration-200 ease-metro hover:text-black hover:bg-white hover:border-gray-300 truncate active:scale-[0.995]"
                             data-name="${d.name.toLowerCase()} ${d.codename.toLowerCase()}"
                         >
                             ${d.name}
@@ -74,7 +94,7 @@ function renderSidebar() {
                 </ul>
             </div>
         `;
-        delay += 50;
+        delay += 48;
     });
     if (sidebar) sidebar.innerHTML = html;
 }
@@ -92,7 +112,7 @@ function renderHome() {
                 <div 
                     onclick="handleTileClick(this, '${d.codename}')"
                     data-brand="${brand.brand}"
-                    class="group relative aspect-[16/9] bg-white cursor-pointer shadow-sm animate-tile-enter overflow-hidden flex flex-col"
+                    class="group relative aspect-[16/9] bg-white cursor-pointer shadow-sm animate-tile-enter overflow-hidden flex flex-col transform-gpu transition-transform duration-500 ease-metro"
                     style="animation-delay: ${delay}ms; opacity: 0; animation-fill-mode: forwards;"
                 >
                     <div class="relative flex-1 overflow-hidden p-4 flex items-center justify-center">
@@ -103,22 +123,22 @@ function renderHome() {
                         <img 
                             src="${d.image}" 
                             loading="lazy"
-                            class="max-h-full max-w-full object-contain transform group-hover:scale-110 transition-transform duration-500 ease-metro relative z-10"
+                            class="max-h-full max-w-full object-contain transform-gpu group-hover:scale-[1.035] transition-transform duration-800 ease-metro relative z-10"
                             alt="${d.name}"
                         >
                     </div>
-                    <div class="${colorClass} h-14 px-4 flex flex-col justify-center relative z-20 transition-all duration-300 group-hover:h-16">
+                    <div class="${colorClass} h-14 px-4 flex flex-col justify-center relative z-20 transition-colors duration-300 ease-metro">
                         <div class="flex justify-between items-center">
                             <div class="overflow-hidden">
                                 <h3 class="text-white text-lg font-light leading-none truncate pr-2">${d.name}</h3>
                                 <p class="text-white/80 text-[10px] font-mono uppercase tracking-wider mt-0.5 truncate">${brand.brand} // ${d.codename}</p>
                             </div>
-                            <i class="fa-solid fa-arrow-right text-white opacity-0 -translate-x-2 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 shrink-0"></i>
+                            <i class="fa-solid fa-arrow-right text-white/70 translate-x-0 group-hover:translate-x-1 group-hover:opacity-100 transition duration-400 ease-metro shrink-0"></i>
                         </div>
                     </div>
                 </div>
             `;
-            delay += 50;
+            delay += 44;
         });
     });
     if (homeGrid) homeGrid.innerHTML = html;
@@ -147,24 +167,23 @@ function filterByBrand(brand) {
         activeBtn.classList.add('border-black', 'text-black');
     }
     // Show/hide tiles — disable animation so cards appear instantly
+    const visibleTiles = [];
     document.querySelectorAll('#homeGrid > div[data-brand]').forEach(tile => {
         const visible = brand === 'all' || tile.dataset.brand === brand;
         tile.style.display = visible ? '' : 'none';
         if (visible) {
-            tile.style.animation = 'none';
-            tile.style.opacity = '1';
+            visibleTiles.push(tile);
         }
     });
+    animateVisibleTiles(visibleTiles);
 }
 
 function handleTileClick(element, codename) {
     element.classList.add('tile-pressed');
-    setTimeout(() => {
-        requestAnimationFrame(() => {
-            openDevice(codename);
-            setTimeout(() => element.classList.remove('tile-pressed'), 300);
-        });
-    }, 50);
+    requestAnimationFrame(() => {
+        openDevice(codename);
+        setTimeout(() => element.classList.remove('tile-pressed'), 220);
+    });
 }
 
 function goToHome(updateHistory = true) {
@@ -174,6 +193,7 @@ function goToHome(updateHistory = true) {
 
     deviceView.classList.add('hidden');
     homeView.classList.remove('hidden');
+    replayAnimation(homeView, 'animate-page-enter');
 
     document.querySelectorAll('.sidebar-item').forEach(el => {
         el.classList.remove('border-wp-blue', 'bg-white', 'text-black', 'font-semibold');
@@ -217,25 +237,23 @@ function openDevice(codename, updateHistory = true) {
 
     homeView.classList.add('hidden');
     deviceView.classList.remove('hidden');
-    deviceView.classList.remove('animate-page-enter');
-    void deviceView.offsetWidth;
-    deviceView.classList.add('animate-page-enter');
+    replayAnimation(deviceView, 'animate-page-enter');
 
     const specs = device.specs || { cpu: "N/A", ram: "N/A", storage: "N/A", display: "N/A", battery: "N/A" };
     const model = device.model || device.codename;
 
     deviceView.innerHTML = `
         <div class="w-full min-h-full bg-white pb-20">
-            <div class="sticky top-0 bg-white/95 backdrop-blur z-30 px-6 md:px-8 py-4 border-b border-transparent shadow-sm md:shadow-none">
-                <button onclick="goToHome()" class="text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-wp-blue transition-colors flex items-center gap-2 group">
-                    <i class="fa-solid fa-arrow-left group-hover:-translate-x-1 transition-transform duration-200 ease-metro"></i>
+            <div class="sticky top-0 bg-white/95 z-30 px-6 md:px-8 py-4 border-b border-transparent shadow-sm md:shadow-none">
+                <button onclick="goToHome()" class="text-xs font-bold text-gray-400 uppercase tracking-widest hover:text-wp-blue transition-colors duration-200 ease-metro flex items-center gap-2 group">
+                    <i class="fa-solid fa-arrow-left group-hover:-translate-x-0.5 transition-transform duration-200 ease-metro"></i>
                     <span>back</span>
                 </button>
             </div>
 
-            <div class="px-6 md:px-16 pt-4 pb-8 md:pb-12 flex flex-col md:flex-row items-center md:items-end gap-6 md:gap-10 animate-content-slide opacity-0" style="animation-delay: 50ms; animation-fill-mode: forwards;">
+            <div class="px-6 md:px-16 pt-4 pb-8 md:pb-12 flex flex-col md:flex-row items-center md:items-end gap-6 md:gap-10 animate-content-slide opacity-0" style="animation-delay: 80ms; animation-fill-mode: forwards;">
                 <div class="relative h-32 w-32 md:h-48 md:w-52 shrink-0 flex items-end justify-center">
-                    <img src="${device.image}" loading="lazy" class="max-h-full max-w-full object-contain mix-blend-multiply filter contrast-110 drop-shadow-xl transform hover:scale-105 transition-transform duration-500 ease-metro">
+                    <img src="${device.image}" loading="lazy" class="max-h-full max-w-full object-contain mix-blend-multiply filter contrast-110 drop-shadow-xl transform-gpu hover:scale-[1.018] transition-transform duration-900 ease-metro">
                 </div>
                 <div class="flex-1 text-center md:text-left w-full">
                     <span class="text-wp-blue font-bold uppercase tracking-widest text-xs mb-2 block">${brandName}</span>
@@ -261,16 +279,16 @@ function openDevice(codename, updateHistory = true) {
                 </div>
             </div>
 
-            <div class="px-6 md:px-16 mb-8 border-b border-gray-100 flex gap-6 md:gap-8 animate-content-slide opacity-0 overflow-x-auto" style="animation-delay: 150ms; animation-fill-mode: forwards;">
-                <button id="pivot-btn-downloads" onclick="switchPivot('downloads')" class="text-2xl md:text-4xl font-light pb-2 transition-colors duration-300 text-black border-b-4 border-black whitespace-nowrap">
+            <div class="metro-scroll-x px-6 md:px-16 mb-8 border-b border-gray-100 flex gap-6 md:gap-8 animate-content-slide opacity-0 overflow-x-auto" style="animation-delay: 190ms; animation-fill-mode: forwards;">
+                <button id="pivot-btn-downloads" onclick="switchPivot('downloads')" class="text-2xl md:text-4xl font-light pb-2 transition-colors duration-200 ease-metro text-black border-b-4 border-black whitespace-nowrap">
                     downloads
                 </button>
-                <button id="pivot-btn-specs" onclick="switchPivot('specs')" class="text-2xl md:text-4xl font-light pb-2 transition-colors duration-300 text-gray-300 hover:text-gray-500 border-b-4 border-transparent whitespace-nowrap">
+                <button id="pivot-btn-specs" onclick="switchPivot('specs')" class="text-2xl md:text-4xl font-light pb-2 transition-colors duration-200 ease-metro text-gray-300 hover:text-gray-500 border-b-4 border-transparent whitespace-nowrap">
                     specs
                 </button>
             </div>
 
-            <div class="px-6 md:px-16 pb-20 max-w-7xl animate-content-slide opacity-0" style="animation-delay: 250ms; animation-fill-mode: forwards;">
+            <div class="px-6 md:px-16 pb-20 max-w-7xl animate-content-slide opacity-0" style="animation-delay: 320ms; animation-fill-mode: forwards;">
                 
                 <div id="pivot-content-downloads">
                     ${device.notes ? `
@@ -306,7 +324,7 @@ function openDevice(codename, updateHistory = true) {
                 const fUrl = getUrl(brandName, model, f); return `
                                             <div class="flex items-center gap-2">
                                                 <button onclick="copyLink('${fUrl}')" class="p-3 bg-gray-200 text-gray-600"><i class="fa-regular fa-copy"></i></button>
-                                                <a href="${fUrl}" class="block w-full text-center bg-white border border-gray-300 py-3 text-sm font-bold text-gray-700 hover:border-wp-blue hover:text-wp-blue transition-colors">
+                                                <a href="${fUrl}" class="block w-full text-center bg-white border border-gray-300 py-3 text-sm font-bold text-gray-700 hover:border-wp-blue hover:text-wp-blue transition-colors duration-200 ease-metro">
                                                     ${f.type} (${f.size})
                                                 </a>
                                             </div>
@@ -316,7 +334,7 @@ function openDevice(codename, updateHistory = true) {
             :
             `<div class="flex items-center gap-2">
                                         <button onclick="copyLink('${getUrl(brandName, model, fw)}')" class="p-3 bg-gray-200 text-gray-600"><i class="fa-regular fa-copy"></i></button>
-                                        <a href="${getUrl(brandName, model, fw)}" class="block w-full bg-black text-white text-center py-3 font-bold uppercase tracking-wide shadow-md active:scale-95 transition-transform">
+                                        <a href="${getUrl(brandName, model, fw)}" class="block w-full bg-black text-white text-center py-3 font-bold uppercase tracking-wide shadow-md active:scale-[0.985] transition-transform duration-200 ease-metro">
                                             Download (${fw.size})
                                         </a>
                                     </div>`
@@ -326,7 +344,7 @@ function openDevice(codename, updateHistory = true) {
                         `}
                     </div>
 
-                    <div class="hidden md:block overflow-x-auto">
+                    <div class="metro-scroll-x hidden md:block overflow-x-auto">
                         <table class="w-full text-left border-collapse min-w-[600px]">
                             <thead>
                                 <tr class="text-xs font-bold text-gray-400 uppercase tracking-widest border-b border-gray-200">
@@ -351,8 +369,8 @@ function openDevice(codename, updateHistory = true) {
                                                     ${fw.files.map(f => {
                     const fUrl = getUrl(brandName, model, f); return `
                                                         <div class="flex items-center justify-end gap-2 w-full">
-                                                            <button onclick="copyLink('${fUrl}')" title="Copy Link" class="text-gray-300 hover:text-wp-blue transition-colors px-2"><i class="fa-regular fa-copy"></i></button>
-                                                            <a href="${fUrl}" class="group/btn flex items-center gap-3 pl-4 pr-3 py-1.5 border border-gray-200 hover:border-wp-blue bg-white hover:bg-wp-blue transition-all duration-200 rounded-sm">
+                                                            <button onclick="copyLink('${fUrl}')" title="Copy Link" class="text-gray-300 hover:text-wp-blue transition-colors duration-200 ease-metro px-2"><i class="fa-regular fa-copy"></i></button>
+                                                            <a href="${fUrl}" class="group/btn flex items-center gap-3 pl-4 pr-3 py-1.5 border border-gray-200 hover:border-wp-blue bg-white hover:bg-wp-blue transition-colors duration-200 ease-metro rounded-sm">
                                                                 <div class="text-right">
                                                                     <div class="text-xs font-bold text-gray-700 group-hover/btn:text-white uppercase">${f.type}</div>
                                                                     <div class="text-[10px] text-gray-400 group-hover/btn:text-white/80 font-mono">${f.size}</div>
@@ -365,8 +383,8 @@ function openDevice(codename, updateHistory = true) {
                                                 </div>`
                 :
                 `<div class="inline-flex items-center gap-2 justify-end">
-                                                    <button onclick="copyLink('${getUrl(brandName, model, fw)}')" title="Copy Link" class="text-gray-300 hover:text-wp-blue transition-colors p-2"><i class="fa-regular fa-copy"></i></button>
-                                                    <a href="${getUrl(brandName, model, fw)}" class="inline-flex items-center gap-3 bg-black hover:bg-wp-blue text-white px-6 py-3 transition-colors shadow-lg hover:shadow-xl active:scale-95 duration-200">
+                                                    <button onclick="copyLink('${getUrl(brandName, model, fw)}')" title="Copy Link" class="text-gray-300 hover:text-wp-blue transition-colors duration-200 ease-metro p-2"><i class="fa-regular fa-copy"></i></button>
+                                                    <a href="${getUrl(brandName, model, fw)}" class="inline-flex items-center gap-3 bg-black hover:bg-wp-blue text-white px-6 py-3 transition-colors duration-200 ease-metro shadow-lg active:scale-[0.985]">
                                                         <span class="font-bold tracking-wide text-xs uppercase">Download</span>
                                                         <span class="text-white/50 text-xs border-l border-white/20 pl-3">${fw.size}</span>
                                                     </a>
@@ -415,7 +433,7 @@ function switchPivot(tabName) {
             btn.classList.remove('text-black', 'border-black');
             btn.classList.add('text-gray-300', 'border-transparent');
             content.classList.add('hidden');
-            content.classList.remove('animate-content-slide');
+            content.classList.remove('animate-content-slide', 'animate-pivot-enter');
         }
     });
 
@@ -428,8 +446,8 @@ function switchPivot(tabName) {
 
         activeContent.classList.remove('hidden');
         void activeContent.offsetWidth;
-        activeContent.classList.add('animate-content-slide');
-        activeContent.style.animationDelay = "0ms";
+        activeContent.classList.add('animate-pivot-enter');
+        activeContent.style.animationDelay = "30ms";
         activeContent.style.opacity = "0";
         activeContent.style.animationFillMode = "forwards";
     }
@@ -480,14 +498,16 @@ function toggleModal(id) {
     if (m.classList.contains('hidden')) {
         m.classList.remove('hidden');
         void m.offsetWidth;
-        m.classList.remove('opacity-0');
-        panel.classList.remove('translate-x-full');
+        requestAnimationFrame(() => {
+            m.classList.remove('opacity-0');
+            panel.classList.remove('translate-x-full');
+        });
     } else {
         m.classList.add('opacity-0');
         panel.classList.add('translate-x-full');
         setTimeout(() => {
             m.classList.add('hidden');
-        }, 300);
+        }, MODAL_DURATION);
     }
 }
 
@@ -504,7 +524,7 @@ function copyLink(url) {
             setTimeout(() => {
                 toast.classList.add('hidden');
                 toast.classList.remove('animate-toast-out');
-            }, 300);
+            }, 220);
         }, 2000);
     });
 }
@@ -518,13 +538,14 @@ function toggleMobileSidebar() {
         sidebar.classList.add('-translate-x-full');
         overlay.classList.remove('opacity-100');
         overlay.classList.add('opacity-0');
-        setTimeout(() => overlay.classList.add('hidden'), 300);
+        setTimeout(() => overlay.classList.add('hidden'), OVERLAY_DURATION);
     } else {
         overlay.classList.remove('hidden');
-        void overlay.offsetWidth;
-        overlay.classList.add('opacity-100');
-        overlay.classList.remove('opacity-0');
-        sidebar.classList.remove('-translate-x-full');
+        requestAnimationFrame(() => {
+            overlay.classList.add('opacity-100');
+            overlay.classList.remove('opacity-0');
+            sidebar.classList.remove('-translate-x-full');
+        });
     }
 }
 

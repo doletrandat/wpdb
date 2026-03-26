@@ -20,46 +20,51 @@ tailwind.config = {
                 }
             },
             transitionTimingFunction: {
-                'metro': 'cubic-bezier(0.1, 0.9, 0.2, 1)',
+                'metro': 'cubic-bezier(0.2, 0.9, 0.2, 1)',
             },
             keyframes: {
                 pageEnter: {
-                    '0%': { transform: 'translateX(30px)', opacity: '0' },
+                    '0%': { transform: 'translateX(22px)', opacity: '0' },
                     '100%': { transform: 'translateX(0)', opacity: '1' },
                 },
                 pageEnterTurn: {
-                    '0%': { transform: 'perspective(1000px) rotateY(15deg) translateZ(-50px)', opacity: '0' },
-                    '100%': { transform: 'perspective(1000px) rotateY(0) translateZ(0)', opacity: '1' },
+                    '0%': { transform: 'translateX(28px) scale(0.99)', opacity: '0' },
+                    '100%': { transform: 'translateX(0) scale(1)', opacity: '1' },
                 },
                 tileEnter: {
-                    '0%': { transform: 'perspective(500px) rotateX(10deg) translateY(30px) scale(0.9)', opacity: '0' },
-                    '100%': { transform: 'perspective(500px) rotateX(0deg) translateY(0) scale(1)', opacity: '1' },
+                    '0%': { transform: 'translateY(18px) scale(0.985)', opacity: '0' },
+                    '100%': { transform: 'translateY(0) scale(1)', opacity: '1' },
                 },
                 contentSlide: {
-                    '0%': { transform: 'translateY(20px)', opacity: '0' },
+                    '0%': { transform: 'translateY(16px)', opacity: '0' },
                     '100%': { transform: 'translateY(0)', opacity: '1' },
                 },
                 listCascade: {
-                    '0%': { transform: 'translateX(20px)', opacity: '0' },
+                    '0%': { transform: 'translateX(14px)', opacity: '0' },
+                    '100%': { transform: 'translateX(0)', opacity: '1' },
+                },
+                pivotEnter: {
+                    '0%': { transform: 'translateX(18px)', opacity: '0' },
                     '100%': { transform: 'translateX(0)', opacity: '1' },
                 },
                 toastIn: {
-                    '0%': { transform: 'translateY(-20px)', opacity: '0' },
+                    '0%': { transform: 'translateY(14px)', opacity: '0' },
                     '100%': { transform: 'translateY(0)', opacity: '1' },
                 },
                 toastOut: {
                     '0%': { transform: 'translateY(0)', opacity: '1' },
-                    '100%': { transform: 'translateY(-20px)', opacity: '0' },
+                    '100%': { transform: 'translateY(14px)', opacity: '0' },
                 }
             },
             animation: {
-                'page-enter': 'pageEnter 0.6s cubic-bezier(0.1, 0.9, 0.2, 1) forwards',
-                'page-enter-turn': 'pageEnterTurn 0.8s cubic-bezier(0.1, 0.9, 0.2, 1) forwards',
-                'tile-enter': 'tileEnter 0.5s cubic-bezier(0.1, 0.9, 0.2, 1) forwards',
-                'content-slide': 'contentSlide 0.5s cubic-bezier(0.1, 0.9, 0.2, 1) forwards',
-                'list-cascade': 'listCascade 0.4s cubic-bezier(0.1, 0.9, 0.2, 1) forwards',
-                'toast-in': 'toastIn 0.3s cubic-bezier(0.1, 0.9, 0.2, 1) forwards',
-                'toast-out': 'toastOut 0.3s cubic-bezier(0.1, 0.9, 0.2, 1) forwards',
+                'page-enter': 'pageEnter 0.62s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
+                'page-enter-turn': 'pageEnterTurn 0.68s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
+                'tile-enter': 'tileEnter 0.58s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
+                'content-slide': 'contentSlide 0.54s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
+                'list-cascade': 'listCascade 0.46s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
+                'pivot-enter': 'pivotEnter 0.42s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
+                'toast-in': 'toastIn 0.28s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
+                'toast-out': 'toastOut 0.28s cubic-bezier(0.2, 0.9, 0.2, 1) forwards',
             }
         }
     }
