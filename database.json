@@ -463,7 +463,7 @@
             "region": "Europe",
             "type": "RUU",
             "size": "217.33MB",
-            "url": "https://www.4shared.com/file/obbV0Eapda/RUU_HTC7_PRO_HTC_Europe_124401.html"
+            "filename": "RUU_HTC7 PRO_HTC_Europe_1.24.401.01_Radio_5.64.09.20_22.42.50.15_Signed_GOLD_RELEASE.exe"
           },
           {
             "version": "1.22.401.01",
@@ -570,8 +570,19 @@
             "version": "8.00.10501.127",
             "region": "Europe",
             "type": "NBH File",
-            "size": "631.3MB",
-            "filename": "PDM_RIO_U_GDR3_00_MR_HTC Europe_4.05.401.02_Radio_1.20.3054.27_10.27.30.54_release.zip"
+            "size": "0MB",
+            "files": [
+              {
+                "type": "UEFI",
+                "size": "8.1MB",
+                "filename": "UEFI_signed_8.10.14203.306_621.nbh"
+              },
+              {
+                "type": "Firmware",
+                "size": "631.3MB",
+                "filename": "PDM_RIO_U_GDR3_00_MR_HTC Europe_4.05.401.02_Radio_1.20.3054.27_10.27.30.54_release.zip"
+              }
+            ]
           },
           {
             "version": "Windows Phone 8.0 RTM",
@@ -765,6 +776,53 @@
             "type": "NBH File",
             "size": "830.4MB",
             "filename": "PDM_W8_WL_BLUE_00_VERIZON WWE_1.06.605.02_Radio_1.00.50.0806_release.zip"
+          },
+          {
+            "version": "8.10.15143.154",
+            "region": "USA (Verizon)",
+            "type": "NBH Files",
+            "size": "827MB",
+            "url": "https://archive.org/download/htc-one-m8-for-windows-phone/0P6B2100-VZW__001.zip"
+          },
+          {
+            "version": "8.10.15143.154",
+            "region": "USA (AT&T)",
+            "type": "NBH Files",
+            "size": "716.4MB",
+            "url": "https://archive.org/download/htc-one-m8-for-windows-phone/HTC%20One%20M8%200P6B180%20%28AT%26T%29.zip"
+          },
+          {
+            "version": "8.10.15143.154",
+            "region": "USA (T-Mobile)",
+            "type": "NBH Files",
+            "size": "714.8MB",
+            "url": "https://archive.org/download/htc-one-m8-for-windows-phone/RUU_signed_8.10.15143.154_TMobile_0P6B14000.zip"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Kruger & Matz",
+    "slug": "km",
+    "devices": [
+      {
+        "name": "Soul 2",
+        "codename": "Soul 2",
+        "image": "/assets/kmsoul2.png",
+        "required_tool": "thor2",
+        "model": "Soul 2",
+        "specs": {
+          "storage": "8GB (+ microSD)",
+          "display": "4.7\""
+      },
+        "firmwares": [
+          {
+            "version": "1.0.68.0031",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.3GB",
+            "url": "https://archive.org/download/W10M_FFUs/KM%20%28Kruger%26Matz%29/Soul%202%20%28SOUL2%29/I7B_KM_Retail_1.0.68.0031_CatalogSigned_1.0.68.0031.FFU"
           }
         ]
       }
@@ -904,6 +962,34 @@
             "type": "FFU",
             "size": "812.77MB",
             "filename": "Flash.FFU"
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "brand": "Q-Smart",
+    "slug": "qsmart",
+    "devices": [
+      {
+        "name": "Dream W473",
+        "codename": "Dream W473",
+        "image": "/assets/qsmartw473.png",
+        "required_tool": "thor2",
+        "model": "W473",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.7\" IPS LCD (720x1280)"
+        },
+        "firmwares": [
+          {
+            "version": "8.10.12400.899",
+            "region": "Unknown",
+            "type": "FFU + EDL firehose",
+            "size": "807MB",
+            "url": "QSMART-DREAM-W473.rar"
           }
         ]
       }
