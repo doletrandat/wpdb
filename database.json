@@ -575,7 +575,7 @@
               {
                 "type": "UEFI",
                 "size": "8.1MB",
-                "filename": "UEFI_signed_8.10.14203.306_621.nbh"
+                "filename": "UEFI_signed.nbh"
               },
               {
                 "type": "Firmware",
