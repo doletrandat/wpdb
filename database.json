@@ -5,10 +5,10 @@
     "devices": [
       {
         "name": "Liquid M220",
-        "codename": "m220",
+        "codename": "Liquid M220",
         "image": "/assets/liquidm220.png",
         "required_tool": "WPinternals / Thor2 / QFIL",
-        "model": "Liquid_M220",
+        "model": "M220",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
           "ram": "512MB",
@@ -967,6 +967,35 @@
       }
     ]
   },
+  {
+    "brand": "NuAns",
+    "slug": "nuans",
+    "devices": [
+      {
+        "name": "NuAns NEO",
+        "codename": "neo",
+        "image": "/assets/nuansneo.png",
+        "required_tool": "thor2",
+        "model": "neo",
+        "specs": {
+          "cpu": "Snapdragon 617 (Quad-core 1.2 GHz)",
+          "ram": "2GB",
+          "storage": "16GB (+ microSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "3350 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "Windows 10 Mobile",
+            "region": "Asia",
+            "type": "FFU",
+            "size": "990MB",
+            "url": "https://1drv.ms/u/c/32D4BC94ABEC16B9/AbkW7KuUvNQggDJqUgQAAAA?e=1nz75X"
+          }
+        ]
+      }
+    ]
+  },
     {
     "brand": "Q-Smart",
     "slug": "qsmart",
@@ -1001,10 +1030,10 @@
     "devices": [
       {
         "name": "Samsung ATIV S (GT-I8750)",
-        "codename": "GT-I8750",
+        "codename": "ATIV S GT-I8750",
         "image": "/assets/ssativs.png",
         "required_tool": "Samsung WP8 SMD Binary Downloader",
-        "model": "ATIV_S_GT-I8750",
+        "model": "GT-I8750",
         "specs": {
           "cpu": "Snapdragon S4 (Dual-core 1.5 GHz)",
           "ram": "1GB",
@@ -1053,10 +1082,10 @@
       },
       {
         "name": "Samsung ATIV S (SGH-T899M)",
-        "codename": "SGH-T899M",
+        "codename": "ATIV S SGH-T899M",
         "image": "/assets/ssativs.png",
         "required_tool": "Samsung WP8 SMD Binary Downloader",
-        "model": "ATIV_S_SGH-T899M",
+        "model": "SGH-T899M",
         "specs": {
           "cpu": "Snapdragon S4 (Dual-core 1.5 GHz)",
           "ram": "1GB",
@@ -1105,10 +1134,10 @@
       },
       {
         "name": "Samsung ATIV S Neo (SPH-I800)",
-        "codename": "SPH-I800",
+        "codename": "ATIV S Neo SPH-I800",
         "image": "/assets/ssativsneo.png",
         "required_tool": "Samsung WP8 SMD Binary Downloader",
-        "model": "ATIV_S_Neo_SPH-I800",
+        "model": "SPH-I800",
         "specs": {
           "cpu": "Dual-core 1.4 GHz",
           "ram": "1GB",
@@ -1157,10 +1186,10 @@
       },
       {
         "name": "Samsung ATIV S Neo (SGH-I187)",
-        "codename": "SGH-I187",
+        "codename": "ATIV S Neo SGH-I187",
         "image": "/assets/ssativsneo.png",
         "required_tool": "Samsung WP8 SMD Binary Downloader",
-        "model": "ATIV_S_Neo_SGH-I187",
+        "model": "SGH-I187",
         "specs": {
           "cpu": "Dual-core 1.4 GHz",
           "ram": "1GB",
@@ -1222,10 +1251,10 @@
       },
       {
         "name": "Samsung ATIV SE",
-        "codename": "SM-W750V",
+        "codename": "ATIV SE",
         "image": "/assets/ssativse.png",
         "required_tool": "Samsung WP8 SMD Binary Downloader",
-        "model": "ATIV_SE",
+        "model": "SM-W750V",
         "specs": {
           "cpu": "Snapdragon 800 (Quad-core 2.3 GHz)",
           "ram": "2GB",
@@ -1274,10 +1303,10 @@
       },
       {
         "name": "Samsung Omnia 7",
-        "codename": "GT-I8700",
+        "codename": "Omnia 7",
         "image": "/assets/ssomnia7.png",
         "required_tool": "Unknown",
-        "model": "Omnia 7",
+        "model": "GT-I8700",
         "specs": {
           "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
           "ram": "512MB",
