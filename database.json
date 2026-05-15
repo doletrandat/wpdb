@@ -7,7 +7,7 @@
         "name": "Liquid M220",
         "codename": "Liquid M220",
         "image": "/assets/liquidm220.png",
-        "required_tool": "WPinternals / Thor2 / QFIL",
+        "required_tool": "WPinternals / ffutool / QFIL",
         "model": "M220",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
@@ -58,7 +58,7 @@
         "name": "Liquid Jade Primo",
         "codename": "Jade Primo",
         "image": "/assets/liquidjadeprimo.png",
-        "required_tool": "WPinternals / Thor2",
+        "required_tool": "WPinternals / ffutool",
         "model": "Liquid_Jade_Primo",
         "specs": {
           "cpu": "Snapdragon 808 (Quad-core 1.2 GHz)",
@@ -87,7 +87,7 @@
         "name": "Alcatel Fierce XL",
         "codename": "fiercexl",
         "image": "/assets/alcatelfiercexl.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "5055W",
         "specs": {
           "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
@@ -110,7 +110,7 @@
         "name": "IDOL 4 Pro",
         "codename": "idol4pro",
         "image": "/assets/alcatelidol4s.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "6077X",
         "specs": {
           "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
@@ -133,7 +133,7 @@
         "name": "IDOL 4S",
         "codename": "idol4s",
         "image": "/assets/alcatelidol4s.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "6071W",
         "specs": {
           "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
@@ -169,7 +169,7 @@
         "name": "BLU Win HD LTE",
         "codename": "Win HD LTE",
         "image": "/assets/bluwinhdlte.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "X150",
         "specs": {
           "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
@@ -199,7 +199,7 @@
         "name": "BLU Win HD W510",
         "codename": "Win HD",
         "image": "/assets/bluwinhd.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "W510",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
@@ -229,7 +229,7 @@
         "name": "BLU Win JR LTE",
         "codename": "Win JR LTE",
         "image": "/assets/bluwinjrlte.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "X130",
         "specs": {
           "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
@@ -259,7 +259,7 @@
         "name": "BLU Win JR W410",
         "codename": "Win JR",
         "image": "/assets/bluwinjr.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "W410",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
@@ -309,7 +309,7 @@
         "name": "Honeywell Dolphin 75e (Windows)",
         "codename": "Dolphin 75e",
         "image": "/assets/honeywelldolphin75e.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "75e",
         "specs": {
           "cpu": "Snapdragon 801 (Quad-core 2.26 GHz)",
@@ -332,7 +332,7 @@
         "name": "Honeywell CT50 (Windows)",
         "codename": "CT50",
         "image": "/assets/honeywellct50.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "CT50",
         "specs": {
           "cpu": "Snapdragon 801 (Quad-core 2.26 GHz)",
@@ -368,7 +368,7 @@
         "name": "HP Elite x3",
         "codename": "falcon",
         "image": "/assets/hpelitex3.png",
-        "required_tool": "WPinternals / Thor2",
+        "required_tool": "WPinternals / ffutool",
         "model": "Elite_x3",
         "specs": {
           "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
@@ -556,7 +556,7 @@
         "name": "HTC 8S",
         "codename": "rio",
         "image": "/assets/htc8s.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "8S",
         "specs": {
           "cpu": "Snapdragon S4 (Dual-core 1.0 GHz)",
@@ -810,7 +810,7 @@
         "name": "Soul 2",
         "codename": "Soul 2",
         "image": "/assets/kmsoul2.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "Soul 2",
         "specs": {
           "storage": "8GB (+ microSD)",
@@ -836,7 +836,7 @@
         "name": "SoftBank 503LV",
         "codename": "503LV",
         "image": "/assets/softbank503lv.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "503LV",
         "specs": {
           "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
@@ -865,7 +865,7 @@
         "name": "JENESIS WPJ40-10 (L310-JP)",
         "codename": "WPJ40-10",
         "image": "/assets/jenesiswpj4010.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "WPJ40-10",
         "specs": {
           "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
@@ -894,7 +894,7 @@
         "name": "MCJ Madosma Q501",
         "codename": "Madosma Q501",
         "image": "/assets/madosmaq501.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "Q501",
         "specs": {
           "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
@@ -917,7 +917,7 @@
         "name": "MCJ Madosma Q601",
         "codename": "Madosma Q601",
         "image": "/assets/madosmaq601.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "Q601",
         "specs": {
           "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
@@ -946,7 +946,7 @@
         "name": "Canvas Win W121",
         "codename": "w121",
         "image": "/assets/canvaswinw121.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "W121",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
@@ -975,7 +975,7 @@
         "name": "NuAns NEO",
         "codename": "neo",
         "image": "/assets/nuansneo.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "neo",
         "specs": {
           "cpu": "Snapdragon 617 (Quad-core 1.2 GHz)",
@@ -1004,7 +1004,7 @@
         "name": "Dream W473",
         "codename": "Dream W473",
         "image": "/assets/qsmartw473.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "W473",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
@@ -1334,7 +1334,7 @@
         "name": "Trekstor WinPhone 5.0 LTE",
         "codename": "WinPhone 5.0",
         "image": "/assets/trekstortwinphone50.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "WinPhone 5.0",
         "specs": {
           "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
@@ -1363,7 +1363,7 @@
         "name": "VAIO Phone Biz",
         "codename": "Phone Biz",
         "image": "/assets/vaiophonebiz.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "VPB0511S",
         "specs": {
           "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
@@ -1392,7 +1392,7 @@
         "name": "Wileyfox Pro",
         "codename": "pro",
         "image": "/assets/wileyfoxpro.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "Pro",
         "specs": {
           "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
@@ -1421,7 +1421,7 @@
         "name": "Xiaomi Mi 4",
         "codename": "cancro",
         "image": "/assets/xiaomimi4.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "Mi 4",
         "specs": {
           "cpu": "Snapdragon 801 (Quad-core 2.5 GHz)",
@@ -1457,7 +1457,7 @@
         "name": "XOLO Win Q900s",
         "codename": "Win Q900s",
         "image": "/assets/xolowinq900s.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "Q900s",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
@@ -1486,7 +1486,7 @@
         "name": "Yezz Billy 4.7",
         "codename": "Billy 4.7",
         "image": "/assets/yezzbilly47.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "Billy 4.7",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
@@ -1515,7 +1515,7 @@
         "name": "Zebra TC700J",
         "codename": "TC700J",
         "image": "/assets/zebratc700j.png",
-        "required_tool": "thor2",
+        "required_tool": "ffutool",
         "model": "TC700J",
         "specs": {
           "cpu": "Qualcomm MSM8092(?)",

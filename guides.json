@@ -38,15 +38,15 @@
   "hp": [
     {
       "title": "Step 1.",
-      "text": "Install the Windows Device Recovery Tool to get the <strong class=\"text-black\">Thor2</strong> command-line utility."
+      "text": "Install the Windows Phone common packaging and test tools to get the <strong class=\"text-black\">ffutool</strong> command-line utility."
     },
     {
       "title": "Step 2.",
-      "text": "Connect the phone in Flash Mode (usually hold Volume Up while powering on)."
+      "text": "Connect the phone in FFU Loader mode (usually hold Volume Up while powering on)."
     },
     {
       "title": "Step 3.",
-      "text": "Run the following command: <code class=\"bg-gray-100 px-1.5 py-0.5 rounded text-wp-blue\">thor2 -mode uefiflash -ffufile \"C:\\path\\to\\firmware.ffu\"</code>"
+      "text": "Run the following command: <code class=\"bg-gray-100 px-1.5 py-0.5 rounded text-wp-blue\">ffutool -flash \"C:\\path\\to\\firmware.ffu\"</code>"
     }
   ]
 }

@@ -40,7 +40,7 @@ function renderSidebar() {
             <ul class="space-y-0.5">
                 <li onclick="showGuide('htc')" id="nav-htc" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro">HTC RUU</li>
                 <li onclick="showGuide('samsung')" id="nav-samsung" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro">Samsung SMD</li>
-                <li onclick="showGuide('hp')" id="nav-hp" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro">Generic Thor2</li>
+                <li onclick="showGuide('hp')" id="nav-hp" class="guide-nav-item px-3 py-1.5 cursor-pointer text-sm text-gray-600 border-l-4 border-transparent hover:bg-gray-100 transition-colors duration-200 ease-metro">Generic FFU flashing</li>
             </ul>
         </div>
     `;
@@ -102,7 +102,7 @@ function showGuide(id) {
         // Standard brands
         if (id === 'htc') { title = "HTC Devices"; description = "Standard RUU flashing instructions for HTC devices."; }
         if (id === 'samsung') { title = "Samsung ATIV Devices"; description = "Standard SMD Binary Downloader instructions for Samsung devices."; }
-        if (id === 'hp') { title = "Generic FFU Flashing"; description = "Using Thor2 to flash generic .ffu firmware files."; }
+        if (id === 'hp') { title = "Generic FFU Flashing"; description = "Using ffutool to flash generic .ffu firmware files."; }
     }
 
     if (!steps) {
