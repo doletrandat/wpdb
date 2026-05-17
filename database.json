@@ -4,7 +4,7 @@
     "slug": "acer",
     "devices": [
       {
-        "name": "Liquid M220",
+        "name": "Acer Liquid M220",
         "codename": "Liquid M220",
         "image": "/assets/liquidm220.png",
         "required_tool": "WPinternals / ffutool / QFIL",
@@ -55,7 +55,7 @@
         ]
       },
       {
-        "name": "Liquid Jade Primo",
+        "name": "Acer Liquid Jade Primo",
         "codename": "Jade Primo",
         "image": "/assets/liquidjadeprimo.png",
         "required_tool": "WPinternals / ffutool",
@@ -85,7 +85,7 @@
     "devices":[
       {
         "name": "Alcatel Fierce XL",
-        "codename": "fiercexl",
+        "codename": "Fierce XL",
         "image": "/assets/alcatelfiercexl.png",
         "required_tool": "ffutool",
         "model": "5055W",
@@ -107,8 +107,8 @@
         ]
       },
       {
-        "name": "IDOL 4 Pro",
-        "codename": "idol4pro",
+        "name": "Alcatel IDOL 4 Pro",
+        "codename": "IDOL 4 Pro",
         "image": "/assets/alcatelidol4s.png",
         "required_tool": "ffutool",
         "model": "6077X",
@@ -130,8 +130,8 @@
         ]
       },
       {
-        "name": "IDOL 4S",
-        "codename": "idol4s",
+        "name": "Alcatel IDOL 4S",
+        "codename": "IDOL 4S",
         "image": "/assets/alcatelidol4s.png",
         "required_tool": "ffutool",
         "model": "6071W",
@@ -803,11 +803,40 @@
     ]
   },
   {
+    "brand": "KAZAM",
+    "slug": "kazam",
+    "devices": [
+      {
+        "name": "Thunder 450WL",
+        "codename": "Thunder 450WL",
+        "image": "/assets/bluwinhd.png",
+        "required_tool": "ffutool",
+        "model": "Thunder 450WL",
+        "specs": {
+          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "QL850D_MSM8916_WTR4905",
+            "region": "Unknown",
+            "type": "Emergency files for QFIL",
+            "size": "667MB",
+            "filename": "Thunder 450WL.zip"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "brand": "Kruger & Matz",
     "slug": "km",
     "devices": [
       {
-        "name": "Soul 2",
+        "name": "Kruger & Matz Soul 2",
         "codename": "Soul 2",
         "image": "/assets/kmsoul2.png",
         "required_tool": "ffutool",
@@ -823,35 +852,6 @@
             "type": "FFU",
             "size": "1.3GB",
             "url": "https://archive.org/download/W10M_FFUs/KM%20%28Kruger%26Matz%29/Soul%202%20%28SOUL2%29/I7B_KM_Retail_1.0.68.0031_CatalogSigned_1.0.68.0031.FFU"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "brand": "Lenovo",
-    "slug": "lenovo",
-    "devices": [
-      {
-        "name": "SoftBank 503LV",
-        "codename": "503LV",
-        "image": "/assets/softbank503lv.png",
-        "required_tool": "ffutool",
-        "model": "503LV",
-        "specs": {
-          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
-          "ram": "3GB",
-          "storage": "32GB (+ microSD)",
-          "display": "5.0\" IPS LCD (720x1280)",
-          "battery": "2250 mAh" 
-      },
-        "firmwares": [
-          {
-            "version": "V41",
-            "region": "Japan (SoftBank)",
-            "type": "FFU",
-            "size": "1.2GB",
-            "filename": "Lenovo_503LV_V41-Retail_flash_41.ffu"
           }
         ]
       }
@@ -881,6 +881,64 @@
             "type": "FFU",
             "size": "1.6GB",
             "filename": "L310_JENESIS_B160114V179_RETAIL_FACMODE_SINGLE_1078.29.1.179.FFU"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Lava",
+    "slug": "lava",
+    "devices":[
+      {
+        "name": "Lava Iris Win1",
+        "codename": "Iris Win1",
+        "image": "/assets/lavairiswin1.png",
+        "required_tool": "ffutool",
+        "model": "Iris Win1",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "4.0\" LCD (480x800)",
+          "battery": "1950 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "TBW570316_9616_WP_Catalog_Signed_Retail_V8041",
+            "region": "Unknown",
+            "type": "Full Flash",
+            "size": "710MB",
+            "filename": "Lava_Iris_Win1_TBW570316_9616_WP_Catalog_Signed_Retail_V8041.zip"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Lenovo",
+    "slug": "lenovo",
+    "devices": [
+      {
+        "name": "SoftBank 503LV",
+        "codename": "503LV",
+        "image": "/assets/softbank503lv.png",
+        "required_tool": "ffutool",
+        "model": "503LV",
+        "specs": {
+          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
+          "ram": "3GB",
+          "storage": "32GB (+ microSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2250 mAh" 
+      },
+        "firmwares": [
+          {
+            "version": "V41",
+            "region": "Japan (SoftBank)",
+            "type": "FFU",
+            "size": "1.2GB",
+            "filename": "Lenovo_503LV_V41-Retail_flash_41.ffu"
           }
         ]
       }
@@ -943,7 +1001,7 @@
     "slug": "micromax",
     "devices": [
       {
-        "name": "Canvas Win W121",
+        "name": "Micromax Canvas Win W121",
         "codename": "w121",
         "image": "/assets/canvaswinw121.png",
         "required_tool": "ffutool",
@@ -997,11 +1055,63 @@
     ]
   },
     {
+    "brand": "Prestigio",
+    "slug": "prestigio",
+    "devices": [
+      {
+        "name": "Prestigio MultiPhone 8400 Duo",
+        "codename": "MultiPhone 8400 Duo",
+        "image": "/assets/pmp8400duo.png",
+        "required_tool": "ffutool",
+        "model": "MultiPhone 8400 Duo",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" IPS LCD (480x800)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1068.0012.0010.0004",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.22GB",
+            "filename": "Flash.FFU"
+          }
+        ]
+      },
+      {
+        "name": "Prestigio MultiPhone 8500 Duo",
+        "codename": "MultiPhone 8500 Duo",
+        "image": "/assets/pmp8500duo.png",
+        "required_tool": "ffutool",
+        "model": "MultiPhone 8400 Duo",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "5.0\" LCD (720x1280)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1068.0012.0011.0005",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "1.22GB",
+            "filename": "Flash.FFU"
+          }
+        ]
+      }
+    ]
+  },
+    {
     "brand": "Q-Smart",
     "slug": "qsmart",
     "devices": [
       {
-        "name": "Dream W473",
+        "name": "Q-Smart Dream W473",
         "codename": "Dream W473",
         "image": "/assets/qsmartw473.png",
         "required_tool": "ffutool",
@@ -1018,7 +1128,7 @@
             "region": "Unknown",
             "type": "FFU + EDL firehose",
             "size": "807MB",
-            "url": "QSMART-DREAM-W473.rar"
+            "filename": "QSMART-DREAM-W473.rar"
           }
         ]
       }
