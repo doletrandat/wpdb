@@ -1780,9 +1780,9 @@
             "filename": "10586.1102.3063.Retail.FFU"
           },
           {
-            "version": "10586.1102.3063.Retail (Android to Windows conversion)",
+            "version": "10586.1102.3063.Retail ",
             "region": "Unknown",
-            "type": "FFU",
+            "type": "EDL files (for Android to Windows conversion)",
             "size": "952MB",
             "filename": "10586.1102.3063.Retail.zip"
           }
