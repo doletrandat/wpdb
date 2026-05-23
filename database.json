@@ -59,7 +59,7 @@
         "codename": "Jade Primo",
         "image": "/assets/liquidjadeprimo.png",
         "required_tool": "WPinternals / ffutool",
-        "model": "Liquid_Jade_Primo",
+        "model": "Jade_Primo",
         "specs": {
           "cpu": "Snapdragon 808 (Quad-core 1.2 GHz)",
           "ram": "3GB",
@@ -170,7 +170,7 @@
         "codename": "Win HD LTE",
         "image": "/assets/bluwinhdlte.png",
         "required_tool": "ffutool",
-        "model": "X150",
+        "model": "Win HD LTE",
         "specs": {
           "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
           "ram": "1GB",
@@ -200,7 +200,7 @@
         "codename": "Win HD",
         "image": "/assets/bluwinhd.png",
         "required_tool": "ffutool",
-        "model": "W510",
+        "model": "Win HD",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
           "ram": "1GB",
@@ -230,7 +230,7 @@
         "codename": "Win JR LTE",
         "image": "/assets/bluwinjrlte.png",
         "required_tool": "ffutool",
-        "model": "X130",
+        "model": "Win JR LTE",
         "specs": {
           "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
           "ram": "512MB",
@@ -260,7 +260,7 @@
         "codename": "Win JR",
         "image": "/assets/bluwinjr.png",
         "required_tool": "ffutool",
-        "model": "W410",
+        "model": "Win JR",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
           "ram": "512MB",
@@ -1097,7 +1097,7 @@
         "codename": "WPJ40-10",
         "image": "/assets/jenesiswpj4010.png",
         "required_tool": "ffutool",
-        "model": "WPJ40-10",
+        "model": "WPJ40-10 ",
         "specs": {
           "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
           "ram": "1GB",
@@ -1346,7 +1346,7 @@
         "codename": "Dream W473",
         "image": "/assets/qsmartw473.png",
         "required_tool": "ffutool",
-        "model": "W473",
+        "model": "Dream W473",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
           "ram": "1GB",
@@ -1799,7 +1799,7 @@
         "codename": "Win Q900s",
         "image": "/assets/xolowinq900s.png",
         "required_tool": "ffutool",
-        "model": "Q900s",
+        "model": "Win Q900s",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
           "ram": "1GB",
