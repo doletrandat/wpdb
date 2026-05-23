@@ -422,25 +422,256 @@
         },
         "firmwares": [
           {
-            "version": "1.30.401.01",
+            "version": "1.20.061.03",
+            "region": "Orange (UK)",
+            "type": "RUU",
+            "size": "204.2M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.20.061.03_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe"
+          },
+          {
+            "version": "1.20.111.03",
+            "region": "T-Mobile (Germany)",
+            "type": "RUU",
+            "size": "184.3M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.20.111.03_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip"
+          },
+          {
+            "version": "1.22.061.10",
+            "region": "Orange (UK)",
+            "type": "RUU",
+            "size": "205.1M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.22.061.10_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip"
+          },
+          {
+            "version": "1.23.112.01",
+            "region": "T-Mobile (Austria)",
+            "type": "RUU",
+            "size": "183.8M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOAT_ROM_1.23.112.01_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe"
+          },
+          {
+            "version": "1.23.113.01",
+            "region": "T-Mobile (Czechia)",
+            "type": "RUU",
+            "size": "188.2M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOCZ_ROM_1.23.113.01_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip"
+          },
+          {
+            "version": "1.23.401.06",
             "region": "Europe",
             "type": "RUU",
-            "size": "224MB",
-            "url": "https://www.4shared.com/file/RBHR-GVXee/RUU_Mozart_HTC_Europe_13040101.html"
+            "size": "207.8M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.23.401.06_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.exe"
+          },
+          {
+            "version": "1.23.841.05",
+            "region": "Telstra",
+            "type": "RUU",
+            "size": "187.9M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Telstra_ROM_1.23.841.05_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe"
+          },
+          {
+            "version": "1.24.061.35",
+            "region": "Orange (UK)",
+            "type": "RUU",
+            "size": "203.9M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.24.061.35_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip"
+          },
+          {
+            "version": "1.24.073.35",
+            "region": "Orange (France)",
+            "type": "RUU",
+            "size": "204.1M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeFR_ROM_1.24.073.35_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip"
+          },
+          {
+            "version": "1.25.111.05",
+            "region": "T-Mobile (Germany)",
+            "type": "RUU",
+            "size": "184.1M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.25.111.05_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe"
+          },
+          {
+            "version": "1.26.401.03",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "208.2M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.26.401.03_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.exe"
+          },
+          {
+            "version": "1.26.707.01",
+            "region": "Asia",
+            "type": "RUU",
+            "size": "184.2M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_AsiaWWE_ROM_1.26.707.01_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.exe"
+          },
+          {
+            "version": "1.26.728.01",
+            "region": "Southeast Asia",
+            "type": "RUU",
+            "size": "174.2MB",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_AsiaSEA_ROM_1.26.728.01_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.09U.zip"
+          },
+          {
+            "version": "1.27.113.02",
+            "region": "T-Mobile (Czechia)",
+            "type": "RUU",
+            "size": "201.5M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOCZ_ROM_1.27.113.02_OS_7.0.7004.0_RA_5.51.09.29_22.32.50.09U.zip"
+          },
+          {
+            "version": "1.28.111.03",
+            "region": "T-Mobile (Germany)",
+            "type": "RUU",
+            "size": "194.0M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.28.111.03_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.exe"
+          },
+          {
+            "version": "1.28.112.03",
+            "region": "T-Mobile (Austria)",
+            "type": "RUU",
+            "size": "183.8M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOAT_ROM_1.28.112.03_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10U.zip"
+          },
+          {
+            "version": "1.28.113.03",
+            "region": "T-Mobile (Czechia)",
+            "type": "RUU",
+            "size": "201.4M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_TMO_CZ_1.28.113.03_5.52.09.16_22.33a.50_RELEASE.exe"
           },
           {
             "version": "1.28.401.04",
             "region": "Europe",
             "type": "RUU",
-            "size": "224.4MB",
-            "url": "https://www.4shared.com/file/U_U5w4INee/RUU_Mozart_HTC_Europe_12840104.html"
+            "size": "219.1M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.28.401.04_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.exe"
+          },
+          {
+            "version": "1.28.707.03",
+            "region": "Asia",
+            "type": "RUU",
+            "size": "195.6M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_AsiaWWE_ROM_1.28.707.03_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10U.zip"
           },
           {
             "version": "1.30.061.01",
-            "region": "Orange UK",
+            "region": "Orange (UK)",
             "type": "RUU",
-            "size": "214.1MB",
-            "url": "https://www.4shared.com/file/DS6h2MMpgm/RUU_Mozart_Orange_UK_13006101_.html"
+            "size": "209.1M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.30.061.01_OS_7.0.7390.0_RA_5.54.09.21_22.33b.50.exe"
+          },
+          {
+            "version": "1.30.071.01",
+            "region": "Orange (French Switzerland)",
+            "type": "RUU",
+            "size": "218.3M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_Orange_CH-FR_1.30.071.01_5.54.09.21_22.33b.50_RELEASE.exe"
+          },
+          {
+            "version": "1.30.073.01",
+            "region": "Orange (France) (B2B)",
+            "type": "RUU",
+            "size": "205.6M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_Orange_FR-B2B_1.30.073.01_5.54.09.21_22.33b.50_RELEASE.exe"
+          },
+          {
+            "version": "1.30.075.01",
+            "region": "Orange (Spain)",
+            "type": "RUU",
+            "size": "218.3M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_Orange_ES_1.30.075.01_5.54.09.21_22.33b.50_RELEASE.exe"
+          },
+          {
+            "version": "1.30.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "218.7M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.30.401.01_OS_7.0.7390.0_RA_5.54.09.21_22.33b.50.exe"
+          },
+          {
+            "version": "1.32.111.01",
+            "region": "T-Mobile (Germany)",
+            "type": "RUU",
+            "size": "190.6M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.32.111.01_OS_7.0.7390.0_RA_5.65.09.25_22.45.50.exe"
+          },
+          {
+            "version": "1.32.112.01",
+            "region": "T-Mobile (Austria)",
+            "type": "RUU",
+            "size": "186.4M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_TMO_AT_1.32.112.01_5.65.09.25_22.45.50_RELEASE.exe"
+          },
+          {
+            "version": "1.41.206.02",
+            "region": "O2 (UK)",
+            "type": "RUU",
+            "size": "206.7M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_O2UK_ROM_1.41.206.02_OS_7.0.7390.0_RA_5.66.09.09_22.46.50.exe"
+          },
+          {
+            "version": "4.06.401.00",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "303.6M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_4.06.401.00_OS_7.10.7720.68_RA_5.69.09.exe"
+          },
+          {
+            "version": "4.06.411.00",
+            "region": "Russia",
+            "type": "RUU",
+            "size": "309.1M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_RUS_ROM_4.06.411.00_OS_7.10.7720.68_RA_5.69.09.exe"
+          },
+          {
+            "version": "5.01.401.04",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "310.0M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_S_HTC_Europe_5.01.401.04_5.71.09.02a_22.51.50_RELEASE.exe"
+          },
+          {
+            "version": "5.10.411.01",
+            "region": "Russia",
+            "type": "NBH",
+            "size": "336.0M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/IMG_Mozart_S_HTC_RUS_5.10.411.01_5.69.09_RELEASE.nbh"
+          },
+          {
+            "version": "5.11.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "309.6M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_5.11.401.01_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.exe"
+          },
+          {
+            "version": "5.11.411.01",
+            "region": "Russia",
+            "type": "RUU",
+            "size": "309.6M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_RUS_ROM_5.11.411.01_OS_7.10.7720.68_RA_5.69.09.exe"
+          },
+          {
+            "version": "5.12.401.02",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "309.5M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_5.12.401.02_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.exe"
+          },
+          {
+            "version": "5.12.411.01",
+            "region": "Russia",
+            "type": "RUU",
+            "size": "309.5M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_RUS_ROM_5.12.411.01_OS_7.10.7720.68_RA_5.69.09.exe"
+          },
+          {
+            "version": "5.13.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "323.5M",
+            "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_5.13.401.01_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.exe"
           }
         ]
       },
