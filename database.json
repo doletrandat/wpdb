@@ -23,7 +23,7 @@
             "type": "FFU",
             "size": "1.5GB",
             "filename": "Acer_M220_RV07RC02_WW_GEN1_2053.1.00090.37400.ffu",
-            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
+            "os_version": "WP8.1 U1 - 8.10.14203.306"
           },
           {
             "version": "2053.1.00090.37400",
@@ -31,7 +31,7 @@
             "type": "FFU",
             "size": "1.8GB",
             "filename": "Acer_M220_RV07RC02_PA_CUS1H_2053.1.00090.37400.ffu",
-            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
+            "os_version": "WP8.1 U1 - 8.10.14203.306"
           },
           {
             "version": "2053.1.00090.37500",
@@ -39,7 +39,7 @@
             "type": "FFU",
             "size": "1.8GB",
             "filename": "Acer_M220_RV07RC03_WW_GEN1H_2053.1.00090.37500.ffu",
-            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
+            "os_version": "WP8.1 U1 - 8.10.14203.306"
           },
           {
             "version": "2053.1.00090.37800",
@@ -47,7 +47,7 @@
             "type": "FFU",
             "size": "1.5GB",
             "filename": "Acer_M220_RV07RC06_AAP_GLOBE_2053.1.00090.37800.ffu",
-            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
+            "os_version": "WP8.1 U1 - 8.1.14203.306"
           },
           {
             "version": "2053.1.00051.38600",
@@ -55,7 +55,7 @@
             "type": "Emergency files for QFIL",
             "size": "1.01GB",
             "filename": "EDL.zip",
-            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
+            "os_version": "WP8.1 U1 - 8.1.14203.306"
           }
         ]
       },
@@ -74,12 +74,12 @@
         },
         "firmwares": [
           {
-            "version": "Windows 10 Mobile - 1078.241.00000.32800",
+            "version": "1078.241.00000.32800",
             "region": "Unknown",
             "type": "FFU",
             "size": "3.1GB",
             "filename": "Acer_S58_RV00RC28_WW_GEN1retail_1078.241.00000.32800.ffu",
-            "os_version": "--"
+            "os_version": "W10M"
           }
         ]
       }
@@ -190,20 +190,20 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1 (X150E)",
-            "region": "Unknown",
+            "version": "00150.03720.20001.15010",
+            "region": "Unknown (X150E)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_HD_LTE_00150.03720.20001.15010_RETAIL_FLASH_20160226_00150.04717.20001.15010.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           },
           {
-            "version": "Windows Phone 8.1 (X150Q)",
-            "region": "Unknown",
+            "version": "00150.04717.20001.15013",
+            "region": "Unknown (X150Q)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_HD_LTE_00150.04717.20001.15013_RETAIL_FLASH_20160226_00150.04717.20001.15013.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           }
         ]
       },
@@ -222,20 +222,20 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1 (W510l)",
-            "region": "Unknown",
+            "version": "00510.12500.20001.12041",
+            "region": "Unknown (W510L)",
             "type": "FFU",
             "size": "1.1GB",
             "filename": "BLU_WinHD_w510L_00510.12500.20001.12041_Retail_00510.12500.20001.12041.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           },
           {
-            "version": "Windows Phone 8.1 (W510u)",
-            "region": "Unknown",
+            "version": "00510.24500.20001.15010",
+            "region": "Unknown (W510U)",
             "type": "FFU",
             "size": "1.1GB",
             "filename": "BLU_WinHD_w510u_00510.24500.20001.15010_Retail_00510.24500.20001.15010.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           }
         ]
       },
@@ -254,20 +254,20 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1 (X130E)",
-            "region": "Unknown",
+            "version": "00130.03720.20001.15023",
+            "region": "Unknown (X310E)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           },
           {
-            "version": "Windows Phone 8.1 (X130Q)",
-            "region": "Unknown",
+            "version": "00130.04717.20001.15023",
+            "region": "Unknown (X130Q)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_JR_LTE__X130Q_00130.04717.20001.15023_RETAIL_FLASH_20160310_00130.04717.20001.15023.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           }
         ]
       },
@@ -286,36 +286,36 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1 (W410a)",
-            "region": "Unknown",
+            "version": "00410.12500.20001.15010",
+            "region": "Unknown (W410L)",
             "type": "FFU",
             "size": "1GB",
             "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           },
           {
-            "version": "Windows Phone 8.1 (W410i)",
-            "region": "Unknown",
+            "version": "00410.15000.20001.15010",
+            "region": "Unknown (W410i)",
             "type": "FFU",
             "size": "1GB",
             "filename": "BLU_WinJr_w410i_15010_Retail_00410.15000.20001.15010.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           },
           {
-            "version": "Windows Phone 8.1 (W410l)",
-            "region": "Unknown",
+            "version": "00410.12500.20001.15010",
+            "region": "Unknown (W410L)",
             "type": "FFU",
             "size": "1GB",
             "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           },
           {
-            "version": "Windows Phone 8.1 (W410u)",
-            "region": "Unknown",
+            "version": "00410.24500.20001.15010",
+            "region": "Unknown (W410u)",
             "type": "FFU",
             "size": "1GB",
             "filename": "BLU_WinJr_W410u_Retail_00410.24500.20001.15010.FFU",
-            "os_version": "--"
+            "os_version": "WP8.1"
           }
         ]
       }
@@ -491,7 +491,7 @@
             "type": "RUU",
             "size": "204.2M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.20.061.03_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.20.111.03",
@@ -499,7 +499,7 @@
             "type": "RUU",
             "size": "184.3M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.20.111.03_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.22.061.10",
@@ -507,7 +507,7 @@
             "type": "RUU",
             "size": "205.1M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.22.061.10_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.23.112.01",
@@ -515,7 +515,7 @@
             "type": "RUU",
             "size": "183.8M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOAT_ROM_1.23.112.01_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 -7.0.7004.0"
           },
           {
             "version": "1.23.113.01",
@@ -523,7 +523,7 @@
             "type": "RUU",
             "size": "188.2M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOCZ_ROM_1.23.113.01_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.23.401.06",
@@ -531,7 +531,7 @@
             "type": "RUU",
             "size": "207.8M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.23.401.06_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.23.841.05",
@@ -539,7 +539,7 @@
             "type": "RUU",
             "size": "187.9M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Telstra_ROM_1.23.841.05_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.24.061.35",
@@ -547,7 +547,7 @@
             "type": "RUU",
             "size": "203.9M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.24.061.35_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.24.073.35",
@@ -555,7 +555,7 @@
             "type": "RUU",
             "size": "204.1M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeFR_ROM_1.24.073.35_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.09U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.25.111.05",
@@ -563,7 +563,7 @@
             "type": "RUU",
             "size": "184.1M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.25.111.05_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.26.401.03",
@@ -571,7 +571,7 @@
             "type": "RUU",
             "size": "208.2M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.26.401.03_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.26.707.01",
@@ -579,7 +579,7 @@
             "type": "RUU",
             "size": "184.2M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_AsiaWWE_ROM_1.26.707.01_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.26.728.01",
@@ -587,7 +587,7 @@
             "type": "RUU",
             "size": "174.2MB",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_AsiaSEA_ROM_1.26.728.01_OS_7.0.7004.0_RA_5.51.09.06_22.30.50.09U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.27.113.02",
@@ -595,7 +595,7 @@
             "type": "RUU",
             "size": "201.5M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOCZ_ROM_1.27.113.02_OS_7.0.7004.0_RA_5.51.09.29_22.32.50.09U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.28.111.03",
@@ -603,7 +603,7 @@
             "type": "RUU",
             "size": "194.0M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.28.111.03_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.28.112.03",
@@ -611,7 +611,7 @@
             "type": "RUU",
             "size": "183.8M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOAT_ROM_1.28.112.03_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.28.113.03",
@@ -619,7 +619,7 @@
             "type": "RUU",
             "size": "201.4M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_TMO_CZ_1.28.113.03_5.52.09.16_22.33a.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.28.401.04",
@@ -627,7 +627,7 @@
             "type": "RUU",
             "size": "219.1M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.28.401.04_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.28.707.03",
@@ -635,7 +635,7 @@
             "type": "RUU",
             "size": "195.6M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_AsiaWWE_ROM_1.28.707.03_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10U.zip",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7004.0"
           },
           {
             "version": "1.30.061.01",
@@ -643,7 +643,7 @@
             "type": "RUU",
             "size": "209.1M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_OrangeUK_ROM_1.30.061.01_OS_7.0.7390.0_RA_5.54.09.21_22.33b.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7390.0"
           },
           {
             "version": "1.30.071.01",
@@ -675,7 +675,7 @@
             "type": "RUU",
             "size": "218.7M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_1.30.401.01_OS_7.0.7390.0_RA_5.54.09.21_22.33b.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7390.0"
           },
           {
             "version": "1.32.111.01",
@@ -683,7 +683,7 @@
             "type": "RUU",
             "size": "190.6M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMODE_ROM_1.32.111.01_OS_7.0.7390.0_RA_5.65.09.25_22.45.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7390.0"
           },
           {
             "version": "1.32.112.01",
@@ -699,7 +699,7 @@
             "type": "RUU",
             "size": "206.7M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_O2UK_ROM_1.41.206.02_OS_7.0.7390.0_RA_5.66.09.09_22.46.50.exe",
-            "os_version": "--"
+            "os_version": "WP7 - 7.0.7390.0"
           },
           {
             "version": "4.06.401.00",
@@ -707,7 +707,7 @@
             "type": "RUU",
             "size": "303.6M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_4.06.401.00_OS_7.10.7720.68_RA_5.69.09.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "4.06.411.00",
@@ -715,7 +715,7 @@
             "type": "RUU",
             "size": "309.1M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_RUS_ROM_4.06.411.00_OS_7.10.7720.68_RA_5.69.09.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "5.01.401.04",
@@ -723,7 +723,7 @@
             "type": "RUU",
             "size": "310.0M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_S_HTC_Europe_5.01.401.04_5.71.09.02a_22.51.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "5.10.411.01",
@@ -731,7 +731,7 @@
             "type": "NBH",
             "size": "336.0M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/IMG_Mozart_S_HTC_RUS_5.10.411.01_5.69.09_RELEASE.nbh",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "5.11.401.01",
@@ -739,7 +739,7 @@
             "type": "RUU",
             "size": "309.6M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_5.11.401.01_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "5.11.411.01",
@@ -747,7 +747,7 @@
             "type": "RUU",
             "size": "309.6M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_RUS_ROM_5.11.411.01_OS_7.10.7720.68_RA_5.69.09.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "5.12.401.02",
@@ -755,7 +755,7 @@
             "type": "RUU",
             "size": "309.5M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_5.12.401.02_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "5.12.411.01",
@@ -763,7 +763,7 @@
             "type": "RUU",
             "size": "309.5M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_RUS_ROM_5.12.411.01_OS_7.10.7720.68_RA_5.69.09.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           },
           {
             "version": "5.13.401.01",
@@ -771,7 +771,7 @@
             "type": "RUU",
             "size": "323.5M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_Europe_ROM_5.13.401.01_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.exe",
-            "os_version": "--"
+            "os_version": "WP7.5 - 7.1.7720.68"
           }
         ]
       },
