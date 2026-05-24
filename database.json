@@ -23,7 +23,7 @@
             "type": "FFU",
             "size": "1.5GB",
             "filename": "Acer_M220_RV07RC02_WW_GEN1_2053.1.00090.37400.ffu",
-            "os_version": "--"
+            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
           },
           {
             "version": "2053.1.00090.37400",
@@ -31,7 +31,7 @@
             "type": "FFU",
             "size": "1.8GB",
             "filename": "Acer_M220_RV07RC02_PA_CUS1H_2053.1.00090.37400.ffu",
-            "os_version": "--"
+            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
           },
           {
             "version": "2053.1.00090.37500",
@@ -39,7 +39,7 @@
             "type": "FFU",
             "size": "1.8GB",
             "filename": "Acer_M220_RV07RC03_WW_GEN1H_2053.1.00090.37500.ffu",
-            "os_version": "--"
+            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
           },
           {
             "version": "2053.1.00090.37800",
