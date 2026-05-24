@@ -875,6 +875,48 @@
         },
         "firmwares": [
           {
+            "version": "1.14.207.01",
+            "region": "O2 (Germany)",
+            "type": "RUU",
+            "size": "200.0M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_O2_DE_1.14.207.01_Radio_5.51.09.06a_22.30.50.09_Signed_SCHUBERT_RELEASE.exe"
+          },
+          {
+            "version": "1.16.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "208.5M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_HTC_Europe_1.16.401.01_Radio_5.51.09.06a_22.30.50.09_Signed_SCHUBERT_RELEASE.zipp"
+          },
+          {
+            "version": "1.18.531.01",
+            "region": "T-Mobile (USA)",
+            "type": "RUU",
+            "size": "180.1M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_TMOUS_1.18.531.01_Radio_5.51.09.11a_22.31.50.09_Signed_SCHUBERT_RELEASE.exe"
+          },
+          {
+            "version": "1.20.531.01",
+            "region": "T-Mobile (USA)",
+            "type": "RUU",
+            "size": "180.5M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_TMOUS_1.20.531.01_Radio_5.51.09.11a_22.31.50.09_Signed_SCHUBERT_RELEASE.exe"
+          },
+          {
+            "version": "1.23.707.01",
+            "region": "Asia",
+            "type": "RUU",
+            "size": "185.6M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_HTC_Asia_WWE_1.23.707.01_Radio_5.51.09.06a_22.30.50.09_Signed_SCHUBERT_RELEASE.exe"
+          },
+          {
+            "version": "1.50.841.02",
+            "region": "Telstra (Test build)",
+            "type": "RUU",
+            "size": "198.5M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_Telstra_WWE_1.50.841.02_Radio_5.61.09.15a_22.31.50.09_Signed_SCHUBERT_TEST.exe"
+          },
+          {
             "version": "1.54.531.02",
             "region": "USA (T-Mobile)",
             "type": "RUU",
@@ -887,6 +929,13 @@
             "type": "RUU",
             "size": "216.9MB",
             "filename": "HTC_HD7_T9292_TIMIT_ROM_1.70.901.02_OS_7.0.7389.0_FW_2250.09.17002.901_RA_5.64.09.27a_22.43.50.15U_BL_1.70.2250.0(118122).exe"
+          },
+          {
+            "version": "1.54.728.01",
+            "region": "Southeast Asia",
+            "type": "RUU",
+            "size": "185.2M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_HTC_Asia_SEA_WWE_1.54.728.01_Radio_5.51.09.29_22.32.50.10_Signed_SCHUBERT_RELEASE.exe"
           },
           {
             "version": "1.57.707.02",
@@ -929,6 +978,13 @@
             "type": "RUU",
             "size": "204.12MB",
             "filename": "HTC_HD7_T9292_O2UK_ROM_1.68.206.03_OS_7.0.7004.0_FW_2250.09.16803.206_RA_5.63.09.13_3a_22.36.50.15U_BL_1.68.2250.0(117041).exe"
+          },
+          {
+            "version": "1.68.207.02",
+            "region": "Germany (O2)",
+            "type": "RUU",
+            "size": "203.6M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_O2_DE_1.68.207.02_Radio_5.63.09.13_3a_22.36.50.15_Signed_SCHUBERT_RELEASE.exe"
           },
           {
             "version": "1.69.401.01",
@@ -1001,11 +1057,32 @@
             "filename": "HTC_HD7_T9292_TMOUS_ROM_4.05.531.03_OS_7.10.7720.68_FW_2250.21.40503.531_RA_5.69.09.29a_22.50.50.21U_BL_4.5.2250.0(129966).exe"
           },
           {
+            "version": "4.05.707.02",
+            "region": "Asia",
+            "type": "RUU",
+            "size": "324.8M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_S_HTC_Asia_WWE_4.05.707.02_Radio_5.69.09.29a_22.50.50.21_Signed_SCHUBERT_RELEASE.exe"
+          },
+          {
             "version": "4.05.728.01",
             "region": "Southeast Asia",
             "type": "RUU",
             "size": "320.4MB",
             "filename": "HTC_HD7_T9292_AsiaSEA_ROM_4.05.728.01_OS_7.10.7720.68_FW_2250.21.40501.728_RA_5.69.09.29a_22.50.50.21U_BL_4.05.2250.0(129185).exe"
+          },
+          {
+            "version": "5.10.401.04",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "307.0M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_S_HTC_Europe_5.10.401.04_Radio_5.71.09.02a_22.51.50.21_Signed_SCHUBERT_RELEASE.exe"
+          },
+          {
+            "version": "5.10.707.02",
+            "region": "Asia",
+            "type": "RUU",
+            "size": "325.2M",
+            "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_S_HTC_Asia_WWE_5.10.707.02_Radio_5.71.09.02a_22.51.50.21_Signed_SCHUBERT_RELEASE.exe"
           },
           {
             "version": "5.12.401.01",
