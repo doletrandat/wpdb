@@ -875,11 +875,18 @@
         },
         "firmwares": [
           {
-            "version": "1.57.728.02",
-            "region": "Southeast Asia",
+            "version": "1.54.531.02",
+            "region": "USA (T-Mobile)",
             "type": "RUU",
-            "size": "185.13MB",
-            "filename": "HTC_HD7_T9292_AsiaSEA_ROM_1.57.728.02_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10.exe"
+            "size": "189.29MB",
+            "filename": "HTC_HD7_T9292_TMOUS_ROM_1.54.531.02_OS_7.0.7004.0_FW_2250.09.15402.531_RA_5.51T.09.29a_22.32.50.10U_BL_1.54.2250.0(112696).zip"
+          },
+          {
+            "version": "1.54.531.02",
+            "region": "Italy (TIM)",
+            "type": "RUU",
+            "size": "216.9MB",
+            "filename": "HTC_HD7_T9292_TIMIT_ROM_1.70.901.02_OS_7.0.7389.0_FW_2250.09.17002.901_RA_5.64.09.27a_22.43.50.15U_BL_1.70.2250.0(118122).exe"
           },
           {
             "version": "1.57.707.02",
@@ -889,11 +896,11 @@
             "filename": "HTC_HD7_T9292_AsiaWWE_ROM_1.57.707.02_OS_7.0.7004.0_FW_2250.09.15702.707_RA_5.52.09.16_22.33a.50.10U_BL_1.57.2250.0(113571).exe"
           },
           {
-            "version": "2.16.666.02",
-            "region": "Canada (Bell Mobility)",
+            "version": "1.57.728.02",
+            "region": "Southeast Asia",
             "type": "RUU",
-            "size": "214.75MB",
-            "filename": "HTC_HD7_T9292_BellMobility_ROM_2.16.666.02_OS_7.0.7004.0_FW_2250.10.21602.666_RA_5.64.09.11a_22.40.50.15U_BL_2.16.2250.0(117476) .exe"
+            "size": "185.13MB",
+            "filename": "HTC_HD7_T9292_AsiaSEA_ROM_1.57.728.02_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10.exe"
           },
           {
             "version": "1.60.401.01",
@@ -910,13 +917,6 @@
             "filename": "HTC_HD7_T9292_O2DE_ROM_1.61.207.01_OS_7.0.7004.0_FW_2250.09.16101.207_RA_5.52.09.16_22.33a.50.10U_BL_1.61.2250.0(114451).exe"
           },
           {
-            "version": "1.68.206.03",
-            "region": "UK (O2)",
-            "type": "RUU",
-            "size": "204.12MB",
-            "filename": "HTC_HD7_T9292_O2UK_ROM_1.68.206.03_OS_7.0.7004.0_FW_2250.09.16803.206_RA_5.63.09.13_3a_22.36.50.15U_BL_1.68.2250.0(117041).exe"
-          },
-          {
             "version": "1.64.901.03",
             "region": "Italy (TIM)",
             "type": "RUU",
@@ -924,18 +924,11 @@
             "filename": "HTC_HD7_T9292_TIMIT_ROM_1.64.901.03_OS_7.0.7004.0_FW_2250.09.16403.901_RA_5.63.09.13_3a_22.36.50.15U_BL_1.64.2250.0(116289).exe"
           },
           {
-            "version": "1.54.531.02",
-            "region": "USA (T-Mobile)",
+            "version": "1.68.206.03",
+            "region": "UK (O2)",
             "type": "RUU",
-            "size": "189.29MB",
-            "filename": "HTC_HD7_T9292_TMOUS_ROM_1.54.531.02_OS_7.0.7004.0_FW_2250.09.15402.531_RA_5.51T.09.29a_22.32.50.10U_BL_1.54.2250.0(112696).zip"
-          },
-          {
-            "version": "3.03.502.04",
-            "region": "USA (AT&T)",
-            "type": "RUU",
-            "size": "209MB",
-            "filename": "HTC_HD7S_T9295_AT&T_ROM_3.03.502.04_OS_7.0.7390.0_FW_2250.21.30304.502_RA_5.66.09.09a_22.46.50.21U_BL_3.3.2250.0(120323).exe"
+            "size": "204.12MB",
+            "filename": "HTC_HD7_T9292_O2UK_ROM_1.68.206.03_OS_7.0.7004.0_FW_2250.09.16803.206_RA_5.63.09.13_3a_22.36.50.15U_BL_1.68.2250.0(117041).exe"
           },
           {
             "version": "1.69.401.01",
@@ -945,32 +938,11 @@
             "filename": "HTC_HD7_T9292_Europe_ROM_1.69.401.01_OS_7.0.7389.0_FW_2250.09.16901.401_RA_5.54.09.21_22.33b.50.10U_BL_1.69.2250.0(117833).exe"
           },
           {
-            "version": "3.04.207.01",
-            "region": "Germany (O2)",
+            "version": "2.16.666.02",
+            "region": "Canada (Bell Mobility)",
             "type": "RUU",
-            "size": "196.9MB",
-            "filename": "HTC_HD7_T9292_O2DE_ROM_3.04.207.01_OS_7.0.7390.0_FW_2250.21.30401.207_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe"
-          },
-          {
-            "version": "3.04.206.01",
-            "region": "UK (O2)",
-            "type": "RUU",
-            "size": "197.5MB",
-            "filename": "HTC_HD7_T9292_O2UK_ROM_3.04.206.01_OS_7.0.7390.0_FW_2250.21.30401.206_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe"
-          },
-          {
-            "version": "1.54.531.02",
-            "region": "Italy (TIM)",
-            "type": "RUU",
-            "size": "216.9MB",
-            "filename": "HTC_HD7_T9292_TIMIT_ROM_1.70.901.02_OS_7.0.7389.0_FW_2250.09.17002.901_RA_5.64.09.27a_22.43.50.15U_BL_1.70.2250.0(118122).exe"
-          },
-          {
-            "version": "3.01.531.02",
-            "region": "USA (T-Mobile)",
-            "type": "RUU",
-            "size": "207.6MB",
-            "filename": "HTC_HD7_T9292_TMOUS_ROM_3.01.531.02_OS_7.0.7392.0_FW_2250.21.30102.531_RA_5.65.09.25a_22.45.50.21U_BL_3.1.2250.0(119314).exe"
+            "size": "214.75MB",
+            "filename": "HTC_HD7_T9292_BellMobility_ROM_2.16.666.02_OS_7.0.7004.0_FW_2250.10.21602.666_RA_5.64.09.11a_22.40.50.15U_BL_2.16.2250.0(117476) .exe"
           },
           {
             "version": "2.20.841.02",
@@ -980,25 +952,32 @@
             "filename": "HTC_HD7_T9296_Telstra_ROM_2.20.841.02_OS_7.0.7389.0_FW_2250.10.22002.841_RA_5.65.09.11_22.44.50.15U_BL_2.20.2250.0(118798).exe"
           },
           {
-            "version": "4.05.728.01",
-            "region": "Southeast Asia",
+            "version": "3.01.531.02",
+            "region": "USA (T-Mobile)",
             "type": "RUU",
-            "size": "320.4MB",
-            "filename": "HTC_HD7_T9292_AsiaSEA_ROM_4.05.728.01_OS_7.10.7720.68_FW_2250.21.40501.728_RA_5.69.09.29a_22.50.50.21U_BL_4.05.2250.0(129185).exe"
+            "size": "207.6MB",
+            "filename": "HTC_HD7_T9292_TMOUS_ROM_3.01.531.02_OS_7.0.7392.0_FW_2250.21.30102.531_RA_5.65.09.25a_22.45.50.21U_BL_3.1.2250.0(119314).exe"
           },
           {
-            "version": "4.05.401.02",
-            "region": "Europe",
+            "version": "3.03.502.04",
+            "region": "USA (AT&T)",
             "type": "RUU",
-            "size": "306.6MB",
-            "filename": "HTC_HD7_T9292_Europe_ROM_4.05.401.02_OS_7.10.7720.68_FW_2250.21.40502.401_RA_5.69.09.29a_22.50.50.21U_BL_4.5.2250.0(129185).exe"
+            "size": "209MB",
+            "filename": "HTC_HD7S_T9295_AT&T_ROM_3.03.502.04_OS_7.0.7390.0_FW_2250.21.30304.502_RA_5.66.09.09a_22.46.50.21U_BL_3.3.2250.0(120323).exe"
           },
           {
-            "version": "5.12.401.01",
-            "region": "Europe",
+            "version": "3.04.206.01",
+            "region": "UK (O2)",
             "type": "RUU",
-            "size": "307MB",
-            "filename": "HTC_HD7_T9292_Europe_ROM_5.12.401.01_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.21.exe"
+            "size": "197.5MB",
+            "filename": "HTC_HD7_T9292_O2UK_ROM_3.04.206.01_OS_7.0.7390.0_FW_2250.21.30401.206_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe"
+          },
+          {
+            "version": "3.04.207.01",
+            "region": "Germany (O2)",
+            "type": "RUU",
+            "size": "196.9MB",
+            "filename": "HTC_HD7_T9292_O2DE_ROM_3.04.207.01_OS_7.0.7390.0_FW_2250.21.30401.207_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe"
           },
           {
             "version": "4.05.206.01",
@@ -1008,11 +987,32 @@
             "filename": "HTC_HD7_T9292_O2UK_ROM_4.05.206.01_OS_7.10.7720.68_RA_5.69.09.29a_22.50.50.21.exe"
           },
           {
+            "version": "4.05.401.02",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "306.6MB",
+            "filename": "HTC_HD7_T9292_Europe_ROM_4.05.401.02_OS_7.10.7720.68_FW_2250.21.40502.401_RA_5.69.09.29a_22.50.50.21U_BL_4.5.2250.0(129185).exe"
+          },
+          {
             "version": "4.05.531.03",
             "region": "USA (T-Mobile)",
             "type": "RUU",
             "size": "306.7MB",
             "filename": "HTC_HD7_T9292_TMOUS_ROM_4.05.531.03_OS_7.10.7720.68_FW_2250.21.40503.531_RA_5.69.09.29a_22.50.50.21U_BL_4.5.2250.0(129966).exe"
+          },
+          {
+            "version": "4.05.728.01",
+            "region": "Southeast Asia",
+            "type": "RUU",
+            "size": "320.4MB",
+            "filename": "HTC_HD7_T9292_AsiaSEA_ROM_4.05.728.01_OS_7.10.7720.68_FW_2250.21.40501.728_RA_5.69.09.29a_22.50.50.21U_BL_4.05.2250.0(129185).exe"
+          },
+          {
+            "version": "5.12.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "307MB",
+            "filename": "HTC_HD7_T9292_Europe_ROM_5.12.401.01_OS_7.10.7720.68_RA_5.71.09.02a_22.51.50.21.exe"
           },
           {
             "version": "SLSPL 5.10.401.04 (flash this to allow downgrading on 5.xx SPLs)",
