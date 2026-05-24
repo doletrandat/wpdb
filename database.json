@@ -302,6 +302,42 @@
     ]
   },
   {
+    "brand": "Highscreen",
+    "slug": "highscreen",
+    "devices": [
+      {
+        "name": "Highscreen WinJoy",
+        "codename": "WinJoy",
+        "image": "/assets/highscreenwinjoy.png",
+        "required_tool": "ffutool",
+        "model": "WinJoy",
+        "specs": {
+          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" TFT (480x800)",
+          "battery": "1750 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1068.0031.0000.0174",
+            "region": "Unknown",
+            "type": "EDL files for QFIL",
+            "size": "651.1MB",
+            "filename": "ROM_HighScreen_WinJoy_E41B_1068.0031.0000.0174_Manufacturing_Retail_Catalog_Signed_EMMC.rar"
+          },
+          {
+            "version": "2053.0000.0000.0176",
+            "region": "Unknown",
+            "type": "EDL files for QFIL",
+            "size": "651.8MB",
+            "filename": "ROM_HighScreen_WinJoy_E41B_2053.0000.0000.0176_Manufacturing_Retail_Catalog_Signed_EMMC.rar"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "brand": "Honeywell",
     "slug": "honeywell",
     "devices":[
@@ -1033,6 +1069,71 @@
       }
     ]
   },
+  {
+    "brand": "Huawei",
+    "slug": "huawei",
+    "devices": [
+      {
+        "name": "Huawei Ascend W2",
+        "codename": "Ascend W2",
+        "image": "/assets/huaweiw2.png",
+        "required_tool": "ffutool",
+        "model": "Ascend W2",
+        "specs": {
+          "cpu": "Snapdragon S4 (Dual-core 1.4 GHz)",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.3\" IPS (480x800)",
+          "battery": "1700 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "3039.0004.30600.12210",
+            "region": "United Kingdom",
+            "type": "Huawei .app firmware",
+            "size": "443.8MB",
+            "filename": "W2-U00.3039.0004.30600.12210_United Kingdom_Channel-Others_WP8_05011YCK.rar"
+          },
+          {
+            "version": "3039.0004.01000.00600",
+            "region": "Russia",
+            "type": "Huawei .app firmware",
+            "size": "423MB",
+            "filename": "W2-U00_3039.0004.01000.00600_Russia-Channel.zip"
+          },
+          {
+            "version": "3039.0004.30600.11600",
+            "region": "Unknown",
+            "type": "Huawei .app firmware",
+            "size": "444MB",
+            "filename": "W2-U00_3039.0004.30600.11600.rar"
+          },
+          {
+            "version": "3039.0004.43200.11400",
+            "region": "West Europe",
+            "type": "Huawei .app firmware",
+            "size": "876.3MB",
+            "filename": "W2-U00_3039.0004.43200_West_Europe-Channel_05011YCH.rar"
+          },
+          {
+            "version": "3039.0004.30600.11600",
+            "region": "China",
+            "type": "Huawei .app firmware",
+            "size": "443.7MB",
+            "filename": "W2-U00_3039.0004.51700.31500_Firmware_China_Others.rar"
+          },
+          {
+            "version": "3039.0004.53400.12300",
+            "region": "South Africa",
+            "type": "Huawei .app firmware",
+            "size": "409MB",
+            "filename": "W2-U00_Nigeria_South Africa_Channel-Others_3039.0004.53400.12300.rar"
+          }             
+        ]
+      }
+    ]
+  },
+
   {
     "brand": "KAZAM",
     "slug": "kazam",
