@@ -314,8 +314,9 @@ function openDevice(codename, updateHistory = true) {
                                         <span class="text-xs font-bold uppercase text-gray-400 tracking-wider">${fw.type}</span>
                                     </div>
                                 </div>
-                                <div class="text-sm text-gray-600 mb-4 pb-4 border-b border-gray-200">
-                                    <span class="font-semibold">Region:</span> ${fw.region}
+                                <div class="text-sm text-gray-600 mb-4 pb-4 border-b border-gray-200 space-y-1">
+                                    <div><span class="font-semibold">OS Version:</span> ${fw.os_version}</div>
+                                    <div><span class="font-semibold">Region:</span> ${fw.region}</div>
                                 </div>
                                 
                                 ${fw.files && fw.files.length > 0 ?
@@ -348,7 +349,8 @@ function openDevice(codename, updateHistory = true) {
                         <table class="w-full text-left border-collapse min-w-[600px]">
                             <thead>
                                 <tr class="text-xs font-bold text-gray-400 uppercase tracking-widest border-b border-gray-200">
-                                    <th class="py-4 pr-6 pl-2 w-1/4">Version</th>
+                                    <th class="py-4 pr-6 pl-2 w-1/3">Version</th>
+                                    <th class="py-4 px-6 w-1/6">OS Version</th>
                                     <th class="py-4 px-6 w-1/4">Region</th>
                                     <th class="py-4 px-6 text-right">Download</th>
                                 </tr>
@@ -359,6 +361,9 @@ function openDevice(codename, updateHistory = true) {
                                         <td class="py-5 pr-6 pl-2 align-top">
                                             <div class="text-xl font-light text-black group-hover:text-wp-blue transition-colors duration-200">${fw.version}</div>
                                             <span class="inline-block mt-1 px-2 py-0.5 bg-gray-100 text-gray-500 text-[10px] uppercase font-bold tracking-wide rounded-sm">${fw.type}</span>
+                                        </td>
+                                        <td class="py-5 px-6 align-top text-gray-600 pt-6">
+                                            ${fw.os_version}
                                         </td>
                                         <td class="py-5 px-6 align-top text-gray-600 pt-6">
                                             ${fw.region}
