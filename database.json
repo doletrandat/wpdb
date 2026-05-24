@@ -18,12 +18,12 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1",
-            "region": "Unknown",
+            "version": "2053.1.00051.38600",
+            "region": "Worldwide (English)",
             "type": "Emergency files for QFIL",
             "size": "1.01GB",
             "filename": "EDL.zip",
-            "os_version": "--"
+            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
           },
           {
             "version": "RV07RC06_AAP_GLOBE_2053.1.00090.37800",
