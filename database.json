@@ -18,31 +18,7 @@
         },
         "firmwares": [
           {
-            "version": "2053.1.00051.38600",
-            "region": "Worldwide (English)",
-            "type": "Emergency files for QFIL",
-            "size": "1.01GB",
-            "filename": "EDL.zip",
-            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
-          },
-          {
-            "version": "RV07RC06_AAP_GLOBE_2053.1.00090.37800",
-            "region": "Philippines (Globe Telecom)",
-            "type": "FFU",
-            "size": "1.5GB",
-            "filename": "Acer_M220_RV07RC06_AAP_GLOBE_2053.1.00090.37800.ffu",
-            "os_version": "--"
-          },
-          {
-            "version": "RV07RC03_WW_GEN1H_2053.1.00090.37500",
-            "region": "Worldwide",
-            "type": "FFU",
-            "size": "1.8GB",
-            "filename": "Acer_M220_RV07RC03_WW_GEN1H_2053.1.00090.37500.ffu",
-            "os_version": "--"
-          },
-          {
-            "version": "RV07RC02_WW_GEN1_2053.1.00090.37400",
+            "version": "2053.1.00090.37400",
             "region": "Worldwide",
             "type": "FFU",
             "size": "1.5GB",
@@ -50,13 +26,37 @@
             "os_version": "--"
           },
           {
-            "version": "RV07RC02_PA_CUS1H_2053.1.00090.37400",
-            "region": "Unknown",
+            "version": "2053.1.00090.37400",
+            "region": "America",
             "type": "FFU",
             "size": "1.8GB",
             "filename": "Acer_M220_RV07RC02_PA_CUS1H_2053.1.00090.37400.ffu",
             "os_version": "--"
           }
+          {
+            "version": "2053.1.00090.37500",
+            "region": "Worldwide",
+            "type": "FFU",
+            "size": "1.8GB",
+            "filename": "Acer_M220_RV07RC03_WW_GEN1H_2053.1.00090.37500.ffu",
+            "os_version": "--"
+          },
+          {
+            "version": "2053.1.00090.37800",
+            "region": "Philippines (Globe Telecom)",
+            "type": "FFU",
+            "size": "1.5GB",
+            "filename": "Acer_M220_RV07RC06_AAP_GLOBE_2053.1.00090.37800.ffu",
+            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
+          },
+          {
+            "version": "2053.1.00051.38600",
+            "region": "Worldwide (English)",
+            "type": "Emergency files for QFIL",
+            "size": "1.01GB",
+            "filename": "EDL.zip",
+            "os_version": "WP8.1 - 8.10.14203.306 (Preview #5)"
+          },
         ]
       },
       {
