@@ -255,7 +255,7 @@
         "firmwares": [
           {
             "version": "00130.03720.20001.15023",
-            "region": "Unknown (X310E)",
+            "region": "Unknown (X130E)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU",
@@ -286,11 +286,11 @@
         },
         "firmwares": [
           {
-            "version": "00410.12500.20001.15010",
-            "region": "Unknown (W410L)",
+            "version": "00410.25000.20001.15010",
+            "region": "Unknown (W410a)",
             "type": "FFU",
             "size": "1GB",
-            "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU",
+            "filename": "BLU_WinJr_W410a_00410.25000.20001.15010_Retail_00410.25000.20001.15010.FFU",
             "os_version": "Windows Phone 8.1"
           },
           {
@@ -515,7 +515,7 @@
             "type": "RUU",
             "size": "183.8M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/HTC_Mozart_T8698_TMOAT_ROM_1.23.112.01_OS_7.0.7004.0_RA_5.50.09.18_22.24.50.exe",
-            "os_version": "Windows Phone 7 -7.0.7004.0"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.23.113.01",
@@ -848,6 +848,190 @@
         ]
       },
       {
+        "name": "HTC 7 Trophy",
+        "codename": "spark",
+        "image": "/assets/htc7trophy.png",
+        "required_tool": "RUU Wrapper",
+        "model": "7 Trophy",
+        "specs": {
+          "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
+          "ram": "576MB",
+          "storage": "8GB (Non-expandable)",
+          "display": "3.8\" S-LCD (480x800)",
+          "battery": "1300 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1.03.605.22",
+            "region": "Verizon WWE",
+            "type": "RUU",
+            "size": "177.4MB",
+            "filename": "RUU_Spark_W_VERIZON_WWE_1.03.605.22_RS0512_2K_4K_hybrid_new_partition_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.07.178.04",
+            "region": "Vodafone (Australia)",
+            "type": "RUU",
+            "size": "213.5MB",
+            "filename": "RUU_Spark_Vodafone_AU_1.07.178.04_Spark_5.50.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.07.179.04",
+            "region": "Vodafone (New Zealand)",
+            "type": "RUU",
+            "size": "213.5MB",
+            "filename": "RUU_Spark_Vodafone_NZ_1.07.179.04_Spark_5.50.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.161.06",
+            "region": "Vodafone (UK)",
+            "type": "RUU",
+            "size": "217.8MB",
+            "filename": "RUU_Spark_Vodafone_UK_1.10.161.06_Spark_5.52.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.162.06",
+            "region": "Vodafone (Germany)",
+            "type": "RUU",
+            "size": "217.8MB",
+            "filename": "RUU_Spark_Vodafone_DE_1.10.162.06_Spark_5.52.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.163.06",
+            "region": "Vodafone (France)",
+            "type": "RUU",
+            "size": "217.8MB",
+            "filename": "RUU_Spark_Vodafone_FR_1.10.163.06_Spark_5.52.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.164.06",
+            "region": "Vodafone (Spain)",
+            "type": "RUU",
+            "size": "217.8MB",
+            "filename": "RUU_Spark_Vodafone_SPA_1.10.164.06_Spark_5.52.09_RELEASE_2.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.166.06",
+            "region": "Vodafone (German Switzerland)",
+            "type": "RUU",
+            "size": "218.4MB",
+            "filename": "RUU_Spark_Vodafone_CH-DE_1.10.166.06_Spark_5.52.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.168.05",
+            "region": "Vodafone (Greece)",
+            "type": "RUU",
+            "size": "220.9MB",
+            "filename": "RUU_Spark_Vodafone_GR_1.10.168.05_Spark_5.52.09_RELEASE_2.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.172.06",
+            "region": "Vodafone (Netherlands)",
+            "type": "RUU",
+            "size": "217.8MB",
+            "filename": "RUU_Spark_Vodafone_NL_1.10.172.06_Spark_5.52.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.401.04",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "220.5MB",
+            "filename": "RUU_Spark_HTC_Europe_1.10.401.04_Spark_5.52.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.10.707.01",
+            "region": "Asia",
+            "type": "RUU",
+            "size": "220.4MB",
+            "filename": "ruu_spark_htc_asia_wwe_1.10.707.01_spark_5.51.09_release.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.20.161.00",
+            "region": "Vodafone (UK)",
+            "type": "RUU",
+            "size": "218.3MB",
+            "filename": "RUU_Spark_Vodafone_UK_1.20.161.00_Spark_5.54.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.20.177.00",
+            "region": "Vodafone and Mobilkom (Austria)",
+            "type": "RUU",
+            "size": "218.7MB",
+            "filename": "RUU_Spark_Vodafone_AT_GER_Mobilkom_1.20.177.00_Spark_5.54.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "1.20.401.00",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "219.4MB",
+            "filename": "RUU_Spark_HTC_Europe_1.20.401.00_Spark_5.54.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "2.04.605.02",
+            "region": "Verizon WWE",
+            "type": "RUU",
+            "size": "284MB",
+            "filename": "RUU_Spark_W_S_VERIZON_WWE_2.04.605.02_Radio_NV_0215_NV58008_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "4.06.401.00",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "319.0MB",
+            "filename": "RUU_Spark_S_HTC_Europe_4.06.401.00_5.69.09_RELEASE_2.exe",
+            "os_version": ""
+          },
+          {
+            "version": "5.10.161.02",
+            "region": "Vodafone (UK)",
+            "type": "RUU",
+            "size": "318.8MB",
+            "filename": "RUU_Spark_S_Vodafone_UK_5.10.161.02_5.69.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "5.10.172.01",
+            "region": "Vodafone (Netherlands)",
+            "type": "RUU",
+            "size": "319.8MB",
+            "filename": "RUU_Spark_S_Vodafone_NL_5.10.172.01_5.69.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "5.12.162.01",
+            "region": "Vodafone (Germany)",
+            "type": "RUU",
+            "size": "318.5MB",
+            "filename": "RUU_Spark_S_Vodafone_DE_5.12.162.01_5.69.09_RELEASE.exe",
+            "os_version": ""
+          },
+          {
+            "version": "5.12.401.03",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "319.4MB",
+            "filename": "RUU_Spark_S_HTC_Europe_5.12.401.03_5.69.09_RELEASE.exe",
+            "os_version": ""
+          }
+        ]
+      },
+      {
         "name": "HTC 8X",
         "codename": "accord",
         "image": "/assets/htc8x.png",
@@ -1020,14 +1204,6 @@
             "os_version": "--"
           },
           {
-            "version": "1.54.531.02",
-            "region": "Italy (TIM)",
-            "type": "RUU",
-            "size": "216.9MB",
-            "filename": "HTC_HD7_T9292_TIMIT_ROM_1.70.901.02_OS_7.0.7389.0_FW_2250.09.17002.901_RA_5.64.09.27a_22.43.50.15U_BL_1.70.2250.0(118122).exe",
-            "os_version": "--"
-          },
-          {
             "version": "1.54.728.01",
             "region": "Southeast Asia",
             "type": "RUU",
@@ -1098,6 +1274,14 @@
             "size": "221.7MB",
             "filename": "HTC_HD7_T9292_Europe_ROM_1.69.401.01_OS_7.0.7389.0_FW_2250.09.16901.401_RA_5.54.09.21_22.33b.50.10U_BL_1.69.2250.0(117833).exe",
             "os_version": "--"
+          },
+          {
+            "version": "1.70.901.02",
+            "region": "Italy (TIM)",
+            "type": "RUU",
+            "size": "216.9MB",
+            "filename": "HTC_HD7_T9292_TIMIT_ROM_1.70.901.02_OS_7.0.7389.0_FW_2250.09.17002.901_RA_5.64.09.27a_22.43.50.15U_BL_1.70.2250.0(118122).exe",
+            "os_version": "Windows Phone 7 - 7.0.7389.0"
           },
           {
             "version": "2.16.666.02",
@@ -1322,7 +1506,7 @@
             "os_version": "--"
           },
           {
-            "version": "3039.0004.30600.11600",
+            "version": "3039.0004.51700.31500",
             "region": "China",
             "type": "Huawei .app firmware",
             "size": "443.7MB",
@@ -1635,7 +1819,7 @@
         "codename": "MultiPhone 8500 Duo",
         "image": "/assets/pmp8500duo.png",
         "required_tool": "ffutool",
-        "model": "MultiPhone 8400 Duo",
+        "model": "MultiPhone 8500 Duo",
         "specs": {
           "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
           "ram": "1GB",
@@ -2116,7 +2300,7 @@
             "os_version": "Windows 10 Mobile - 10.0.10586.0"
           },
           {
-            "version": "10586.1102.3063.Retail ",
+            "version": "10586.1102.3063.Retail",
             "region": "Unknown",
             "type": "EDL files (for Android to Windows conversion)",
             "size": "952MB",
