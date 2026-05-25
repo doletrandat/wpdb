@@ -1532,7 +1532,7 @@
       {
         "name": "Thunder 450WL",
         "codename": "Thunder 450WL",
-        "image": "/assets/bluwinhd.png",
+        "image": "/assets/kazamthunder450wl.png",
         "required_tool": "ffutool",
         "model": "Thunder 450WL",
         "specs": {
