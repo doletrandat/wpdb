@@ -822,11 +822,27 @@
         },
         "firmwares": [
           {
-            "version": "4.03.502.02 (custom ROM?)",
+            "version": "1.03.502.07",
             "region": "Cingular",
             "type": "RUU",
-            "size": "217.33MB",
-            "url": "https://www.4shared.com/zip/A3qcS_2Q/RUU_Surround_Cingular_US_40350.html",
+            "size": "198.4MB",
+            "filename": "RUU_Mondrian_Cingular_US_1.03.502.07_5.51.09.06_22.30.50_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "4.03.502.00",
+            "region": "Cingular",
+            "type": "RUU",
+            "size": "311.6M",
+            "filename": "RUU_Mondrian_S_Cingular_US_4.03.502.00_5.69.09.05a_22.50.50_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "4.03.502.02 Custom ROM",
+            "region": "Cingular",
+            "type": "RUU",
+            "size": "357.8MB",
+            "filename: "RUU_Surround_Cingular_US_4.03.502.02_Radio_5.69.09.05a_22.50.50.21U_Titan_Mango_7720_custom_by_ansar.zipl",
             "os_version": "--"
           }
         ]
