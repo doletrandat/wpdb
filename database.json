@@ -10,9 +10,10 @@
         "required_tool": "WPinternals / ffutool / QFIL",
         "model": "M220",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
-          "ram": "512MB",
-          "storage": "4GB (+ microSD)",
+          "system-on-chip": "Snapdragon 200 MSM8210 (Dual-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB or 1GB",
+          "storage": "4GB or 8GB (+ microSD)",
           "display": "4.0\" TFT (480x800)",
           "battery": "1300 mAh"
         },
@@ -66,7 +67,8 @@
         "required_tool": "WPinternals / ffutool",
         "model": "Jade Primo",
         "specs": {
-          "cpu": "Snapdragon 808 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 808 MSM8992 (Hexa-core 1.8 GHz)",
+          "gpu": "Adreno 418",
           "ram": "3GB",
           "storage": "32GB (+ microSD)",
           "display": "5.5\" AMOLED (1080x1920)",
@@ -96,7 +98,8 @@
         "required_tool": "ffutool",
         "model": "5055W",
         "specs": {
-          "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
+          "system-on-chip": "Snapdragon 210 MSM8909 (Quad-core 1.1 GHz)",
+          "gpu": "Adreno 304",
           "ram": "2GB",
           "storage": "16GB (+ microSD)",
           "display": "5.5\" IPS LCD (720x1280)",
@@ -120,7 +123,8 @@
         "required_tool": "ffutool",
         "model": "6077X",
         "specs": {
-          "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
+          "system-on-chip": "Snapdragon 820 MSM8996 (Quad-core 2.15 GHz)",
+          "gpu": "Adreno 530",
           "ram": "4GB",
           "storage": "64GB (+ microSD)",
           "display": "5.5\" AMOLED (1080p)",
@@ -144,10 +148,11 @@
         "required_tool": "ffutool",
         "model": "6071W",
         "specs": {
-          "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
+          "system-on-chip": "Snapdragon 820 MSM8996 (Quad-core 2.15 GHz)",
+          "gpu": "Adreno 530",
           "ram": "4GB",
-          "storage": "32GB (+ microSD)",
-          "display": "5.5\" AMOLED (1440x2560)",
+          "storage": "64GB (+ microSD)",
+          "display": "5.5\" AMOLED (1080p)",
           "battery": "3000 mAh"
         },
         "firmwares": [
@@ -182,7 +187,8 @@
         "required_tool": "ffutool",
         "model": "Win HD LTE",
         "specs": {
-          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 410 MSM8916 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 306",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "5.0\" IPS LCD (720x1280)",
@@ -214,7 +220,8 @@
         "required_tool": "ffutool",
         "model": "Win HD",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "5.0\" IPS LCD (720x1280)",
@@ -246,7 +253,8 @@
         "required_tool": "ffutool",
         "model": "Win JR LTE",
         "specs": {
-          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 410 MSM8916 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 306",
           "ram": "512MB",
           "storage": "4GB (+ microSD)",
           "display": "4.0\" TFT (480x854)",
@@ -278,7 +286,8 @@
         "required_tool": "ffutool",
         "model": "Win JR",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "512MB",
           "storage": "4GB (+ microSD)",
           "display": "4.0\" TFT (480x800)",
@@ -332,11 +341,11 @@
         "required_tool": "ffutool",
         "model": "WinJoy",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
           "ram": "512MB",
           "storage": "4GB (+ microSD)",
           "display": "4.0\" TFT (480x800)",
-          "battery": "1750 mAh"
+          "battery": "1700 mAh"
         },
         "firmwares": [
           {
@@ -370,7 +379,8 @@
         "required_tool": "ffutool",
         "model": "75e",
         "specs": {
-          "cpu": "Snapdragon 801 (Quad-core 2.26 GHz)",
+          "system-on-chip": "Snapdragon 801 MSM8974AA (Quad-core 2.26 GHz)",
+          "gpu": "Adreno 330",
           "ram": "2GB",
           "storage": "16GB (Non-expandable)",
           "display": "4.3\" LCD (480x800)",
@@ -394,7 +404,8 @@
         "required_tool": "ffutool",
         "model": "CT50",
         "specs": {
-          "cpu": "Snapdragon 801 (Quad-core 2.26 GHz)",
+          "system-on-chip": "Snapdragon 801 MSM8974AA (Quad-core 2.26 GHz)",
+          "gpu": "Adreno 330",
           "ram": "2GB",
           "storage": "16GB (Non-expandable)",
           "display": "4.7\" LCD (720x1280)",
@@ -432,7 +443,8 @@
         "required_tool": "WPinternals / ffutool",
         "model": "Elite_x3",
         "specs": {
-          "cpu": "Snapdragon 820 (Quad-core 2.15 GHz)",
+          "system-on-chip": "Snapdragon 820 MSM8996 (Quad-core 2.15 GHz)",
+          "gpu": "Adreno 530",
           "ram": "4GB",
           "storage": "64GB (+ microSD)",
           "display": "5.96\" AMOLED (1440x2560)",
@@ -478,7 +490,8 @@
         "required_tool": "RUU Wrapper",
         "model": "Mozart",
         "specs": {
-          "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
           "ram": "576MB",
           "storage": "8GB (Non-expandable)",
           "display": "3.7\" S-LCD (480x800)",
@@ -782,7 +795,8 @@
         "required_tool": "RUU Wrapper",
         "model": "7 Pro",
         "specs": {
-          "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
           "ram": "576MB",
           "storage": "8GB (Non-expandable)",
           "display": "3.6\" TFT (480x800)",
@@ -814,11 +828,12 @@
         "required_tool": "RUU Wrapper",
         "model": "7 Surround",
         "specs": {
-          "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
           "ram": "448MB",
           "storage": "16GB (Non-expandable)",
           "display": "3.8\" IPS LCD (480x800)",
-          "battery": "1300 mAh"
+          "battery": "1230 mAh"
         },
         "firmwares": [
           {
@@ -846,7 +861,8 @@
         "required_tool": "RUU Wrapper",
         "model": "7 Trophy",
         "specs": {
-          "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
           "ram": "576MB",
           "storage": "8GB (Non-expandable)",
           "display": "3.8\" S-LCD (480x800)",
@@ -1030,7 +1046,8 @@
         "required_tool": "RUU Wrapper",
         "model": "8X",
         "specs": {
-          "cpu": "Snapdragon S4 Plus (Dual-core 1.5 GHz)",
+          "system-on-chip": "Snapdragon S4 Plus MSM8960 (Dual-core 1.5 GHz)",
+          "gpu": "Adreno 225",
           "ram": "1GB",
           "storage": "16GB (Non-expandable)",
           "display": "4.3\" S-LCD2 (720x1280)",
@@ -1089,7 +1106,8 @@
         "required_tool": "ffutool",
         "model": "8S",
         "specs": {
-          "cpu": "Snapdragon S4 (Dual-core 1.0 GHz)",
+          "system-on-chip": "Snapdragon S4 Plus MSM8227 (Dual-core 1.0 GHz)",
+          "gpu": "Adreno 305",
           "ram": "512MB",
           "storage": "4GB (+ microSD)",
           "display": "4.0\" S-LCD (480x800)",
@@ -1132,9 +1150,10 @@
         "required_tool": "RUU Wrapper",
         "model": "HD7",
         "specs": {
-          "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
           "ram": "576MB",
-          "storage": "8/16GB (Non-expandable)",
+          "storage": "8GB or 16GB (Non-expandable)",
           "display": "4.3\" LCD (480x800)",
           "battery": "1230 mAh"
         },
@@ -1404,10 +1423,11 @@
         "required_tool": "RUU Wrapper",
         "model": "One M8 for Windows",
         "specs": {
-          "cpu": "Snapdragon 801 (Quad-core 2.3 GHz)",
+          "system-on-chip": "Snapdragon 801 MSM8974AB (Quad-core 2.3 GHz)",
+          "gpu": "Adreno 330",
           "ram": "2GB",
           "storage": "32GB (+ microSD)",
-          "display": "5.0\" Super LCD3 (1080p)",
+          "display": "5.0\" Super LCD3 (1080x1920)",
           "battery": "2600 mAh"
         },
         "firmwares": [
@@ -1458,9 +1478,10 @@
         "required_tool": "ffutool",
         "model": "Ascend W2",
         "specs": {
-          "cpu": "Snapdragon S4 (Dual-core 1.4 GHz)",
+          "system-on-chip": "Snapdragon S4 MSM8230 (Dual-core 1.4 GHz)",
+          "gpu": "Adreno 305",
           "ram": "512MB",
-          "storage": "4GB (+ microSD)",
+          "storage": "8GB (+ microSD)",
           "display": "4.3\" IPS (480x800)",
           "battery": "1700 mAh"
         },
@@ -1528,7 +1549,8 @@
         "required_tool": "ffutool",
         "model": "Thunder 450WL",
         "specs": {
-          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 410 MSM8916 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 306",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "5.0\" IPS LCD (720x1280)",
@@ -1558,8 +1580,12 @@
         "required_tool": "ffutool",
         "model": "Soul 2",
         "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "1GB",
           "storage": "8GB (+ microSD)",
-          "display": "4.7\""
+          "display": "4.7\" IPS LCD (720x1280)",
+          "battery": "1750 mAh"
         },
         "firmwares": [
           {
@@ -1585,7 +1611,8 @@
         "required_tool": "ffutool",
         "model": "WPJ40-10 ",
         "specs": {
-          "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
+          "system-on-chip": "Snapdragon 210 MSM8909 (Quad-core 1.1 GHz)",
+          "gpu": "Adreno 304",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "4.0\" TN LCD (480x800)",
@@ -1615,7 +1642,8 @@
         "required_tool": "ffutool",
         "model": "Iris Win1",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "4.0\" LCD (480x800)",
@@ -1645,7 +1673,8 @@
         "required_tool": "ffutool",
         "model": "503LV",
         "specs": {
-          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
+          "system-on-chip": "Snapdragon 617 MSM8952 (Octa-core 1.5 GHz)",
+          "gpu": "Adreno 405",
           "ram": "3GB",
           "storage": "32GB (+ microSD)",
           "display": "5.0\" IPS LCD (720x1280)",
@@ -1675,7 +1704,8 @@
         "required_tool": "ffutool",
         "model": "Q501",
         "specs": {
-          "cpu": "Snapdragon 410 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 410 MSM8916 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 306",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "5.0\" IPS LCD (720x1280)",
@@ -1699,11 +1729,12 @@
         "required_tool": "ffutool",
         "model": "Q601",
         "specs": {
-          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
+          "system-on-chip": "Snapdragon 617 MSM8952 (Octa-core 1.5 GHz)",
+          "gpu": "Adreno 405",
           "ram": "3GB",
           "storage": "32GB (+ microSD)",
           "display": "6.0\" IPS LCD (1080p)",
-          "battery": "2250 mAh"
+          "battery": "3900 mAh"
         },
         "firmwares": [
           {
@@ -1729,7 +1760,8 @@
         "required_tool": "ffutool",
         "model": "W121",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "5.0\" IPS LCD (720x1280)",
@@ -1759,7 +1791,8 @@
         "required_tool": "ffutool",
         "model": "neo",
         "specs": {
-          "cpu": "Snapdragon 617 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 617 MSM8952 (Octa-core 1.5 GHz)",
+          "gpu": "Adreno 405",
           "ram": "2GB",
           "storage": "16GB (+ microSD)",
           "display": "5.0\" IPS LCD (720x1280)",
@@ -1789,7 +1822,8 @@
         "required_tool": "ffutool",
         "model": "MultiPhone 8400 Duo",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "512MB",
           "storage": "4GB (+ microSD)",
           "display": "4.0\" IPS LCD (480x800)",
@@ -1813,7 +1847,8 @@
         "required_tool": "ffutool",
         "model": "MultiPhone 8500 Duo",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "5.0\" LCD (720x1280)",
@@ -1843,7 +1878,7 @@
         "required_tool": "ffutool",
         "model": "Dream W473",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
           "ram": "1GB",
           "storage": "4GB (+ microSD)",
           "display": "4.7\" IPS LCD (720x1280)"
@@ -1872,9 +1907,10 @@
         "required_tool": "Samsung WP8 SMD Binary Downloader",
         "model": "GT-I8750",
         "specs": {
-          "cpu": "Snapdragon S4 (Dual-core 1.5 GHz)",
+          "system-on-chip": "Snapdragon S4 Plus MSM8960 (Dual-core 1.5 GHz)",
+          "gpu": "Adreno 225",
           "ram": "1GB",
-          "storage": "16GB (+ microSD)",
+          "storage": "16GB or 32GB (+ microSD)",
           "display": "4.8\" Super AMOLED (1280x720)",
           "battery": "2300 mAh (Removable)"
         },
@@ -1926,7 +1962,8 @@
         "required_tool": "Samsung WP8 SMD Binary Downloader",
         "model": "SGH-T899M",
         "specs": {
-          "cpu": "Snapdragon S4 (Dual-core 1.5 GHz)",
+          "system-on-chip": "Snapdragon S4 Plus MSM8960 (Dual-core 1.5 GHz)",
+          "gpu":"Adreno 225",
           "ram": "1GB",
           "storage": "16GB (+ microSD)",
           "display": "4.8\" Super AMOLED (1280x720)",
@@ -1980,7 +2017,8 @@
         "required_tool": "Samsung WP8 SMD Binary Downloader",
         "model": "SPH-I800",
         "specs": {
-          "cpu": "Dual-core 1.4 GHz",
+          "system-on-chip": "Snapdragon 400 MSM8930AA Dual-core 1.4 GHz",
+          "gpu": "Adreno 305",
           "ram": "1GB",
           "storage": "16GB (+ microSD)",
           "display": "4.77\" TFT (1280x720)",
@@ -2034,7 +2072,8 @@
         "required_tool": "Samsung WP8 SMD Binary Downloader",
         "model": "SGH-I187",
         "specs": {
-          "cpu": "Dual-core 1.4 GHz",
+          "system-on-chip": "Snapdragon 400 MSM8930AA Dual-core 1.4 GHz",
+          "gpu": "Adreno 305",
           "ram": "1GB",
           "storage": "16GB (+ microSD)",
           "display": "4.77\" TFT (1280x720)",
@@ -2102,7 +2141,8 @@
         "required_tool": "Samsung WP8 SMD Binary Downloader",
         "model": "SM-W750V",
         "specs": {
-          "cpu": "Snapdragon 800 (Quad-core 2.3 GHz)",
+          "system-on-chip": "Snapdragon 800 MSM8974 (Quad-core 2.3 GHz)",
+          "gpu": "Adreno 330",
           "ram": "2GB",
           "storage": "16GB (+ microSD)",
           "display": "5.0\" AMOLED (1080p)",
@@ -2156,10 +2196,11 @@
         "required_tool": "Unknown",
         "model": "GT-I8700",
         "specs": {
-          "cpu": "Snapdragon S1 (Scorpion 1.0 GHz)",
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
           "ram": "512MB",
-          "storage": "8/16GB (Non-expandable)",
-          "display": "4.0\" AMOLED (480p)",
+          "storage": "8 or 16GB (Non-expandable)",
+          "display": "4.0\" AMOLED (480x800)",
           "battery": "1500 mAh"
         },
         "firmwares": [
@@ -2186,10 +2227,11 @@
         "required_tool": "ffutool",
         "model": "WinPhone 5.0",
         "specs": {
-          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
+          "system-on-chip": "Snapdragon 617 MSM8952 (Octa-core 1.5 GHz)",
+          "gpu": "Adreno 405",
           "ram": "3GB",
           "storage": "32GB (+ microSD)",
-          "display": "5.0\" IPS LCD (720p)",
+          "display": "5.0\" IPS LCD (720x1280)",
           "battery": "2250 mAh"
         },
         "firmwares": [
@@ -2216,7 +2258,8 @@
         "required_tool": "ffutool",
         "model": "VPB0511S",
         "specs": {
-          "cpu": "Snapdragon 617 (Octa-core 1.5 GHz)",
+          "system-on-chip": "Snapdragon 617 MSM8952 (Octa-core 1.5 GHz)",
+          "gpu": "Adreno 405",
           "ram": "3GB",
           "storage": "16GB (+ microSD)",
           "display": "5.5\" IPS LCD (1080p)",
@@ -2246,7 +2289,8 @@
         "required_tool": "ffutool",
         "model": "Pro",
         "specs": {
-          "cpu": "Snapdragon 210 (Quad-core 1.1 GHz)",
+          "system-on-chip": "Snapdragon 210 MSM8909 (Quad-core 1.1 GHz)",
+          "gpu": "Adreno 304",
           "ram": "2GB",
           "storage": "16GB (+ microSD)",
           "display": "5.0\" IPS LCD (720p)",
@@ -2276,9 +2320,9 @@
         "required_tool": "ffutool",
         "model": "Mi 4",
         "specs": {
-          "cpu": "Snapdragon 801 (Quad-core 2.5 GHz)",
-          "ram": "2/3GB",
-          "storage": "16/64GB (Non-expandable)",
+          "system-on-chip": "Snapdragon 801 MSM8974AC (Quad-core 2.5 GHz)",
+          "ram": "2 or 3GB",
+          "storage": "16 or 64GB (Non-expandable)",
           "display": "5.0\" IPS LCD (1080p)",
           "battery": "3080 mAh"
         },
@@ -2314,7 +2358,8 @@
         "required_tool": "ffutool",
         "model": "Win Q900s",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "4.7\" IPS LCD (720p)",
@@ -2344,7 +2389,8 @@
         "required_tool": "ffutool",
         "model": "Billy 4.7",
         "specs": {
-          "cpu": "Snapdragon 200 (Quad-core 1.2 GHz)",
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "1GB",
           "storage": "8GB (+ microSD)",
           "display": "4.7\" IPS LCD (720p)",
@@ -2374,9 +2420,12 @@
         "required_tool": "ffutool",
         "model": "TC700J",
         "specs": {
-          "cpu": "Qualcomm MSM8092(?)",
+          "system-on-chip": "Qualcomm Snapdragon 808 MSM8992 (Hexa-core 1.8 GHz)",
+          "gpu": "Adreno 418",
           "ram": "2GB",
-          "storage": "16GB"
+          "storage": "16GB",
+          "display": "4.7\" LCD (720x1280)",
+          "battery": "4620 mAh"
         },
         "firmwares": [
           {
