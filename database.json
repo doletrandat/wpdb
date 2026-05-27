@@ -127,7 +127,7 @@
           "gpu": "Adreno 530",
           "ram": "4GB",
           "storage": "64GB (+ microSD)",
-          "display": "5.5\" AMOLED (1080p)",
+          "display": "5.5\" AMOLED (1080x1920)",
           "battery": "3000 mAh"
         },
         "firmwares": [
@@ -152,7 +152,7 @@
           "gpu": "Adreno 530",
           "ram": "4GB",
           "storage": "64GB (+ microSD)",
-          "display": "5.5\" AMOLED (1080p)",
+          "display": "5.5\" AMOLED (1080x1920)",
           "battery": "3000 mAh"
         },
         "firmwares": [
@@ -342,6 +342,7 @@
         "model": "WinJoy",
         "specs": {
           "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "512MB",
           "storage": "4GB (+ microSD)",
           "display": "4.0\" TFT (480x800)",
@@ -1879,6 +1880,7 @@
         "model": "Dream W473",
         "specs": {
           "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
           "ram": "1GB",
           "storage": "4GB (+ microSD)",
           "display": "4.7\" IPS LCD (720x1280)"
@@ -2321,6 +2323,7 @@
         "model": "Mi 4",
         "specs": {
           "system-on-chip": "Snapdragon 801 MSM8974AC (Quad-core 2.5 GHz)",
+          "gpu": "Adreno 330",
           "ram": "2 or 3GB",
           "storage": "16 or 64GB (Non-expandable)",
           "display": "5.0\" IPS LCD (1080p)",
