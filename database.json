@@ -805,19 +805,67 @@
         },
         "firmwares": [
           {
-            "version": "1.24.401.01",
-            "region": "Europe",
+            "version": "1.22.207.03",
+            "region": "O2 (Germany)",
             "type": "RUU",
-            "size": "217.33MB",
-            "filename": "RUU_HTC7 PRO_HTC_Europe_1.24.401.01_Radio_5.64.09.20_22.42.50.15_Signed_GOLD_RELEASE.exe",
+            "size": "202.3MB",
+            "filename": "RUU_Gold_O2_DE_1.22.207.03_Radio_5.63.09.13_3a_22.36.50.15_Signed_GOLD_RELEASE.exe",
             "os_version": "--"
           },
           {
             "version": "1.22.401.01",
             "region": "Europe",
             "type": "RUU",
-            "size": "219MB",
-            "url": "https://www.4shared.com/zip/J9xj52wqgm/RUU_Gold_HTC_Europe_12240101_R.html",
+            "size": "213.8MB",
+            "filename": "RUU_Gold_HTC_Europe_1.22.401.01_Radio_5.63.09.13_3a_22.36.50.15U.zip",
+            "os_version": "--"
+          },
+          {
+            "version": "1.23.166.01",
+            "region": "Vodafone (German Switzerland)",
+            "type": "RUU",
+            "size": "216.3MB",
+            "filename": "RUU_Gold_Vodafone_CH-DE_1.23.166.01_Radio_5.63.09.13_3a_22.36.50.15_Signed_GOLD_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "1.23.169.01",
+            "region": "Vodafone (Austria)",
+            "type": "RUU",
+            "size": "212.6MB",
+            "filename": "RUU_Gold_Vodafone_AT_1.23.169.01_Radio_5.63.09.13_3a_22.36.50.15_Signed_GOLD_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "1.24.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "212.2MB",
+            "filename": "RUU_Gold_HTC_Europe_1.24.401.01_Radio_5.64.09.20_22.42.50.15_Signed_GOLD_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "1.25.651.01",
+            "region": "Sprint (WWE)",
+            "type": "RUU",
+            "size": "187.7MB",
+            "filename": "RUU_Gold_C_Sprint_WWE_1.25.651.01_1.51.00_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "3.02.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "304.3MB",
+            "filename": "RUU_Gold_S_HTC_Europe_3.02.401.01_Radio_5.69.09.29a_22.50.50.21_Signed_GOLD_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "5.12.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "304.8MB",
+            "filename": "RUU_Gold_S_HTC_Europe_5.12.401.01_Radio_5.71.09.02a_22.51.50.21_Signed_GOLD_RELEASE.exe",
             "os_version": "--"
           }
         ]
@@ -1462,6 +1510,161 @@
             "type": "NBH Files",
             "size": "714.8MB",
             "url": "https://archive.org/download/htc-one-m8-for-windows-phone/RUU_signed_8.10.15143.154_TMobile_0P6B14000.zip",
+            "os_version": "--"
+          }
+        ]
+      },
+      {
+        "name": "HTC Radar",
+        "codename": "omega",
+        "image": "/assets/htcradar.png",
+        "required_tool": "RUU Wrapper",
+        "model": "Radar",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255 (Single-core Scorpion 1.0 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "512MB",
+          "storage": "8GB (Non-expandable)",
+          "display": "3.8\" S-LCD (480x800)",
+          "battery": "1520 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1.07.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "368.5MB",
+            "filename": "RUU_Omega_HTC_Europe_1.07.401.01_Radio_16.23.02.09_2_16.24.00.23U_Signed_OMEGA_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "1.08.531.02",
+            "region": "T-Mobile (USA)",
+            "type": "NBH",
+            "size": "394.1MB",
+            "filename": "IMG_Omega_TMO_US_1.08.531.02_Radio_16.23.02.09_2_16.24.00.23U_OS_7.10.7720.68.nbh",
+            "os_version": "--"
+          },
+          {
+            "version": "2.05.61.01",
+            "region": "Orange (UK)",
+            "type": "NBH",
+            "size": "390.0MB",
+            "filename": "IMG_Omega_Orange_UK_2.05.61.01_Radio_Signed_16.23.07.03_2_16.35.00.23_OMEGA_RELEASE.nbh",
+            "os_version": "--"
+          },
+          {
+            "version": "2.05.401.01",
+            "region": "Europe",
+            "type": "NBH",
+            "size": "353.8MB",
+            "filename": "IMG_Omega_HTC_Europe_2.05.401.01_Radio_Signed_16.23.06.10_16.32.00.23_OMEGA_RELEASE.nbh.rar",
+            "os_version": "--"
+          },
+          {
+            "version": "4.06.401.03",
+            "region": "Europe",
+            "type": "NBH",
+            "size": "420.4MB",
+            "filename": "IMG_OMEGA_Tango_00_S_HTC_Europe_4.06.401.03_Radio_Signed_17.5006.08.27_17.08.50.06_OMEGA_RELEASE.nbh",
+            "os_version": "--"
+          }
+        ]
+      },
+            {
+        "name": "HTC Titan",
+        "codename": "eternity",
+        "image": "/assets/htctitan.png",
+        "required_tool": "RUU Wrapper",
+        "model": "Titan",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255T (Single-core Scorpion 1.5 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "512MB",
+          "storage": "16GB (Non-expandable)",
+          "display": "4.7\" S-LCD (480x800)",
+          "battery": "1600 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1.07.401.01",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "380.3MB",
+            "filename": "RUU_Eternity_HTC_Europe_1.07.401.01_Radio_16.23.02.09_2_16.24.00.23U_Signed_ETERNITY_RELEASE.exe",
+            "os_version": "--"
+          },
+          {
+            "version": "1.09.401.02",
+            "region": "Europe",
+            "type": "NBH",
+            "size": "410.2MB",
+            "filename": "IMG_Eternity_HTC_Europe_1.09.401.02_Radio_16.23.02.09_A_16.24.00.23_Signed_ETERNITY_RELEASE.nbh",
+            "os_version": "--"
+          },
+          {
+            "version": "1.10.502.04",
+            "region": "AT&T (USA)",
+            "type": "NBH",
+            "size": "377.7MB",
+            "filename": "IMG_Eternity_Cingular_US_1.10.502.04_Radio_16.23.02.26_A_16.27.00.23_Signed_ETERNITY_RELEASE.nbh",
+            "os_version": "--"
+          },
+          {
+            "version": "1.10.709.01",
+            "region": "Taiwan",
+            "type": "NBH",
+            "size": "412.6MB",
+            "filename": "IMG_Eternity_hTC_Asia_TW_1.10.709.01_Radio_16.23.02.09_A_16.24.00.23_Signed_ETERNITY_RELEASE.nbh",
+            "os_version": "--"
+          },
+          {
+            "version": "2.01.502.04",
+            "region": "AT&T (USA)",
+            "type": "NBH",
+            "size": "483.3MB",
+            "filename": "IMG_Eternity_Cingular_2.01.502.04_Radio_16.23.03.17_16.27.00.23U_OS_7.10.7740.166.nbh",
+            "os_version": "Windows Phone 7.5 - 7.10.7740.166"
+          },
+          {
+            "version": "2.05.401.04",
+            "region": "Europe",
+            "type": "NBH",
+            "size": "410.1MB",
+            "filename": "IMG_Eternity_HTC_Europe_2.05.401.01_Radio_Signed_16.23.06.10_16.32.00.23_ETERNITY_RELEASE.nbh",
+            "os_version": "--"
+          },
+          {
+            "version": "4.06.401.03",
+            "region": "Europe",
+            "type": "RUU",
+            "size": "388.8MB",
+            "filename": "RUU_ETERNITY_Tango_00_S_HTC_Europe_4.06.401.03_Radio_Signed_17.5006.08.27_17.08.50.06_ETERNITY_RELEASE.exe",
+            "os_version": "--"
+          }
+        ]
+      },
+      {
+        "name": "HTC Titan II",
+        "codename": "radiant",
+        "image": "/assets/htctitan2.png",
+        "required_tool": "RUU Wrapper",
+        "model": "Titan II",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255T (Single-core Scorpion 1.5 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "512MB",
+          "storage": "16GB (Non-expandable)",
+          "display": "4.7\" Super LCD (480x800)",
+          "battery": "1730 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1.18.502.01",
+            "region": "AT&T (USA)",
+            "type": "RUU",
+            "size": "357.4MB",
+            "filename": "RUU_Radiant_Cingular_US_1.18.502.01_Radio_8k_2180_20120120_Signed_RELEASE.exe",
             "os_version": "--"
           }
         ]
