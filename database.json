@@ -2573,12 +2573,12 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1",
-            "region": "Asia",
+            "version": "1068.0020.0000.0169",
+            "region": "Worldwide (English)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "I7B_XOLO_Retail_1068.0020.0000.0169_CatalogSigned_FFU_1068.0020.0000.0169.FFU",
-            "os_version": "--"
+            "os_version": "Windos Phone 8.1 - 8.10.12397.895"
           }
         ]
       }
@@ -2604,12 +2604,12 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1",
-            "region": "Unknown",
+            "version": "1068.0031.0000.0173",
+            "region": "Worldwide (English)",
             "type": "FFU",
             "size": "1.4GB",
             "url": "https://archive.org/download/W10M_FFUs/YEZZ/YEZZ%20Billy%204.7%20%28Billy%204.7%29/I7B_DDM_YEZZ_Retail_1068.0031.0000.0173_CatalogSigned_FFU_1068.0031.0000.0173.FFU",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
       }
