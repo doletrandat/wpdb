@@ -2473,11 +2473,11 @@
         "firmwares": [
           {
             "version": "1028.26.117.06314",
-            "region": "Unknown",
+            "region": "Japan",
             "type": "FFU",
             "size": "1.1GB",
-            "url": "https://archive.org/download/W10M_FFUs/VAIO/Vaio%20Phone%20Biz%20%28VPB0511S%29/Vaio_PhoneBiz_Retail_1028.26.117.06314-GM7_1028.26.117.06314.ffu",
-            "os_version": "--"
+            "filename": "Vaio_PhoneBiz_Retail_1028.26.117.06314-GM7_1028.26.117.06314.ffu",
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.448"
           }
         ]
       }
