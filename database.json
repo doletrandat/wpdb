@@ -2534,16 +2534,16 @@
         },
         "firmwares": [
           {
-            "version": "10586.1102.3063.Retail",
-            "region": "Unknown",
+            "version": "3112.1.0.0",
+            "region": "China",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "10586.1102.3063.Retail.FFU",
             "os_version": "Windows 10 Mobile - 10.0.10586.0"
           },
           {
-            "version": "10586.1102.3063.Retail",
-            "region": "Unknown",
+            "version": "3112.1.0.0",
+            "region": "China",
             "type": "EDL files (for Android to Windows conversion)",
             "size": "952MB",
             "filename": "10586.1102.3063.Retail.zip",
