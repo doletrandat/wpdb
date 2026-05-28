@@ -42,6 +42,7 @@ Need more help with escaping characters? Check out this quick [GeeksForGeeks gui
 A massive thank you to the following individuals for their invaluable help, support, and contributions to keeping this project alive:
 
 * **ACPI Fixed Feature Button**
+* **somerandomusername2**
 * **andrew64dev**
 
 ---
