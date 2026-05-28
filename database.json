@@ -1993,7 +1993,7 @@
         "codename": "neo",
         "image": "/assets/nuansneo.png",
         "required_tool": "ffutool",
-        "model": "neo",
+        "model": "Neo",
         "specs": {
           "system-on-chip": "Snapdragon 617 MSM8952 (Octa-core 1.5 GHz)",
           "gpu": "Adreno 405",
@@ -2004,12 +2004,12 @@
         },
         "firmwares": [
           {
-            "version": "Windows 10 Mobile",
-            "region": "Asia",
+            "version": "1028.020.001.92",
+            "region": "Japan",
             "type": "FFU",
             "size": "990MB",
-            "url": "https://1drv.ms/u/c/32D4BC94ABEC16B9/AbkW7KuUvNQggDJqUgQAAAA?e=1nz75X",
-            "os_version": "--"
+            "filename": "NuAns NEO.zip",
+            "os_version": "Windows 10 Mobile - 10.0.10586.164"
           }
         ]
       }
