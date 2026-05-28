@@ -2504,11 +2504,11 @@
         "firmwares": [
           {
             "version": "1078.42.88.119",
-            "region": "Unknown",
+            "region": "Europe (English)",
             "type": "FFU",
             "size": "1.7GB",
-            "url": "https://archive.org/download/W10M_FFUs/Wileyfox/WileyfoxPro/Y506_V18_HD_Retail_WILEYFOX_Pro_T309_1078_42_88_119_Flash_1078.42.88.119.ffu",
-            "os_version": "--"
+            "filename": "Y506_V18_HD_Retail_WILEYFOX_Pro_T309_1078_42_88_119_Flash_1078.42.88.119.ffu",
+            "os_version": "Windows 10 Mobile v1703 - 10.0.15063.483"
           }
         ]
       }
