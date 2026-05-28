@@ -2461,7 +2461,7 @@
         "codename": "Phone Biz",
         "image": "/assets/vaiophonebiz.png",
         "required_tool": "ffutool",
-        "model": "VPB0511S",
+        "model": "Phone Biz",
         "specs": {
           "system-on-chip": "Snapdragon 617 MSM8952 (Octa-core 1.5 GHz)",
           "gpu": "Adreno 405",
