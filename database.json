@@ -81,7 +81,7 @@
             "type": "FFU",
             "size": "3.1GB",
             "filename": "Acer_S58_RV00RC28_WW_GEN1retail_1078.241.00000.32800.ffu",
-            "os_version": "Windows 10 Mobile RTM - 10.0.10586.318"
+            "os_version": "Windows 10 Mobile - 10.0.10586.318"
           }
         ]
       }
@@ -2547,7 +2547,7 @@
             "type": "EDL files (for Android to Windows conversion)",
             "size": "952MB",
             "filename": "10586.1102.3063.Retail.zip",
-            "os_version": "Windows 10 Mobile RTM - 10.0.10586.0"
+            "os_version": "Windows 10 Mobile - 10.0.10586.0"
           }
         ]
       }
@@ -2635,12 +2635,12 @@
         },
         "firmwares": [
           {
-            "version": "TC76x9_R_1078_10586_01_13_02_01078.00541.09001.11000",
-            "region": "Unknown",
+            "version": "01078.00541.09001.13002",
+            "region": "Worldwide (English)",
             "type": "FFU",
             "size": "1.5GB",
             "url": "https://archive.org/download/W10M_FFUs/Zebra/TC700J/Zebra_TC700J_TC76x9_R_1078_10586_01_13_02_01078.00541.09001.11000.ffu",
-            "os_version": "--"
+            "os_version": "Windows 10 Mobile - 10.0.10586.494"
           }
         ]
       }
