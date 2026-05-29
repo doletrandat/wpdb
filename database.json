@@ -108,11 +108,11 @@
         "firmwares": [
           {
             "version": "1078.30.01510.23301",
-            "region": "Unknown",
+            "region": "T-Mobile (United States)",
             "type": "FFU",
             "size": "1.6GB",
-            "url": "https://archive.org/download/W10M_FFUs/Alcatel/Alcatel%20Fierce%20XL%20%285055W%29/Flash_1078.30.01510.23301_TKT-SIGN-PROD-HVORHA_June_AK_1078.30.01510.23301.FFU",
-            "os_version": "--"
+            "filename": "Flash_1078.30.01510.23301_TKT-SIGN-PROD-HVORHA_June_AK_1078.30.01510.23301.FFU",
+            "os_version": "Windows 10 Mobile - 10.0.10586.420"
           }
         ]
       },
@@ -133,11 +133,11 @@
         "firmwares": [
           {
             "version": "1052.16.1011.51400",
-            "region": "Unknown",
+            "region": "United States (Unlocked)",
             "type": "FFU",
             "size": "2.2GB",
-            "url": "https://archive.org/download/W10M_FFUs/Alcatel/Alcatel%20IDOL4%20PRO%20%286077X%29/F1052.16.10011.51400_1052.16.1011.51400.FFU",
-            "os_version": "--"
+            "filename": "F1052.16.10011.51400_1052.16.1011.51400.FFU",
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.1066"
           }
         ]
       },
@@ -161,16 +161,16 @@
             "region": "Open Market",
             "type": "FFU",
             "size": "2.6GB",
-            "url": "https://archive.org/download/W10M_FFUs/Alcatel/Alcatel%20IDOL4S%20%286071W%29/Open%20Market/RTM_IDOL_4S_Open_F1052.16.09031.50700_1052.16.09031.50700.FFU",
-            "os_version": "--"
+            "filename": "RTM_IDOL_4S_Open_F1052.16.09031.50700_1052.16.09031.50700.FFU",
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.321"
           },
           {
-            "version": "1052.10.0831.54600",
-            "region": "USA (T-Mobile)",
+            "version": "1052.10.08031.54600",
+            "region": "T-Mobile (USA)",
             "type": "FFU",
             "size": "2.5GB",
-            "url": "https://archive.org/download/W10M_FFUs/Alcatel/Alcatel%20IDOL4S%20%286071W%29/T-Mobile/TMOUS_IDOL4S_WP46_Retail_F1052.10.08031.54600_1052.10.0831.54600.FFU",
-            "os_version": "--"
+            "filename": "TMOUS_IDOL4S_WP46_Retail_F1052.10.08031.54600_1052.10.0831.54600.FFU",
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.189"
           }
         ]
       }
@@ -454,27 +454,27 @@
         "firmwares": [
           {
             "version": "0002.0000.0037.0001",
-            "region": "Global (Retail)",
+            "region": "Worldwide (English)",
             "type": "FFU",
             "size": "2.4GB",
-            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3/MR5_Elite_x3-retail-0002.0000.0037.0001-signed_0002.0000.0037.0001.ffu",
-            "os_version": "--"
+            "filename": "MR5_Elite_x3-retail-0002.0000.0037.0001-signed_0002.0000.0037.0001.ffu",
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.953"
           },
           {
             "version": "0006.0000.0002.0092",
             "region": "Telstra",
             "type": "FFU",
             "size": "2.4GB",
-            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Telstra/HP_Elite_x3_Telstra-retail-0006.0000.0002.0092-signed_0006.0000.0002.0092.ffu",
-            "os_version": "--"
+            "filename": "HP_Elite_x3_Telstra-retail-0006.0000.0002.0092-signed_0006.0000.0002.0092.ffu",
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.189"
           },
           {
             "version": "0007.0000.0030.0024",
             "region": "Verizon",
             "type": "FFU",
             "size": "2.6GB",
-            "url": "https://archive.org/download/W10M_FFUs/HP/Elite%20x3%20Verizon/RTM_Elite_x3_Verizon-retail-0007.0000.0030.0024-signed_0007.0000.0030.0024.ffu",
-            "os_version": "--"
+            "filename": "RTM_Elite_x3_Verizon-retail-0007.0000.0030.0024-signed_0007.0000.0030.0024.ffu",
+            "os_version": "Windows 10 Mobile Creators Update - 10.0.15063.540"
           }
         ]
       }
@@ -1793,12 +1793,12 @@
         },
         "firmwares": [
           {
-            "version": "1.0.68.0031",
-            "region": "Unknown",
+            "version": "7.1.0728.8",
+            "region": "Worldwide (English)",
             "type": "FFU",
             "size": "1.3GB",
-            "url": "https://archive.org/download/W10M_FFUs/KM%20%28Kruger%26Matz%29/Soul%202%20%28SOUL2%29/I7B_KM_Retail_1.0.68.0031_CatalogSigned_1.0.68.0031.FFU",
-            "os_version": "--"
+            "filename": "I7B_KM_Retail_1.0.68.0031_CatalogSigned_1.0.68.0031.FFU",
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
       }
@@ -2442,11 +2442,11 @@
         "firmwares": [
           {
             "version": "1028.020.005.23",
-            "region": "Unknown",
+            "region": "Worldwide (Japanese)",
             "type": "FFU",
             "size": "1.4GB",
-            "url": "https://archive.org/download/W10M_FFUs/TREKSTOR/TREKSTOR%20WinPhone%205.0%20LTE%20%28WHOCOWL01332%29/flash_RS2_trekstor_RTM_1028.020.005.23_14393.0_1028.020.005.23.ffu",
-            "os_version": "--"
+            "filename": "flash_RS2_trekstor_RTM_1028.020.005.23_14393.0_1028.020.005.23.ffu",
+            "os_version": "Windows 10 Mobile Creators Update - 10.0.15063.251"
           }
         ]
       }
