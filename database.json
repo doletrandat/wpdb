@@ -96,7 +96,7 @@
         "codename": "Fierce XL",
         "image": "/assets/alcatelfiercexl.png",
         "required_tool": "ffutool",
-        "model": "5055W",
+        "model": "Fierce XL",
         "specs": {
           "system-on-chip": "Snapdragon 210 MSM8909 (Quad-core 1.1 GHz)",
           "gpu": "Adreno 304",
@@ -121,7 +121,7 @@
         "codename": "IDOL 4 Pro",
         "image": "/assets/alcatelidol4s.png",
         "required_tool": "ffutool",
-        "model": "6077X",
+        "model": "Idol 4 Pro",
         "specs": {
           "system-on-chip": "Snapdragon 820 MSM8996 (Quad-core 2.15 GHz)",
           "gpu": "Adreno 530",
@@ -146,7 +146,7 @@
         "codename": "IDOL 4S",
         "image": "/assets/alcatelidol4s.png",
         "required_tool": "ffutool",
-        "model": "6071W",
+        "model": "Idol 4S",
         "specs": {
           "system-on-chip": "Snapdragon 820 MSM8996 (Quad-core 2.15 GHz)",
           "gpu": "Adreno 530",
@@ -442,7 +442,7 @@
         "codename": "falcon",
         "image": "/assets/hpelitex3.png",
         "required_tool": "WPinternals / ffutool",
-        "model": "Elite_x3",
+        "model": "Elite x3",
         "specs": {
           "system-on-chip": "Snapdragon 820 MSM8996 (Quad-core 2.15 GHz)",
           "gpu": "Adreno 530",
