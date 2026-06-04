@@ -2090,12 +2090,12 @@
         },
         "firmwares": [
           {
-            "version": "8.10.12400.899",
+            "version": "1068.0031.0000.0178",
             "region": "Unknown",
             "type": "FFU + EDL firehose",
             "size": "807MB",
             "filename": "QSMART-DREAM-W473.rar",
-            "os_version": "--"
+            "os_version": "8.10.12400.899"
           }
         ]
       }
