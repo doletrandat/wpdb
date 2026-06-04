@@ -2091,11 +2091,11 @@
         "firmwares": [
           {
             "version": "1068.0031.0000.0178",
-            "region": "Unknown",
+            "region": "Vietnam",
             "type": "FFU + EDL firehose",
             "size": "807MB",
             "filename": "QSMART-DREAM-W473.rar",
-            "os_version": "8.10.12400.899"
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
       }
