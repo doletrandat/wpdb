@@ -1762,12 +1762,12 @@
         },
         "firmwares": [
           {
-            "version": "QL850D_MSM8916_WTR4905",
-            "region": "Unknown",
+            "version": "1035.1.1.2",
+            "region": "Worldwide (English)",
             "type": "Emergency files for QFIL",
             "size": "667MB",
             "filename": "Thunder 450WL.zip",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.1.14226.359"
           }
         ]
       }
@@ -1829,7 +1829,7 @@
             "type": "FFU",
             "size": "1.6GB",
             "filename": "L310_JENESIS_B160114V179_RETAIL_FACMODE_SINGLE_1078.29.1.179.FFU",
-            "os_version": "--"
+            "os_version": "Windows 10 Mobile - 10.0.10586.0"
           }
         ]
       }
@@ -1855,12 +1855,12 @@
         },
         "firmwares": [
           {
-            "version": "TBW570316_9616_WP_Catalog_Signed_Retail_V8041",
-            "region": "Unknown",
-            "type": "Full Flash",
+            "version": "01068.00029.57036.08041",
+            "region": "Worldwide (English)",
+            "type": "FFU and EDL Firehose",
             "size": "710MB",
             "filename": "Lava_Iris_Win1_TBW570316_9616_WP_Catalog_Signed_Retail_V8041.zip",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
       }
@@ -1886,12 +1886,12 @@
         },
         "firmwares": [
           {
-            "version": "V41",
+            "version": "1028.020.004.41",
             "region": "Japan (SoftBank)",
             "type": "FFU",
             "size": "1.2GB",
             "filename": "Lenovo_503LV_V41-Retail_flash_41.ffu",
-            "os_version": "--"
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.189"
           }
         ]
       }
@@ -1922,7 +1922,7 @@
             "type": "FFU",
             "size": "1.8GB",
             "filename": "JSR_MCJ_Madosma_1.0.0.12_1.0.0.12.FFU",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15153.165"
           }
         ]
       },
@@ -1942,12 +1942,12 @@
         },
         "firmwares": [
           {
-            "version": "v64_1028.020.100.64_1028.020.100.64",
+            "version": "1028.020.100.64",
             "region": "Japan",
             "type": "FFU",
             "size": "1.9GB",
             "filename": "MADOSMA_Q601_v64_1028.020.100.64_1028.020.100.64.ffu",
-            "os_version": "--"
+            "os_version": "Windows 10 Mobile - 10.0.10586.164"
           }
         ]
       }
@@ -1973,12 +1973,12 @@
         },
         "firmwares": [
           {
-            "version": "Windows Phone 8.1 RTM - 8.10.12393",
-            "region": "Asia",
+            "version": "1068.0012.0011.0010",
+            "region": "India (English)",
             "type": "FFU",
             "size": "812.77MB",
             "filename": "Flash.FFU",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 - 8.10.12393.890"
           }
         ]
       }
