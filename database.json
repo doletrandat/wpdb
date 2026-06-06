@@ -181,6 +181,39 @@
     "slug": "blu",
     "devices": [
       {
+        "name": "BLU Win HD",
+        "codename": "Win HD",
+        "image": "/assets/bluwinhd.png",
+        "required_tool": "ffutool",
+        "model": "Win HD",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "5.0\" IPS LCD (720x1280)",
+          "battery": "2200 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "00510.12500.20001.12041",
+            "region": "Worldwide Open Market (W510L)",
+            "type": "FFU",
+            "size": "1.1GB",
+            "filename": "BLU_WinHD_w510L_00510.12500.20001.12041_Retail_00510.12500.20001.12041.FFU",
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
+          },
+          {
+            "version": "00510.24500.20001.15010",
+            "region": "Worldwide Open Market (W510U)",
+            "type": "FFU",
+            "size": "1.1GB",
+            "filename": "BLU_WinHD_w510u_00510.24500.20001.15010_Retail_00510.24500.20001.15010.FFU",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
+          }
+        ]
+      },
+      {
         "name": "BLU Win HD LTE",
         "codename": "Win HD LTE",
         "image": "/assets/bluwinhdlte.png",
@@ -197,52 +230,68 @@
         "firmwares": [
           {
             "version": "00150.03720.20001.15010",
-            "region": "Unknown (X150E)",
+            "region": "Wordlwide Open Market (X150E)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_HD_LTE_00150.03720.20001.15010_RETAIL_FLASH_20160226_00150.04717.20001.15010.FFU",
-            "os_version": "Windows Phone 8.1"
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           },
           {
             "version": "00150.04717.20001.15013",
-            "region": "Unknown (X150Q)",
+            "region": "Worldwide Open Market (X150Q)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_HD_LTE_00150.04717.20001.15013_RETAIL_FLASH_20160226_00150.04717.20001.15013.FFU",
-            "os_version": "Windows Phone 8.1"
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           }
         ]
       },
       {
-        "name": "BLU Win HD W510",
-        "codename": "Win HD",
-        "image": "/assets/bluwinhd.png",
+        "name": "BLU Win JR",
+        "codename": "Win JR",
+        "image": "/assets/bluwinjr.png",
         "required_tool": "ffutool",
-        "model": "Win HD",
+        "model": "Win JR",
         "specs": {
           "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
           "gpu": "Adreno 302",
-          "ram": "1GB",
-          "storage": "8GB (+ microSD)",
-          "display": "5.0\" IPS LCD (720x1280)",
-          "battery": "2200 mAh"
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" TFT (480x800)",
+          "battery": "1950 mAh"
         },
         "firmwares": [
           {
-            "version": "00510.12500.20001.12041",
-            "region": "Unknown (W510L)",
+            "version": "00410.25000.20001.15010",
+            "region": "Worldwide Open Market (W410a)",
             "type": "FFU",
-            "size": "1.1GB",
-            "filename": "BLU_WinHD_w510L_00510.12500.20001.12041_Retail_00510.12500.20001.12041.FFU",
-            "os_version": "Windows Phone 8.1"
+            "size": "1GB",
+            "filename": "BLU_WinJr_W410a_00410.25000.20001.15010_Retail_00410.25000.20001.15010.FFU",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           },
           {
-            "version": "00510.24500.20001.15010",
-            "region": "Unknown (W510U)",
+            "version": "00410.15000.20001.15010",
+            "region": "Worldwide Open Market (W410i)",
             "type": "FFU",
-            "size": "1.1GB",
-            "filename": "BLU_WinHD_w510u_00510.24500.20001.15010_Retail_00510.24500.20001.15010.FFU",
-            "os_version": "Windows Phone 8.1"
+            "size": "1GB",
+            "filename": "BLU_WinJr_w410i_15010_Retail_00410.15000.20001.15010.FFU",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
+          },
+          {
+            "version": "00410.12500.20001.15010",
+            "region": "Worldwide Open Market (W410L)",
+            "type": "FFU",
+            "size": "1GB",
+            "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
+          },
+          {
+            "version": "00410.24500.20001.15010",
+            "region": "Worldwide Open Market (W410u)",
+            "type": "FFU",
+            "size": "1GB",
+            "filename": "BLU_WinJr_W410u_Retail_00410.24500.20001.15010.FFU",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           }
         ]
       },
@@ -263,68 +312,11 @@
         "firmwares": [
           {
             "version": "00130.03720.20001.15023",
-            "region": "Unknown (X130E)",
+            "region": "Worldwide Open Market (X130E)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU",
-            "os_version": "Windows Phone 8.1"
-          },
-          {
-            "version": "00130.04717.20001.15023",
-            "region": "Unknown (X130Q)",
-            "type": "FFU",
-            "size": "1.7GB",
-            "filename": "BLU_WIN_JR_LTE__X130Q_00130.04717.20001.15023_RETAIL_FLASH_20160310_00130.04717.20001.15023.FFU",
-            "os_version": "Windows Phone 8.1"
-          }
-        ]
-      },
-      {
-        "name": "BLU Win JR W410",
-        "codename": "Win JR",
-        "image": "/assets/bluwinjr.png",
-        "required_tool": "ffutool",
-        "model": "Win JR",
-        "specs": {
-          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
-          "gpu": "Adreno 302",
-          "ram": "512MB",
-          "storage": "4GB (+ microSD)",
-          "display": "4.0\" TFT (480x800)",
-          "battery": "1950 mAh"
-        },
-        "firmwares": [
-          {
-            "version": "00410.25000.20001.15010",
-            "region": "Unknown (W410a)",
-            "type": "FFU",
-            "size": "1GB",
-            "filename": "BLU_WinJr_W410a_00410.25000.20001.15010_Retail_00410.25000.20001.15010.FFU",
-            "os_version": "Windows Phone 8.1"
-          },
-          {
-            "version": "00410.15000.20001.15010",
-            "region": "Unknown (W410i)",
-            "type": "FFU",
-            "size": "1GB",
-            "filename": "BLU_WinJr_w410i_15010_Retail_00410.15000.20001.15010.FFU",
-            "os_version": "Windows Phone 8.1"
-          },
-          {
-            "version": "00410.12500.20001.15010",
-            "region": "Unknown (W410L)",
-            "type": "FFU",
-            "size": "1GB",
-            "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU",
-            "os_version": "Windows Phone 8.1"
-          },
-          {
-            "version": "00410.24500.20001.15010",
-            "region": "Unknown (W410u)",
-            "type": "FFU",
-            "size": "1GB",
-            "filename": "BLU_WinJr_W410u_Retail_00410.24500.20001.15010.FFU",
-            "os_version": "Windows Phone 8.1"
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           }
         ]
       }
@@ -1691,20 +1683,12 @@
         },
         "firmwares": [
           {
-            "version": "3039.0004.30600.12210",
-            "region": "United Kingdom",
-            "type": "Huawei .app firmware",
-            "size": "443.8MB",
-            "filename": "W2-U00.3039.0004.30600.12210_United Kingdom_Channel-Others_WP8_05011YCK.rar",
-            "os_version": "--"
-          },
-          {
             "version": "3039.0004.01000.00600",
             "region": "Russia",
             "type": "Huawei .app firmware",
             "size": "423MB",
             "filename": "W2-U00_3039.0004.01000.00600_Russia-Channel.zip",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
           },
           {
             "version": "3039.0004.30600.11600",
@@ -1712,15 +1696,15 @@
             "type": "Huawei .app firmware",
             "size": "444MB",
             "filename": "W2-U00_3039.0004.30600.11600.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
           },
           {
             "version": "3039.0004.43200.11400",
-            "region": "West Europe",
+            "region": "Western Europe",
             "type": "Huawei .app firmware",
             "size": "876.3MB",
             "filename": "W2-U00_3039.0004.43200_West_Europe-Channel_05011YCH.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
           },
           {
             "version": "3039.0004.51700.31500",
@@ -1728,15 +1712,15 @@
             "type": "Huawei .app firmware",
             "size": "443.7MB",
             "filename": "W2-U00_3039.0004.51700.31500_Firmware_China_Others.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
           },
           {
             "version": "3039.0004.53400.12300",
-            "region": "South Africa",
+            "region": "Africa",
             "type": "Huawei .app firmware",
             "size": "409MB",
             "filename": "W2-U00_Nigeria_South Africa_Channel-Others_3039.0004.53400.12300.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
           }
         ]
       }
