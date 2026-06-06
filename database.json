@@ -351,19 +351,19 @@
         "firmwares": [
           {
             "version": "1068.0031.0000.0174",
-            "region": "Unknown",
+            "region": "Worldwide (English)",
             "type": "EDL files for QFIL",
             "size": "651.1MB",
             "filename": "ROM_HighScreen_WinJoy_E41B_1068.0031.0000.0174_Manufacturing_Retail_Catalog_Signed_EMMC.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           },
           {
             "version": "2053.0000.0000.0176",
-            "region": "Unknown",
+            "region": "Worldwide (English)",
             "type": "EDL files for QFIL",
             "size": "651.8MB",
             "filename": "ROM_HighScreen_WinJoy_E41B_2053.0000.0000.0176_Manufacturing_Retail_Catalog_Signed_EMMC.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           }
         ]
       }
