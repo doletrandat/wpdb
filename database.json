@@ -2105,8 +2105,8 @@
         },
         "firmwares": [
           {
-            "version": "VJALL3_P",
-            "region": "Unknown",
+            "version": "2210.12.12.3 (VJALL3_P)",
+            "region": "ZTOALL3 (Brazil carrier unlocked)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2121,11 +2121,11 @@
                 "filename": "GT-I8750 VJALL3_P.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
           },
           {
-            "version": "VJALL3_R",
-            "region": "Unknown",
+            "version": "2210.12.12.3 (VJALL3_R)",
+            "region": "ZTOALL3 (Brazil carrier unlocked)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2140,7 +2140,7 @@
                 "filename": "GT-I8750_VJALL3_R_SIGNED.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
           }
         ]
       },
@@ -2161,7 +2161,7 @@
         "firmwares": [
           {
             "version": "OYACMK2_R",
-            "region": "Unknown",
+            "region": "MOY (Canada Rogers)",
             "type": "CSC Only",
             "size": "0MB",
             "files": [
@@ -2171,12 +2171,12 @@
                 "filename": "SGH-T899M_OYACMK2_R_signed.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Unknown"
           },
           {
-            "version": "VLCMK2_PS",
+            "version": "2212.13.11.2 (VLCMK2_PS)",
             "region": "Unknown",
-            "type": "Full Flash",
+            "type": "OS only",
             "size": "0MB",
             "files": [
               {
@@ -2187,7 +2187,7 @@
               {
                 "type": "Unknown (R)",
                 "size": "775.3MB",
-                "filename": "SGH-T899M VLCMK2_R.wp8"
+                "filename": "SGH-T899M VLCMK2_R_signed.wp8"
               },
               {
                 "type": "Unknown (S)",
@@ -2195,7 +2195,7 @@
                 "filename": "SGH-T899M VLCMK2_S.wp8"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10521.155"
           }
         ]
       },
@@ -2215,8 +2215,8 @@
         },
         "firmwares": [
           {
-            "version": "VPUAMG6_R",
-            "region": "USA (Sprint)",
+            "version": "2216.13.07.6 (VPUAMG6_R)",
+            "region": "SPR (USA Sprint)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2231,11 +2231,11 @@
                 "filename": "SPH-I800_VPUAMG6_R_SIGNED.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR2 - 8.00.10328.78"
           },
           {
-            "version": "VPUANA2_R",
-            "region": "Unknown",
+            "version": "2216.14.01.2 (VPUANA2_R)",
+            "region": "SPR (USA Sprint)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2250,7 +2250,7 @@
                 "filename": "SPH-I800_VPUANA2_R_SIGNED.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR2 - 8.00.10328.78"
           }
         ]
       },
@@ -2270,8 +2270,8 @@
         },
         "firmwares": [
           {
-            "version": "UCUBNJ2_R",
-            "region": "Unknown",
+            "version": "2103.14.10.2 (UCUBNJ2_R)",
+            "region": "ATT (AT&T USA)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2286,11 +2286,11 @@
                 "filename": "SGH-I187 UCUBNJ2_R.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           },
           {
-            "version": "UCUAMI4_R",
-            "region": "Unknown",
+            "version": "2103.13.09.4 (UCUAMI4_R)",
+            "region": "ATT (AT&T USA)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2303,23 +2303,14 @@
                 "type": "CSC (Region)",
                 "size": "10MB",
                 "filename": "SGH-I187_UCUAMI4_R.csc"
-              }
-            ],
-            "os_version": "--"
-          },
-          {
-            "version": "UMI4",
-            "region": "USA (Verizon)",
-            "type": "Full Flash",
-            "size": "1.51GB",
-            "files": [
+              },
               {
                 "type": "OneClickDownloader (exe)",
                 "size": "1.51GB",
                 "filename": "WP8_OneClickDownloader_SGH-I187_UMI4_Retail_SIGNED.exe"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10512.142"
           }
         ]
       },
@@ -2339,8 +2330,8 @@
         },
         "firmwares": [
           {
-            "version": "VRU0ANC2_P",
-            "region": "Unknown",
+            "version": "2218.14.03.2 (VRU0ANC2_P)",
+            "region": "VZW (Verizon USA)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2355,11 +2346,11 @@
                 "filename": "SM-W750V VRU0ANC2_P.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10521.155"
           },
           {
-            "version": "VRU0ANC2_R",
-            "region": "Unknown",
+            "version": "2218.14.03.2 (VRU0ANC2_R)",
+            "region": "VZW (Verizon USA)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2374,7 +2365,7 @@
                 "filename": "SM-W750V VRU0ANC2_R.csc"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10521.155"
           }
         ]
       },
@@ -2394,12 +2385,12 @@
         },
         "firmwares": [
           {
-            "version": "I8700XXJJ4 (pre-production ROM?)",
-            "region": "Europe",
-            "type": "Unknown",
+            "version": "I8700XXJJ4",
+            "region": "T-Mobile (Germany)",
+            "type": "Full Flash",
             "size": "183MB",
             "url": "https://web.archive.org/web/20150101121503if_/https://dl.dropboxusercontent.com/u/5011238/Data/I8700XXJJ4.7z",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           }
         ]
       }
