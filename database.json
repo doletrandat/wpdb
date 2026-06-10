@@ -657,7 +657,7 @@
             "type": "RUU",
             "size": "218.3M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_Orange_CH-FR_1.30.071.01_5.54.09.21_22.33b.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "1.30.073.01",
@@ -665,7 +665,7 @@
             "type": "RUU",
             "size": "205.6M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_Orange_FR-B2B_1.30.073.01_5.54.09.21_22.33b.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "1.30.075.01",
@@ -673,7 +673,7 @@
             "type": "RUU",
             "size": "218.3M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_Orange_ES_1.30.075.01_5.54.09.21_22.33b.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "1.30.401.01",
@@ -697,7 +697,7 @@
             "type": "RUU",
             "size": "186.4M",
             "url": "https://archive.org/download/htc-mozart-stock-ruu/RUU_Mozart_TMO_AT_1.32.112.01_5.65.09.25_22.45.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "1.41.206.02",
@@ -802,7 +802,7 @@
             "type": "RUU",
             "size": "202.3MB",
             "filename": "RUU_Gold_O2_DE_1.22.207.03_Radio_5.63.09.13_3a_22.36.50.15_Signed_GOLD_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.22.401.01",
@@ -810,7 +810,7 @@
             "type": "RUU",
             "size": "213.8MB",
             "filename": "RUU_Gold_HTC_Europe_1.22.401.01_Radio_5.63.09.13_3a_22.36.50.15U.zip",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.23.166.01",
@@ -818,7 +818,7 @@
             "type": "RUU",
             "size": "216.3MB",
             "filename": "RUU_Gold_Vodafone_CH-DE_1.23.166.01_Radio_5.63.09.13_3a_22.36.50.15_Signed_GOLD_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.23.169.01",
@@ -826,7 +826,7 @@
             "type": "RUU",
             "size": "212.6MB",
             "filename": "RUU_Gold_Vodafone_AT_1.23.169.01_Radio_5.63.09.13_3a_22.36.50.15_Signed_GOLD_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.24.401.01",
@@ -834,7 +834,7 @@
             "type": "RUU",
             "size": "212.2MB",
             "filename": "RUU_Gold_HTC_Europe_1.24.401.01_Radio_5.64.09.20_22.42.50.15_Signed_GOLD_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7389.0"
           },
           {
             "version": "1.25.651.01",
@@ -842,15 +842,7 @@
             "type": "RUU",
             "size": "187.7MB",
             "filename": "RUU_Gold_C_Sprint_WWE_1.25.651.01_1.51.00_RELEASE.exe",
-            "os_version": "--"
-          },
-          {
-            "version": "3.02.401.01",
-            "region": "Europe",
-            "type": "RUU",
-            "size": "304.3MB",
-            "filename": "RUU_Gold_S_HTC_Europe_3.02.401.01_Radio_5.69.09.29a_22.50.50.21_Signed_GOLD_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7389.0"
           },
           {
             "version": "5.12.401.01",
@@ -858,7 +850,7 @@
             "type": "RUU",
             "size": "304.8MB",
             "filename": "RUU_Gold_S_HTC_Europe_5.12.401.01_Radio_5.71.09.02a_22.51.50.21_Signed_GOLD_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7.5 CR2 - 7.10.8107.79"
           }
         ]
       },
@@ -879,19 +871,19 @@
         "firmwares": [
           {
             "version": "1.03.502.07",
-            "region": "Cingular",
+            "region": "AT&T (United States)",
             "type": "RUU",
             "size": "198.4MB",
             "filename": "RUU_Mondrian_Cingular_US_1.03.502.07_5.51.09.06_22.30.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "4.03.502.00",
-            "region": "Cingular",
+            "region": "AT&T (United States)",
             "type": "RUU",
             "size": "311.6M",
             "filename": "RUU_Mondrian_S_Cingular_US_4.03.502.00_5.69.09.05a_22.50.50_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
           }
         ]
       },
@@ -1253,7 +1245,7 @@
             "type": "RUU",
             "size": "189.29MB",
             "filename": "HTC_HD7_T9292_TMOUS_ROM_1.54.531.02_OS_7.0.7004.0_FW_2250.09.15402.531_RA_5.51T.09.29a_22.32.50.10U_BL_1.54.2250.0(112696).zip",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "1.54.728.01",
@@ -1269,7 +1261,7 @@
             "type": "RUU",
             "size": "197.29MB",
             "filename": "HTC_HD7_T9292_AsiaWWE_ROM_1.57.707.02_OS_7.0.7004.0_FW_2250.09.15702.707_RA_5.52.09.16_22.33a.50.10U_BL_1.57.2250.0(113571).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.57.728.02",
@@ -1277,7 +1269,7 @@
             "type": "RUU",
             "size": "185.13MB",
             "filename": "HTC_HD7_T9292_AsiaSEA_ROM_1.57.728.02_OS_7.0.7004.0_RA_5.52.09.16_22.33a.50.10.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.60.401.01",
@@ -1285,7 +1277,7 @@
             "type": "RUU",
             "size": "220.39MB",
             "filename": "HTC_HD7_T9292_Europe_ROM_1.60.401.01_OS_7.0.7004.0_FW_2250.09.16001.401_RA_5.52.09.16_22.33a.50.10U_BL_1.60.2250.0(114364).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.61.207.01",
@@ -1293,7 +1285,7 @@
             "type": "RUU",
             "size": "211.1MB",
             "filename": "HTC_HD7_T9292_O2DE_ROM_1.61.207.01_OS_7.0.7004.0_FW_2250.09.16101.207_RA_5.52.09.16_22.33a.50.10U_BL_1.61.2250.0(114451).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.64.901.03",
@@ -1301,7 +1293,7 @@
             "type": "RUU",
             "size": "216.35MB",
             "filename": "HTC_HD7_T9292_TIMIT_ROM_1.64.901.03_OS_7.0.7004.0_FW_2250.09.16403.901_RA_5.63.09.13_3a_22.36.50.15U_BL_1.64.2250.0(116289).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.68.206.03",
@@ -1309,7 +1301,7 @@
             "type": "RUU",
             "size": "204.12MB",
             "filename": "HTC_HD7_T9292_O2UK_ROM_1.68.206.03_OS_7.0.7004.0_FW_2250.09.16803.206_RA_5.63.09.13_3a_22.36.50.15U_BL_1.68.2250.0(117041).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.68.207.02",
@@ -1317,7 +1309,7 @@
             "type": "RUU",
             "size": "203.6M",
             "url": "https://archive.org/download/hd7-stock-ruu-collection/RUU_Schubert_O2_DE_1.68.207.02_Radio_5.63.09.13_3a_22.36.50.15_Signed_SCHUBERT_RELEASE.exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "1.69.401.01",
@@ -1325,7 +1317,7 @@
             "type": "RUU",
             "size": "221.7MB",
             "filename": "HTC_HD7_T9292_Europe_ROM_1.69.401.01_OS_7.0.7389.0_FW_2250.09.16901.401_RA_5.54.09.21_22.33b.50.10U_BL_1.69.2250.0(117833).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7389.0"
           },
           {
             "version": "1.70.901.02",
@@ -1341,7 +1333,7 @@
             "type": "RUU",
             "size": "214.75MB",
             "filename": "HTC_HD7_T9292_BellMobility_ROM_2.16.666.02_OS_7.0.7004.0_FW_2250.10.21602.666_RA_5.64.09.11a_22.40.50.15U_BL_2.16.2250.0(117476) .exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
             "version": "2.20.841.02",
@@ -1349,7 +1341,7 @@
             "type": "RUU",
             "size": "185.9MB",
             "filename": "HTC_HD7_T9296_Telstra_ROM_2.20.841.02_OS_7.0.7389.0_FW_2250.10.22002.841_RA_5.65.09.11_22.44.50.15U_BL_2.20.2250.0(118798).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7389.0"
           },
           {
             "version": "3.01.531.02",
@@ -1357,7 +1349,7 @@
             "type": "RUU",
             "size": "207.6MB",
             "filename": "HTC_HD7_T9292_TMOUS_ROM_3.01.531.02_OS_7.0.7392.0_FW_2250.21.30102.531_RA_5.65.09.25a_22.45.50.21U_BL_3.1.2250.0(119314).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7392.0"
           },
           {
             "version": "3.03.502.04",
@@ -1365,7 +1357,7 @@
             "type": "RUU",
             "size": "209MB",
             "filename": "HTC_HD7S_T9295_AT&T_ROM_3.03.502.04_OS_7.0.7390.0_FW_2250.21.30304.502_RA_5.66.09.09a_22.46.50.21U_BL_3.3.2250.0(120323).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "3.04.206.01",
@@ -1373,7 +1365,7 @@
             "type": "RUU",
             "size": "197.5MB",
             "filename": "HTC_HD7_T9292_O2UK_ROM_3.04.206.01_OS_7.0.7390.0_FW_2250.21.30401.206_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "3.04.207.01",
@@ -1381,7 +1373,7 @@
             "type": "RUU",
             "size": "196.9MB",
             "filename": "HTC_HD7_T9292_O2DE_ROM_3.04.207.01_OS_7.0.7390.0_FW_2250.21.30401.207_RA_5.66.09.21a_22.48.50.21U_BL_3.4.2250.0(121027).exe",
-            "os_version": "--"
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
           },
           {
             "version": "4.05.206.01",
@@ -1453,7 +1445,7 @@
             "type": "RUU",
             "size": "300.7MB",
             "filename": "RUU_Schubert_HTC_Europe_5.10.401.04_SLSPL_Signed_by_ansar.zip",
-            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
+            "os_version": "None"
           }
         ]
       },
