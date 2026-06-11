@@ -1088,31 +1088,31 @@
         },
         "firmwares": [
           {
-            "version": "1.08.1402.01_1_11c_32_19_27",
+            "version": "1.08.1402.01",
             "region": "China",
             "type": "Full RUU",
             "size": "575.3MB",
             "filename": "RUU_ACCORD_U_POT_00_HTCCN_CHS_CU_1_08_1402_01_1_11c_32_19_27_2_15.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.0"
           },
           {
-            "version": "2_00_707_01_1_11b_32_19_23",
+            "version": "2.00.707.01",
             "region": "Asia",
             "type": "Full RUU",
             "size": "635.1MB",
             "filename": "RUU_ACCORD_U_APO_00_hTC_Asia_WWE_2_00_707_01_1_11b_32_19_23_2_15.rar",
-            "os_version": "--"
+            "os_version": "Windows Phone"
           },
           {
-            "version": "8.10.14203.306",
-            "region": "Unknown (Orange)",
+            "version": "5.20.61.03",
+            "region": "Orange",
             "type": "NBH File",
             "size": "763.7MB",
             "filename": "RUU_signed_8.10.14203.306_ORANGE_PM232000_.nbh",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           },
           {
-            "version": "8.10.14203.306",
+            "version": "5.20.709.01",
             "region": "Taiwan",
             "type": "NBH File",
             "size": "0MB",
@@ -1128,7 +1128,7 @@
                 "filename": "RUU_signed_8.10.14203.306_621.nbh"
               }
             ],
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           }
         ]
       },
