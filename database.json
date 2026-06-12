@@ -328,7 +328,7 @@
     "devices": [
       {
         "name": "Fly IQ400W Era Windows",
-        "codename": "era_windows",
+        "codename": "era windows",
         "image": "/assets/flyiq400w.png",
         "required_tool": "ffutool",
         "model": "IQ400W",
