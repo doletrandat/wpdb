@@ -157,20 +157,20 @@
         },
         "firmwares": [
           {
-            "version": "1052.16.09031.50700",
-            "region": "Open Market",
-            "type": "FFU",
-            "size": "2.6GB",
-            "filename": "RTM_IDOL_4S_Open_F1052.16.09031.50700_1052.16.09031.50700.FFU",
-            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.321"
-          },
-          {
             "version": "1052.10.08031.54600",
             "region": "T-Mobile (USA)",
             "type": "FFU",
             "size": "2.5GB",
             "filename": "TMOUS_IDOL4S_WP46_Retail_F1052.10.08031.54600_1052.10.0831.54600.FFU",
             "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.189"
+          },
+          {
+            "version": "1052.16.09031.50700",
+            "region": "Open Market",
+            "type": "FFU",
+            "size": "2.6GB",
+            "filename": "RTM_IDOL_4S_Open_F1052.16.09031.50700_1052.16.09031.50700.FFU",
+            "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.321"
           }
         ]
       }
@@ -230,7 +230,7 @@
         "firmwares": [
           {
             "version": "00150.03720.20001.15010",
-            "region": "Wordlwide Open Market (X150E)",
+            "region": "Worldwide Open Market (X150E)",
             "type": "FFU",
             "size": "1.7GB",
             "filename": "BLU_WIN_HD_LTE_00150.03720.20001.15010_RETAIL_FLASH_20160226_00150.04717.20001.15010.FFU",
@@ -262,11 +262,11 @@
         },
         "firmwares": [
           {
-            "version": "00410.25000.20001.15010",
-            "region": "Worldwide Open Market (W410a)",
+            "version": "00410.12500.20001.15010",
+            "region": "Worldwide Open Market (W410L)",
             "type": "FFU",
             "size": "1GB",
-            "filename": "BLU_WinJr_W410a_00410.25000.20001.15010_Retail_00410.25000.20001.15010.FFU",
+            "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU",
             "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           },
           {
@@ -278,19 +278,19 @@
             "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           },
           {
-            "version": "00410.12500.20001.15010",
-            "region": "Worldwide Open Market (W410L)",
-            "type": "FFU",
-            "size": "1GB",
-            "filename": "BLU_WinJr_W410L_Retail_00410.12500.20001.15010.FFU",
-            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
-          },
-          {
             "version": "00410.24500.20001.15010",
             "region": "Worldwide Open Market (W410u)",
             "type": "FFU",
             "size": "1GB",
             "filename": "BLU_WinJr_W410u_Retail_00410.24500.20001.15010.FFU",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
+          },
+          {
+            "version": "00410.25000.20001.15010",
+            "region": "Worldwide Open Market (W410a)",
+            "type": "FFU",
+            "size": "1GB",
+            "filename": "BLU_WinJr_W410a_00410.25000.20001.15010_Retail_00410.25000.20001.15010.FFU",
             "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
           }
         ]
@@ -317,6 +317,37 @@
             "size": "1.7GB",
             "filename": "BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU",
             "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Fly",
+    "slug": "fly",
+    "devices": [
+      {
+        "name": "Fly IQ400W Era Windows",
+        "codename": "era_windows",
+        "image": "/assets/flyiq400w.png",
+        "required_tool": "ffutool",
+        "model": "IQ400W",
+        "specs": {
+          "system-on-chip": "Qualcomm Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" IPS LCD (480x800)",
+          "battery": "1500mah"
+        },
+        "firmwares": [
+          {
+            "version": "1068.0025.0010.0008",
+            "region": "Russia",
+            "type": "FFU",
+            "size": "981.6MB",
+            "filename": "Flash.FFU",
+            "os_version": "Windows Phone 8.1 - 8.10.12393.890"
           }
         ]
       }
@@ -1952,7 +1983,7 @@
             "version": "1068.0012.0011.0010",
             "region": "India (English)",
             "type": "FFU",
-            "size": "812.77MB",
+            "size": "1.256 GB",
             "filename": "Flash.FFU",
             "os_version": "Windows Phone 8.1 - 8.10.12393.890"
           }
