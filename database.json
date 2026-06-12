@@ -1470,31 +1470,31 @@
             "type": "NBH File",
             "size": "830.4MB",
             "filename": "PDM_W8_WL_BLUE_00_VERIZON WWE_1.06.605.02_Radio_1.00.50.0806_release.zip",
-            "os_version": "--"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14141.167"
           },
           {
-            "version": "8.10.15143.154",
-            "region": "USA (Verizon)",
-            "type": "NBH Files",
-            "size": "827MB",
-            "url": "https://archive.org/download/htc-one-m8-for-windows-phone/0P6B2100-VZW__001.zip",
-            "os_version": "--"
-          },
-          {
-            "version": "8.10.15143.154",
+            "version": "2.03.502.02",
             "region": "USA (AT&T)",
             "type": "NBH Files",
             "size": "716.4MB",
-            "url": "https://archive.org/download/htc-one-m8-for-windows-phone/HTC%20One%20M8%200P6B180%20%28AT%26T%29.zip",
-            "os_version": "--"
+            "filename": "HTC One M8 0P6B180 (AT&T).zip",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15143.154"
           },
           {
-            "version": "8.10.15143.154",
+            "version": "2.03.502.02",
             "region": "USA (T-Mobile)",
             "type": "NBH Files",
             "size": "714.8MB",
-            "url": "https://archive.org/download/htc-one-m8-for-windows-phone/RUU_signed_8.10.15143.154_TMobile_0P6B14000.zip",
-            "os_version": "--"
+            "filename": "RUU_signed_8.10.15143.154_TMobile_0P6B14000.zip",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15143.154"
+          },
+          {
+            "version": "3.05.605.01",
+            "region": "USA (Verizon)",
+            "type": "NBH Files",
+            "size": "827MB",
+            "filename": "0P6B2100-VZW__001.zip",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15143.154"
           }
         ]
       },
