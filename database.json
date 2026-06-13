@@ -322,6 +322,37 @@
       }
     ]
   },
+   {
+    "brand": "Dell",
+    "slug": "dell",
+    "devices": [
+      {
+        "name": "Dell Venue Pro",
+        "codename": "Venue Pro",
+        "image": "/assets/dellvenuepro.png",
+        "required_tool": "UpdateWP",
+        "model": "Venue Pro",
+        "specs": {
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
+          "ram": "512MB",
+          "storage": "8/16GB",
+          "display": "4.1\" AMOLED (480x800)",
+          "battery": "1400 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "GLEOS2A_US_TMO_SIGNED_SWV0105_LP0030_RV001",
+            "region": "T-Mobile (USA)",
+            "type": "FFU update file",
+            "size": "163.3MB",
+            "url": "https://archive.org/download/windows-phone-7.x-firmware-archive/WP7%20Firmware%20Archive/Dell/Venue%20Pro/VenuePro_flash_GLEOS2A_US_TMO_SIGNED_SWV0105_LP0030_RV001_RETAIL.ffu",
+            "os_version": "Windows Phone 7"
+          }
+        ]
+      }
+    ]
+  },
   {
     "brand": "Fly",
     "slug": "fly",
@@ -1104,7 +1135,7 @@
         ]
       },
       {
-        "name": "HTC 8X",
+        "name": "HTC Windows Phone 8X",
         "codename": "accord",
         "image": "/assets/htc8x.png",
         "required_tool": "RUU Wrapper",
@@ -1164,7 +1195,7 @@
         ]
       },
       {
-        "name": "HTC 8S",
+        "name": "HTC Windows Phone 8S",
         "codename": "rio",
         "image": "/assets/htc8s.png",
         "required_tool": "ffutool",
@@ -1806,6 +1837,70 @@
             "size": "1.3GB",
             "filename": "I7B_KM_Retail_1.0.68.0031_CatalogSigned_1.0.68.0031.FFU",
             "os_version": "Windows Phone 8.1 - 8.10.12400.899"
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "brand": "LG",
+    "slug": "LG",
+    "devices": [
+      {
+        "name": "LG Lancet VW820",
+        "codename": "Lancet",
+        "image": "/assets/lglancet.png",
+        "required_tool": "ffutool",
+        "model": "VW820",
+        "specs": {
+          "system-on-chip": "Snapdragon 410 MSM8916 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 306",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "4.5\" LCD (480x854)",
+          "battery": "2100 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "820.0.10.300",
+            "region": "Worldwide (English)",
+            "type": "FFU",
+            "size": "1.36GB",
+            "filename": "VW82010C_signed.ffu",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15148.160"
+          }
+        ]
+      },
+      {
+        "name": "LG Optimus 7",
+        "codename": "Optimus 7",
+        "image": "/assets/optimus7.png",
+        "required_tool": "LG Flash Tool 2014",
+        "model": "E900",
+        "specs": {
+          "system-on-chip": "Snapdragon S1 QSD8650 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 306",
+          "ram": "512MB",
+          "storage": "16GB (Non-expandable)",
+          "display": "3.8\" TFT LCD (480x800)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "V11b",
+            "region": "Unknown",
+            "type": "LG .dz file",
+            "size": "331.3MB",
+            "url": "https://archive.org/download/windows-phone-7.x-firmware-archive/WP7%20Firmware%20Archive/LG/Optimus%207%20-%20E900/DZ_LG-E900AT-00-V11b-260-XXX-AUG-17-2011%200.dz",
+            "os_version": "Windows Phone 7"
+          },
+          {
+            "version": "V11h",
+            "region": "Europe (Open Market)",
+            "type": "LG .dz file",
+            "size": "331.7MB",
+            "url": "https://archive.org/download/windows-phone-7.x-firmware-archive/WP7%20Firmware%20Archive/LG/Optimus%207%20-%20E900/RU_LG-E900AT-00-V11h-NEU-XXX-DEC-27-2011%2B0_DZ%5BEUROPE_OPEN%5D.rar",
+            "os_version": "Windows Phone 7"
           }
         ]
       }
