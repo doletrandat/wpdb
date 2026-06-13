@@ -79,7 +79,7 @@
             "version": "1078.17.0000.0013",
             "region": "Worldwide",
             "type": "FFU",
-            "size": "1.5GB",
+            "size": "1.4GB",
             "filename": "Acer_TM01_0.013.00_FLASH_RETAIL_20151123.zip",
             "os_version": "Windows 10 Mobile - 10.0.10586.0"
           },
@@ -87,7 +87,7 @@
             "version": "1078.37.0000.0020",
             "region": "Worldwide",
             "type": "FFU",
-            "size": "1.5GB",
+            "size": "1.0GB",
             "filename": "Acer_TM01_1.021.00_WW_GEN1_FLASH_RETAIL_20160302.zip",
             "os_version": "Windows 10 Mobile - 10.0.10586.107"
           },
@@ -95,7 +95,7 @@
             "version": "1078.37.2000.0021",
             "region": "America",
             "type": "FFU",
-            "size": "1.5GB",
+            "size": "1.2GB",
             "filename": "Acer_TM01_1.021.00_PA_GEN1_FLASH_RETAIL_20160302.rar",
             "os_version": "Windows 10 Mobile - 10.0.10586.107"
           }          
