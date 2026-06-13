@@ -7,7 +7,7 @@
         "name": "Acer Liquid M220",
         "codename": "Liquid M220",
         "image": "/assets/liquidm220.png",
-        "required_tool": "WPinternals / ffutool / QFIL",
+        "required_tool": "ffutool / QFIL",
         "model": "M220",
         "specs": {
           "system-on-chip": "Snapdragon 200 MSM8210 (Dual-core 1.2 GHz)",
@@ -58,6 +58,47 @@
             "filename": "EDL.zip",
             "os_version": "Windows Phone 8.1 Update 1 - 8.1.14203.306"
           }
+        ]
+      },
+      {
+        "name": "Acer Liquid M330",
+        "codename": "Liquid M330",
+        "image": "/assets/liquidm330.png",
+        "required_tool": "ffutool",
+        "model": "M330",
+        "specs": {
+          "system-on-chip": "Snapdragon 210 MSM8909 (Quad-core 1.1 GHz)",
+          "gpu": "Adreno 304",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "4.5\" IPS (480x854)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1078.17.0000.0013",
+            "region": "Worldwide",
+            "type": "FFU",
+            "size": "1.5GB",
+            "filename": "Acer_TM01_0.013.00_FLASH_RETAIL_20151123.zip",
+            "os_version": "Windows 10 Mobile - 10.0.10586.0"
+          },
+          {
+            "version": "1078.37.0000.0020",
+            "region": "Worldwide",
+            "type": "FFU",
+            "size": "1.5GB",
+            "filename": "Acer_TM01_1.021.00_WW_GEN1_FLASH_RETAIL_20160302.zip",
+            "os_version": "Windows 10 Mobile - 10.0.10586.107"
+          },
+          {
+            "version": "1078.37.2000.0021",
+            "region": "America",
+            "type": "FFU",
+            "size": "1.5GB",
+            "filename": "Acer_TM01_1.021.00_PA_GEN1_FLASH_RETAIL_20160302.rar",
+            "os_version": "Windows 10 Mobile - 10.0.10586.107"
+          }          
         ]
       },
       {
