@@ -385,10 +385,10 @@
           {
             "version": "GLEOS2A_US_TMO_SIGNED_SWV0105_LP0030_RV001",
             "region": "T-Mobile (USA)",
-            "type": "FFU update file",
+            "type": "FFU",
             "size": "163.3MB",
-            "url": "https://archive.org/download/windows-phone-7.x-firmware-archive/WP7%20Firmware%20Archive/Dell/Venue%20Pro/VenuePro_flash_GLEOS2A_US_TMO_SIGNED_SWV0105_LP0030_RV001_RETAIL.ffu",
-            "os_version": "Windows Phone 7"
+            "filename": "VenuePro_flash_GLEOS2A_US_TMO_SIGNED_SWV0105_LP0030_RV001_RETAIL.ffu",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
           }
         ]
       }
@@ -1928,19 +1928,19 @@
         },
         "firmwares": [
           {
-            "version": "V11b",
-            "region": "Unknown",
+            "version": "1.1.2.10",
+            "region": "Poland",
             "type": "LG .dz file",
             "size": "331.3MB",
-            "url": "https://archive.org/download/windows-phone-7.x-firmware-archive/WP7%20Firmware%20Archive/LG/Optimus%207%20-%20E900/DZ_LG-E900AT-00-V11b-260-XXX-AUG-17-2011%200.dz",
-            "os_version": "Windows Phone 7"
+            "filename": "DZ_LG-E900AT-00-V11b-260-XXX-AUG-17-2011%200.dz",
+            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
           },
           {
-            "version": "V11h",
+            "version": "1.1.8.10",
             "region": "Europe (Open Market)",
             "type": "LG .dz file",
             "size": "331.7MB",
-            "url": "https://archive.org/download/windows-phone-7.x-firmware-archive/WP7%20Firmware%20Archive/LG/Optimus%207%20-%20E900/RU_LG-E900AT-00-V11h-NEU-XXX-DEC-27-2011%2B0_DZ%5BEUROPE_OPEN%5D.rar",
+            "filename": "RU_LG-E900AT-00-V11h-NEU-XXX-DEC-27-2011%2B0_DZ%5BEUROPE_OPEN%5D.rar",
             "os_version": "Windows Phone 7"
           }
         ]
@@ -2548,8 +2548,66 @@
             "region": "T-Mobile (Germany)",
             "type": "Full Flash",
             "size": "183MB",
-            "url": "https://web.archive.org/web/20150101121503if_/https://dl.dropboxusercontent.com/u/5011238/Data/I8700XXJJ4.7z",
+            "filename": "I8700XXJJ4.7z",
             "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I8700OMNKH3",
+            "region": "Europe (Open Market)",
+            "type": "Full Flash",
+            "size": "183MB",
+            "filename": "Samsung Omnia 7 i8700.zip",
+            "os_version": "Windows Phone 7 - 7.0.7389.0" 
+          }
+        ]
+      },
+      {
+        "name": "Samsung Omnia M",
+        "codename": "Omnia M",
+        "image": "/assets/ssomniam.png",
+        "required_tool": "Unknown",
+        "model": "GT-S7530",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255 (Single-core Scorpion 1.0 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "384MB",
+          "storage": "4 or 8GB (Non-expandable)",
+          "display": "4.0\" Super AMOLED (480x800)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "S7530XXALF5",
+            "region": "Play (Poland)",
+            "type": "Full Flash",
+            "size": "183MB",
+            "filename": "GT-S7530_Play XXALF5_XXALF3_PRTALF5.rar",
+            "os_version": "Windows Phone 7.5 CR3 - 7.10.8773.98"
+          }
+        ]
+      },
+      {
+        "name": "Samsung Omnia W",
+        "codename": "Omnia W",
+        "image": "/assets/ssomniaw.png",
+        "required_tool": "Unknown",
+        "model": "GT-I8350",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255 (Single-core Scorpion 1.4 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "512MB",
+          "storage": "8GB (Non-expandable)",
+          "display": "3.7\" Super AMOLED (480x800)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "I8350XXKK4",
+            "region": "Plus (Poland)",
+            "type": "Full Flash",
+            "size": "183MB",
+            "filename": "GT-i8350_Plus XXKK4_PLSKK4.rar",
+            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
           }
         ]
       }
