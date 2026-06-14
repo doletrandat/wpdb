@@ -1191,6 +1191,14 @@
         },
         "firmwares": [
           {
+            "version": "1.00.401.24",
+            "region": "Europe",
+            "type": "Full RUU",
+            "size": "767MB",
+            "filename": "RUU_ACCORD_U_APO_00_HTC_Europe_1.00.401.24_1.10.32.19.19_3_15.39.32_RELEASE.exe",
+            "os_version": "Windows Phone 8.0"
+          },
+          {
             "version": "1.08.1402.01",
             "region": "China",
             "type": "Full RUU",
@@ -1199,12 +1207,28 @@
             "os_version": "Windows Phone 8.0"
           },
           {
+            "version": "2.00.401.03",
+            "region": "Europe",
+            "type": "Full RUU",
+            "size": "789MB",
+            "filename": "RUU_ACCORD_U_APO_00_HTC_Europe_2.00.401.03_1.11b.32.19.23_2_15.42.32_RETAIL_ENC_RELEASE.exe",
+            "os_version": "Windows Phone"
+          },
+          {
             "version": "2.00.707.01",
             "region": "Asia",
             "type": "Full RUU",
             "size": "635.1MB",
             "filename": "RUU_ACCORD_U_APO_00_hTC_Asia_WWE_2_00_707_01_1_11b_32_19_23_2_15.rar",
             "os_version": "Windows Phone"
+          },
+          {
+            "version": "4.13.1401.03",
+            "region": "China",
+            "type": "Full RUU",
+            "size": "605MB",
+            "filename": "RUU_ACCORD_WR_GDR3_00_MR_HTCCN_CHS_CT_4.13.1401.03_0.21.70_RETAIL_ENC_RELEASE.exe",
+            "os_version": "Windows Phone 8.0 GDR3"
           },
           {
             "version": "5.20.61.03",
@@ -1251,11 +1275,27 @@
         },
         "firmwares": [
           {
+            "version": "1.02.1402.02",
+            "region": "China",
+            "type": "Full RUU",
+            "size": "521MB",
+            "filename": "RUU_RIO_U_POT_00_HTCCN_CHS_CU_1.02.1402.02_1.12.3054.11_10.16.30_RETAIL_ENC_RELEASE.exe",
+            "os_version": "Windows Phone 8.0"
+          },
+          {
             "version": "1.04.401.03",
             "region": "Europe",
             "type": "Full RUU",
             "size": "574.5MB",
             "filename": "RUU_RIO_U_APO_00_HTC_Europe_1.04.401.03_1.11b.3054.25_10.13.30_RETAIL_ENC_RELEASE.exe",
+            "os_version": "Windows Phone 8.0"
+          },
+          {
+            "version": "1.04.411.03",
+            "region": "Russia",
+            "type": "Full RUU",
+            "size": "521MB",
+            "filename": "RUU_RIO_U_APO_00_HTC_RUS_1.04.411.03_1.11b.3054.25_10.13.30_RETAIL_ENC_RELEASE.rar.exe",
             "os_version": "Windows Phone 8.0"
           },
           {
@@ -2298,6 +2338,35 @@
                 "size": "10MB",
                 "filename": "GT-I8750_VJALL3_R_SIGNED.csc"
               }
+            ],
+            "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
+          },
+          {
+            "version": "2424.13.2 (XXAMB1)",
+            "region": "OXXAMB1 (Europe unlocked)",
+            "type": "Full Flash",
+            "size": "0MB",
+            "files": [
+              {
+                "type": "WP8 (OS) (P)",
+                "size": "1.5GB",
+                "filename": "GT-I8750_XXAMB1_P.wp8"
+              },
+              {
+                "type": "CSC (Region) (P)",
+                "size": "10MB",
+                "filename": "GT-I8750_OXXAMB1_P.csc"
+              },
+              {
+                "type": "WP8 (OS) (R)",
+                "size": "1.5GB",
+                "filename": "GT-I8750_XXAMB1_R_signed.wp8"
+              },
+              {
+                "type": "CSC (Region) (R)",
+                "size": "10MB",
+                "filename": "GT-I8750_OXXAMB1_R_SIGNED.csc"
+              }              
             ],
             "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
           }
