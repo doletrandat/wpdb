@@ -72,17 +72,6 @@ function showGuide(id) {
     const content = document.getElementById('guideContent');
     if (!content) return;
 
-    // Update active state in sidebar
-    document.querySelectorAll('.guide-nav-item').forEach(el => {
-        el.classList.remove('border-wp-blue', 'bg-white', 'text-black', 'font-semibold');
-        el.classList.add('border-transparent', 'text-gray-600');
-    });
-    const activeNav = document.getElementById(`nav-${id}`);
-    if (activeNav) {
-        activeNav.classList.remove('border-transparent', 'text-gray-600');
-        activeNav.classList.add('border-wp-blue', 'bg-white', 'text-black', 'font-semibold');
-    }
-
     let steps = guidesData[id];
     let title = "";
     let description = "";
@@ -98,11 +87,48 @@ function showGuide(id) {
                 break;
             }
         }
-    } else {
-        // Standard brands
+    }
+
+    if (!steps) {
+        // Check if id is a brand whose devices use ffutool
+        const brandObj = wpdbData.find(b => b.brand.toLowerCase() === id);
+        if (brandObj) {
+            const usesFfu = brandObj.devices.some(d => d.required_tool && d.required_tool.toLowerCase().includes('ffutool'));
+            if (usesFfu) {
+                id = 'hp';
+                steps = guidesData['hp'];
+            }
+        }
+    }
+
+    if (!steps) {
+        // Check if id is a device codename that uses ffutool
+        for (const brand of wpdbData) {
+            const dev = brand.devices.find(d => d.codename.toLowerCase() === id);
+            if (dev && dev.required_tool && dev.required_tool.toLowerCase().includes('ffutool')) {
+                id = 'hp';
+                steps = guidesData['hp'];
+                break;
+            }
+        }
+    }
+
+    // Set standard titles if we resolved to standard ID
+    if (steps && !title) {
         if (id === 'htc') { title = "HTC Devices"; description = "Standard RUU flashing instructions for HTC devices."; }
         if (id === 'samsung') { title = "Samsung ATIV Devices"; description = "Standard SMD Binary Downloader instructions for Samsung devices."; }
         if (id === 'hp') { title = "Generic FFU Flashing"; description = "Using ffutool to flash generic .ffu firmware files."; }
+    }
+
+    // Update active state in sidebar
+    document.querySelectorAll('.guide-nav-item').forEach(el => {
+        el.classList.remove('border-wp-blue', 'bg-white', 'text-black', 'font-semibold');
+        el.classList.add('border-transparent', 'text-gray-600');
+    });
+    const activeNav = document.getElementById(`nav-${id}`);
+    if (activeNav) {
+        activeNav.classList.remove('border-transparent', 'text-gray-600');
+        activeNav.classList.add('border-wp-blue', 'bg-white', 'text-black', 'font-semibold');
     }
 
     if (!steps) {

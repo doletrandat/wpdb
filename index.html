@@ -157,20 +157,9 @@
                 class="md:hidden text-white hover:text-wp-blue transition-colors p-2">
                 <i class="fa-solid fa-bars text-xl"></i>
             </button>
-            <div class="flex items-center gap-2 cursor-pointer group" onclick="goToHome()">
-                <div class="relative w-8 h-8 flex items-center justify-center">
-                    <div
-                        class="absolute inset-0 bg-wp-blue transform rotate-[1.5deg] group-hover:rotate-0 transition-transform duration-520 ease-metro rounded-sm">
-                    </div>
-                    <div
-                        class="absolute inset-0 bg-white/20 transform -rotate-[1.5deg] group-hover:rotate-0 transition-transform duration-520 ease-metro rounded-sm">
-                    </div>
-                    <i class="fa-solid fa-layer-group text-white relative z-10 text-sm"></i>
-                </div>
-                <div class="flex flex-col leading-none">
-                    <span class="text-base font-bold tracking-wide">wpdb</span>
-                    <span class="text-[9px] text-gray-400 tracking-[0.2em] font-light">BETA</span>
-                </div>
+            <div class="flex items-center cursor-pointer" onclick="goToHome()">
+                <img src="/assets/site/wpdb-nobg.png" alt="wpdb"
+                    class="h-10 w-auto object-contain transition-opacity duration-300 hover:opacity-80">
             </div>
         </div>
         <div class="hidden md:flex items-center gap-8 text-sm font-metro tracking-wide">
@@ -198,7 +187,8 @@
     </header>
     <div class="flex flex-1 overflow-hidden relative">
         <div id="mobile-overlay" onclick="toggleMobileSidebar()"
-            class="fixed inset-0 bg-black/50 z-30 hidden md:hidden transition-opacity duration-300 ease-metro opacity-0"></div>
+            class="fixed inset-0 bg-black/50 z-30 hidden md:hidden transition-opacity duration-300 ease-metro opacity-0">
+        </div>
         <aside id="main-sidebar"
             class="fixed inset-y-0 left-0 z-40 w-full md:w-72 bg-[#f5f5f5] border-r border-gray-200 flex flex-col transform -translate-x-full md:translate-x-0 md:relative md:flex shrink-0 transition-transform duration-500 ease-metro shadow-2xl md:shadow-none pt-14 md:pt-0">
             <div class="md:hidden flex justify-between items-center px-4 pt-4 pb-2">
@@ -267,8 +257,8 @@
                             devices.
                         </p>
                     </a>
-                    <a href="https://archive.org/download/wpdb_archive/Tools/HTC/ACDU.rar"
-                        target="_blank" class="group block cursor-pointer">
+                    <a href="https://archive.org/download/wpdb_archive/Tools/HTC/ACDU.rar" target="_blank"
+                        class="group block cursor-pointer">
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="text-xl font-semibold group-hover:text-wp-blue transition-colors duration-200">
                                 HTC RUU Flash Tool</h3>
@@ -278,7 +268,8 @@
                         <p class="text-sm text-gray-500">Essential flashing utility for HTC Windows
                             Phone devices.</p>
                     </a>
-                    <a href="https://github.com/main3782/wpupdatepackages/releases/tag/0.01" target="_blank" class="group block cursor-pointer">
+                    <a href="https://github.com/main3782/wpupdatepackages/releases/tag/0.01" target="_blank"
+                        class="group block cursor-pointer">
                         <div class="flex justify-between items-center mb-1">
                             <h3 class="text-xl font-semibold group-hover:text-wp-blue transition-colors duration-200">
                                 Windows Phone Common Packaging and Test Tools</h3>
@@ -311,11 +302,11 @@
                         firmware files and resources for OEM devices that are not from Nokia/Microsoft.</p>
                     <p>Our mission is to preserve the legacy of Windows Phone by providing easy access to essential
                         files for device recovery.</p>
-                    <p class="text-gray-400 text-xs">This project is not affiliated with Microsoft or any device
+                    <p>This project is not affiliated with Microsoft or any device
                         manufacturers. All firmware files are the property of their respective owners.</p>
-                    <p class="pt-2 border-t border-gray-100 text-gray-400 text-xs">Made with ❤️ by
-                        LumiaDB &amp; ACPI
-                        Fixed Feature Button.</p>
+                    <p>Made with ❤️ by
+                        somerandomusername2 &amp; ACPI
+                        Fixed Feature Button, and LumiaDB.</p>
                 </div>
             </div>
         </div>

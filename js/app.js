@@ -241,6 +241,8 @@ function openDevice(codename, updateHistory = true) {
 
     const specs = device.specs || { cpu: "N/A", ram: "N/A", storage: "N/A", display: "N/A", battery: "N/A" };
     const model = device.model || device.codename;
+    const isFfu = device.required_tool && device.required_tool.toLowerCase().includes('ffutool');
+    const guideHash = isFfu ? 'hp' : brandName.toLowerCase();
 
     deviceView.innerHTML = `
         <div class="w-full min-h-full bg-white pb-20">
@@ -271,7 +273,7 @@ function openDevice(codename, updateHistory = true) {
                              <i class="fa-solid fa-database text-gray-300"></i>
                              <span>${device.firmwares.length} ${device.firmwares.length === 1 ? 'rom' : 'roms'}</span>
                         </div>
-                        <a href="guides.html#${brandName.toLowerCase()}" class="flex items-center gap-2 text-wp-blue hover:underline cursor-pointer">
+                        <a href="guides.html#${guideHash}" class="flex items-center gap-2 text-wp-blue hover:underline cursor-pointer">
                              <i class="fa-solid fa-book"></i>
                              <span>view flashing guide</span>
                         </a>
