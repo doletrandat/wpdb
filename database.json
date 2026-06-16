@@ -1223,14 +1223,6 @@
             "os_version": "Windows Phone 8.0"
           },
           {
-            "version": "3.41.401.01",
-            "region": "Europe",
-            "type": "Full RUU",
-            "size": "635.1MB",
-            "filename": "IMG_ACCORD_U_GDR2_00_S_HTC_Europe_3.41.401.01_1.17b.32.19.14_15.62b.32_RETAIL_ENC_RELEASE.zip",
-            "os_version": "Windows Phone 8.0 GDR2"
-          },
-          {
             "version": "4.13.1401.03",
             "region": "China",
             "type": "Full RUU",
