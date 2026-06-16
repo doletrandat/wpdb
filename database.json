@@ -2817,14 +2817,6 @@
             "size": "952MB",
             "filename": "10586.1102.3063.Retail.zip",
             "os_version": "Windows 10 Mobile - 10.0.10586.0"
-          },
-          {
-            "version": "3114.1.0.0",
-            "region": "China",
-            "type": "FFU",
-            "size": "787MB",
-            "filename": "10586.63.0115.3063.RTF.Retail.7z",
-            "os_version": "Windows 10 Mobile - 10.0.10586.63"
           }
         ]
       }
