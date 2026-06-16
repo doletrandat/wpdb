@@ -1223,6 +1223,14 @@
             "os_version": "Windows Phone 8.0"
           },
           {
+            "version": "3.41.401.01",
+            "region": "Europe",
+            "type": "Full RUU",
+            "size": "635.1MB",
+            "filename": "IMG_ACCORD_U_GDR2_00_S_HTC_Europe_3.41.401.01_1.17b.32.19.14_15.62b.32_RETAIL_ENC_RELEASE.zip",
+            "os_version": "Windows Phone 8.0 GDR2"
+          },
+          {
             "version": "4.13.1401.03",
             "region": "China",
             "type": "Full RUU",
@@ -2621,12 +2629,76 @@
             "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
+            "version": "I8700XXJID",
+            "region": "Optus (Australia)",
+            "type": "Full Flash",
+            "size": "178MB",
+            "filename": "GT-I8700_PDA-XXJID_CSC-OPS.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I8700XXJID",
+            "region": "Orange",
+            "type": "Full Flash",
+            "size": "180MB",
+            "filename": "GT-I8700_PDA-XXJID_CSC-ORA.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I8700XXJJ6",
+            "region": "Multi (T-Mobile (Croatia, Germany, Hungary, UK, Czechia), Vivacom (Bulgaria), Movistar (Spain))",
+            "type": "Full Flash",
+            "size": "180MB",
+            "filename": "GT-I8700_PDA-XXJJ6_CSC-CRO-DTM-TMH-TMU-TMZ-VVT-XEC.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I8700XXJJ6",
+            "region": "France and Optus (Australia)",
+            "type": "Full Flash",
+            "size": "181MB",
+            "filename": "GT-I8700_PDA-XXJJ6_CSC-FTM-ORA.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I8700XXJK1",
+            "region": "Europe",
+            "type": "Full Flash",
+            "size": "180MB",
+            "filename": "GT-I8700_PDA-XXJK1-JK2-JK3_CSC-ALL-PROVIDERS-19.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I8700XXJL3",
+            "region": "United Kingdom and Ireland (Unlocked)",
+            "type": "Full Flash",
+            "size": "186MB",
+            "filename": "GT-I8700_PDA-XXJL3_CSC-XEU.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I8700XXKC1",
+            "region": "Italy (Unlocked) and O2 (Czechia)",
+            "type": "Full Flash",
+            "size": "186MB",
+            "filename": "GT-I8700_PDA-XXKC1-KB2_CSC-ITV-O2C.rar",
+            "os_version": "Windows Phone 7 - 7.0.7389.0"
+          },
+          {
             "version": "I8700OMNKH3",
-            "region": "Europe (Open Market)",
+            "region": "Europe",
             "type": "Full Flash",
             "size": "183MB",
             "filename": "Samsung Omnia 7 i8700.zip",
             "os_version": "Windows Phone 7 - 7.0.7389.0" 
+          },
+          {
+            "version": "I8700XXKH5",
+            "region": "France",
+            "type": "Full Flash",
+            "size": "295MB",
+            "filename": "GT-I8700_PDA-XXKH5-KG2_CSC-SFR.rar",
+            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
           }
         ]
       },
@@ -2809,6 +2881,14 @@
             "size": "952MB",
             "filename": "10586.1102.3063.Retail.zip",
             "os_version": "Windows 10 Mobile - 10.0.10586.0"
+          },
+          {
+            "version": "3114.1.0.0",
+            "region": "China",
+            "type": "FFU",
+            "size": "787MB",
+            "filename": "10586.63.0115.3063.RTF.Retail.7z",
+            "os_version": "Windows 10 Mobile - 10.0.10586.63"
           }
         ]
       }
