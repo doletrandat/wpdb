@@ -383,7 +383,7 @@
         },
         "firmwares": [
           {
-            "version": "GLEOS2A_US_TMO_SIGNED_SWV0105_LP0030_RV001",
+            "version": "V0105_LP0030_RV001",
             "region": "T-Mobile (USA)",
             "type": "FFU",
             "size": "163.3MB",
@@ -1212,7 +1212,7 @@
             "type": "Full RUU",
             "size": "789MB",
             "filename": "RUU_ACCORD_U_APO_00_HTC_Europe_2.00.401.03_1.11b.32.19.23_2_15.42.32_RETAIL_ENC_RELEASE.exe",
-            "os_version": "Windows Phone"
+            "os_version": "Windows Phone 8.0"
           },
           {
             "version": "2.00.707.01",
@@ -1220,7 +1220,15 @@
             "type": "Full RUU",
             "size": "635.1MB",
             "filename": "RUU_ACCORD_U_APO_00_hTC_Asia_WWE_2_00_707_01_1_11b_32_19_23_2_15.rar",
-            "os_version": "Windows Phone"
+            "os_version": "Windows Phone 8.0"
+          },
+          {
+            "version": "3.41.401.01",
+            "region": "Europe",
+            "type": "Full RUU",
+            "size": "635.1MB",
+            "filename": "IMG_ACCORD_U_GDR2_00_S_HTC_Europe_3.41.401.01_1.17b.32.19.14_15.62b.32_RETAIL_ENC_RELEASE.zip",
+            "os_version": "Windows Phone 8.0 GDR2"
           },
           {
             "version": "4.13.1401.03",
@@ -2602,7 +2610,7 @@
         "codename": "Omnia 7",
         "image": "/assets/ssomnia7.png",
         "required_tool": "Unknown",
-        "model": "GT-I8700",
+        "model": "GT-i8700",
         "specs": {
           "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
           "gpu": "Adreno 200",
@@ -2809,6 +2817,14 @@
             "size": "952MB",
             "filename": "10586.1102.3063.Retail.zip",
             "os_version": "Windows 10 Mobile - 10.0.10586.0"
+          },
+          {
+            "version": "3114.1.0.0",
+            "region": "China",
+            "type": "FFU",
+            "size": "787MB",
+            "filename": "10586.63.0115.3063.RTF.Retail.7z",
+            "os_version": "Windows 10 Mobile - 10.0.10586.63"
           }
         ]
       }
