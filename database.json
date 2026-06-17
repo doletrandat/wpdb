@@ -4,6 +4,31 @@
     "slug": "acer",
     "devices": [
       {
+        "name": "Acer Allegro",
+        "codename": "W4, M310",
+        "image": "/assets/acerallegro.png",
+        "required_tool": "Unknown",
+        "model": "Allegro",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255 (Single-core Scorpion 1.0 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "512MB",
+          "storage": "8GB (Non-expandable)",
+          "display": "3.6\" TN (480x800)",
+          "battery": "1300 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1.018.00",
+            "region": "Worldwide",
+            "type": "Full Flash",
+            "size": "320MB",
+            "filename": "W4_1.018.00_WW_GEN1.zip",
+            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
+          }
+        ]
+      },
+      {
         "name": "Acer Liquid M220",
         "codename": "Liquid M220",
         "image": "/assets/liquidm220.png",
@@ -212,6 +237,37 @@
             "size": "2.6GB",
             "filename": "RTM_IDOL_4S_Open_F1052.16.09031.50700_1052.16.09031.50700.FFU",
             "os_version": "Windows 10 Mobile Anniversary Update - 10.0.14393.321"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Archos",
+    "slug": "archos",
+    "devices": [
+      {
+        "name": "Archos 40 Cesium",
+        "codename": "40 Cesium",
+        "image": "/assets/archos40cesium.png",
+        "required_tool": "ffutool",
+        "model": "40 Cesium",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8612 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" TN LCD (480x800)",
+          "battery": "1700 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "01068.00029.57034.08048",
+            "region": "Worldwide (English)",
+            "type": "FFU and EDL files",
+            "size": "1.75GB",
+            "filename": "Archos 40 cesium - Firmware.rar",
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
       }
@@ -459,6 +515,39 @@
             "size": "651.8MB",
             "filename": "ROM_HighScreen_WinJoy_E41B_2053.0000.0000.0176_Manufacturing_Retail_Catalog_Signed_EMMC.rar",
             "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
+          }
+        ]
+      },
+      {
+        "name": "Highscreen WinWin",
+        "codename": "WinWin",
+        "image": "/assets/highscreenwinwin.png",
+        "required_tool": "ffutool",
+        "model": "WinWin",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" TFT (480x800)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "01068.00029.57039.08040",
+            "region": "Worldwide (English)",
+            "type": "FFU",
+            "size": "747MB",
+            "filename": "ROM_HighScreen_WinWin_000-88_01068.00029.57039.08040_Manufacturing_Retail_Catalog_Signed.rar",
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
+          },
+          {
+            "version": "02047.00000.57039.03059",
+            "region": "Worldwide (English)",
+            "type": "FFU",
+            "size": "750MB",
+            "filename": "ROM_HighScreen_WinWin_000-88_02047.00000.57039.03059_Manufacturing_Retail_Catalog_Signed.rar",
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14231.372"
           }
         ]
       }
@@ -1811,6 +1900,47 @@
     "slug": "huawei",
     "devices": [
       {
+        "name": "Huawei Ascend W1",
+        "codename": "Ascend W1",
+        "image": "/assets/huaweiw1.png",
+        "required_tool": "ffutool",
+        "model": "Ascend W1",
+        "specs": {
+          "system-on-chip": "Snapdragon S4 MSM8230 (Dual-core 1.4 GHz)",
+          "gpu": "Adreno 305",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4\" IPS (480x800)",
+          "battery": "1950 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1030.5614.42200.20600",
+            "region": "Smartfren (Indonesia)",
+            "type": "Huawei .app firmware",
+            "size": "390MB",
+            "filename": "W1-C00_1030.5614.42200.20600_Indonesia-Smartfren.zip",
+            "os_version": "Windows Phone 8.0 GDR2 - 8.00.10322.71"
+          },
+          {
+            "version": "1030.5614.46900.20900",
+            "region": "USA",
+            "type": "Huawei .app firmware",
+            "size": "424MB",
+            "filename": "W1-U34_1030.5614.46900.20900_USA-Channel.05011TTC.zip",
+            "os_version": "Windows Phone 8.0 GDR2 - 8.00.10322.71"
+          },
+          {
+            "version": "1030.5614.01000.20900",
+            "region": "Russia",
+            "type": "Huawei .app firmware",
+            "size": "457MB",
+            "filename": "W1-U00_1030.5614.01000.20900_Russia.05011HDM.zip",
+            "os_version": "Windows Phone 8.0 GDR2 - 8.00.10327.77"
+          }
+        ]
+      },
+      {
         "name": "Huawei Ascend W2",
         "codename": "Ascend W2",
         "image": "/assets/huaweiw2.png",
@@ -1864,6 +1994,37 @@
             "size": "409MB",
             "filename": "W2-U00_Nigeria_South Africa_Channel-Others_3039.0004.53400.12300.rar",
             "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Karbonn",
+    "slug": "karbonn",
+    "devices": [
+      {
+        "name": "Karbonn Titanium Wind W4",
+        "codename": "Wind 4",
+        "image": "/assets/karbonnwind4.png",
+        "required_tool": "ffutool",
+        "model": "Titanium Wind W4",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8612 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" TN LCD (480x800)",
+          "battery": "1950 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "01068.00029.57030.01125",
+            "region": "Worldwide (English)",
+            "type": "FFU",
+            "size": "778MB",
+            "filename": "Karbonn_Wind_4_TBW570310_9610_WP_Catalog_Signed_Retail_V1125.zip",
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
       }
