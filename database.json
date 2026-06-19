@@ -1972,6 +1972,14 @@
             "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
           },
           {
+            "version": "3039.0004.30600.12210",
+            "region": "United Kingdom",
+            "type": "Huawei .app firmware",
+            "size": "876.3MB",
+            "filename": "W2-U00_3039.0004.43200_West_Europe-Channel_05011YCH.rar",
+            "os_version": "Windows Phone 8.0 GDR3 - 8.00.10492.116"
+          },
+          {
             "version": "3039.0004.43200.11400",
             "region": "Western Europe",
             "type": "Huawei .app firmware",
@@ -2035,7 +2043,7 @@
     "slug": "kazam",
     "devices": [
       {
-        "name": "Thunder 450WL",
+        "name": "KAZAM Thunder 450WL",
         "codename": "Thunder 450WL",
         "image": "/assets/kazamthunder450wl.png",
         "required_tool": "ffutool",
@@ -2712,7 +2720,7 @@
         ]
       },
       {
-        "name": "Samsung ATIV SE",
+        "name": "Samsung ATIV SE (SM-W750V)",
         "codename": "ATIV SE",
         "image": "/assets/ssativse.png",
         "required_tool": "Samsung WP8 SMD Binary Downloader",
@@ -2767,7 +2775,89 @@
         ]
       },
       {
-        "name": "Samsung Omnia 7",
+        "name": "Samsung Focus (SGH-i917)",
+        "codename": "Focus",
+        "image": "/assets/ssfocus.png",
+        "required_tool": "Unknown",
+        "model": "SGH-i917",
+        "specs": {
+          "system-on-chip": "Snapdragon S1 QSD8250 (Scorpion 1.0 GHz)",
+          "gpu": "Adreno 200",
+          "ram": "512MB",
+          "storage": "8GB (+ microSD)",
+          "display": "4.0\" Super AMOLED (480x800)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "I917UCJK2",
+            "region": "AT&T (United States)",
+            "type": "Full Flash",
+            "size": "173MB",
+            "filename": "Samsung-i917-Focus-firmware-UCJK2-ATT-USA.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I917UCJK3",
+            "region": "AT&T (United States)",
+            "type": "Full Flash",
+            "size": "173MB",
+            "filename": "Samsung-i917-Focus-firmware-UCJK3-ATT-USA_4K.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I917UXJL2",
+            "region": "Rogers (Canada) (i917R)",
+            "type": "Full Flash",
+            "size": "160MB",
+            "filename": "Samsung-i917R-Focus-firmware-UXJL2-ROGERS-CANADA.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
+            "version": "I917UCKC3 (2011-03-15)",
+            "region": "AT&T (United States)",
+            "type": "Full Flash",
+            "size": "178MB",
+            "filename": "SGH-I917_PDA-UCKC3_CSC-ATTKC3_20110315.rar",
+            "os_version": "Windows Phone 7 - 7.0.7390.0"
+          },
+          {
+            "version": "I917UCKC3 (2011-04-28)",
+            "region": "AT&T (United States)",
+            "type": "Full Flash",
+            "size": "308MB",
+            "filename": "SGH-I917_PDA-UCKC3_CSC-ATTKC3_20110428.rar",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          }
+        ]
+      },
+      {
+        "name": "Samsung Focus Flash (SGH-i677)",
+        "codename": "Focus Flash",
+        "image": "/assets/ssfocusflash.png",
+        "required_tool": "Unknown",
+        "model": "SGH-i677",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255 (Single-core Scorpion 1.4 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "512MB",
+          "storage": "8GB (Non-expandable)",
+          "display": "3.7\" Super AMOLED (480x800)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "I677XXKL1",
+            "region": "Brazil (Unlocked)",
+            "type": "Full Flash",
+            "size": "340MB",
+            "filename": "SGH-I677_PDA-XXKL1-SMD_CSC-ZTOKL1-SMD.rar",
+            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
+          }     
+        ]
+      },
+      {
+        "name": "Samsung Omnia 7 (GT-I8700)",
         "codename": "Omnia 7",
         "image": "/assets/ssomnia7.png",
         "required_tool": "Unknown",
@@ -2822,6 +2912,14 @@
             "os_version": "Windows Phone 7 - 7.0.7004.0"
           },
           {
+            "version": "I8700XXJJ6",
+            "region": "Germany (Unlocked)",
+            "type": "Full Flash",
+            "size": "186MB",
+            "filename": "I8700DTMJJ6.zip",
+            "os_version": "Windows Phone 7 - 7.0.7004.0"
+          },
+          {
             "version": "I8700XXJK1",
             "region": "Europe",
             "type": "Full Flash",
@@ -2864,7 +2962,7 @@
         ]
       },
       {
-        "name": "Samsung Omnia M",
+        "name": "Samsung Omnia M (GT-S7530)",
         "codename": "Omnia M",
         "image": "/assets/ssomniam.png",
         "required_tool": "Unknown",
@@ -2889,11 +2987,11 @@
         ]
       },
       {
-        "name": "Samsung Omnia W",
+        "name": "Samsung Omnia W (GT-I8350)",
         "codename": "Omnia W",
         "image": "/assets/ssomniaw.png",
         "required_tool": "Unknown",
-        "model": "GT-I8350",
+        "model": "GT-i8350",
         "specs": {
           "system-on-chip": "Snapdragon S2 MSM8255 (Single-core Scorpion 1.4 GHz)",
           "gpu": "Adreno 205",
@@ -2910,7 +3008,39 @@
             "size": "183MB",
             "filename": "GT-i8350_Plus XXKK4_PLSKK4.rar",
             "os_version": "Windows Phone 7.5 - 7.10.7720.68"
-          }
+          },
+          {
+            "version": "I8350XXKL1",
+            "region": "Germany (Unlocked)",
+            "type": "Full Flash",
+            "size": "342MB",
+            "filename": "GT-I8350_PDA-XXKL1-SMD_CSC-DBTKL1-SMD.rar",
+            "os_version": "Windows Phone 7.5 - 7.10.7740.166"
+          },
+          {
+            "version": "I8350XXKL5",
+            "region": "Ukraine (Unlocked)",
+            "type": "Full Flash",
+            "size": "347MB",
+            "filename": "GT_I8350_PDA_XXKL5_NB0_EBOOT_XXKL5_EB0_PHONE_KL1_BIN_CSC_SEKKL5.rar",
+            "os_version": "Windows Phone 7.5 CR2 - 7.10.8107.79"
+          },
+          {
+            "version": "I8350XXLD1",
+            "region": "Plus (Poland)",
+            "type": "Full Flash",
+            "size": "346MB",
+            "filename": "GT_I8350_PDA_XXLD1_NB0_EBOOT_XXLD1_EB0_PHONE_LB1_BIN_CSC_PLSLD1.rar",
+            "os_version": "Windows Phone 7.5 CR3 - 7.10.8773.98"
+          },
+          {
+            "version": "I8350XXLD1",
+            "region": "Netherlands (Unlocked)",
+            "type": "Full Flash",
+            "size": "274MB",
+            "filename": "GT-I8350_PDA-XXLD1-NB0_CSC-FU_7.8-FIX.rar",
+            "os_version": "Windows Phone 7.8 - 7.10.8858.136"
+          }     
         ]
       }
     ]
