@@ -49,7 +49,7 @@
             "type": "FFU",
             "size": "1.5GB",
             "filename": "Acer_M220_RV07RC02_WW_GEN1_2053.1.00090.37400.ffu",
-            "os_version": "Windows Phone 8.1 Update 1 - 8.1.14203.306"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           },
           {
             "version": "2053.1.00090.37400",
@@ -57,7 +57,7 @@
             "type": "FFU",
             "size": "1.8GB",
             "filename": "Acer_M220_RV07RC02_PA_CUS1H_2053.1.00090.37400.ffu",
-            "os_version": "Windows Phone 8.1 Update 1 - 8.1.14203.306"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           },
           {
             "version": "2053.1.00090.37500",
@@ -65,7 +65,7 @@
             "type": "FFU",
             "size": "1.8GB",
             "filename": "Acer_M220_RV07RC03_WW_GEN1H_2053.1.00090.37500.ffu",
-            "os_version": "Windows Phone 8.1 Update 1 - 8.1.14203.306"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           },
           {
             "version": "2053.1.00090.37800",
@@ -73,7 +73,7 @@
             "type": "FFU",
             "size": "1.5GB",
             "filename": "Acer_M220_RV07RC06_AAP_GLOBE_2053.1.00090.37800.ffu",
-            "os_version": "Windows Phone 8.1 Update 1 - 8.1.14203.306"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           },
           {
             "version": "2053.1.00051.38600",
@@ -81,7 +81,7 @@
             "type": "Emergency files for QFIL",
             "size": "1.01GB",
             "filename": "EDL.zip",
-            "os_version": "Windows Phone 8.1 Update 1 - 8.1.14203.306"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14203.306"
           }
         ]
       },
@@ -270,6 +270,31 @@
             "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
+      },
+      {
+        "name": "Archos 50 Cesium",
+        "codename": "50 Cesium",
+        "image": "/assets/archos50cesium.png",
+        "required_tool": "ffutool",
+        "model": "50 Cesium",
+        "specs": {
+          "system-on-chip": "Snapdragon 210 MSM8909 (Quad-core 1.1 GHz)",
+          "gpu": "Adreno 304",
+          "ram": "1GB",
+          "storage": "8GB (+ microSD)",
+          "display": "5.0\" S-IPS (720x1280)",
+          "battery": "2100 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1078.21.25.1202",
+            "region": "Worldwide (English)",
+            "type": "FFU",
+            "size": "1.64GB",
+            "filename": "Archos_50_Cesium_1078_21_25_1202_Win10.ffu",
+            "os_version": "Windows 10 Mobile - 10.0.10586.0"
+          }
+        ]
       }
     ]
   },
@@ -414,6 +439,37 @@
             "size": "1.7GB",
             "filename": "BLU_WIN_JR_LTE__X130E_00130.03720.20001.15023_RETAIL_FLASH_20160310_00130.03720.20001.15023.FFU",
             "os_version": "Windows Phone 8.1 Update 2 - 8.10.15137.148"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Cube",
+    "slug": "cube",
+    "devices": [
+      {
+        "name": "Cube WP10",
+        "codename": "T698",
+        "image": "/assets/cubewp10.png",
+        "required_tool": "ffutool",
+        "model": "WP10",
+        "specs": {
+          "system-on-chip": "Snapdragon 210 MSM8909 (Quad-core 1.1 GHz)",
+          "gpu": "Adreno 304",
+          "ram": "2GB",
+          "storage": "16GB (+ microSD)",
+          "display": "6.98\" IPS LCD (720x1280)",
+          "battery": "2850 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1078.20.1609.0812",
+            "region": "China Unicom",
+            "type": "FFU",
+            "size": "1.2GB",
+            "filename": "CUBE T698.zip",
+            "os_version": "Windows 10 Mobile - 10.0.10586.420"
           }
         ]
       }
@@ -579,6 +635,37 @@
             "size": "750MB",
             "filename": "ROM_HighScreen_WinWin_000-88_02047.00000.57039.03059_Manufacturing_Retail_Catalog_Signed.rar",
             "os_version": "Windows Phone 8.1 Update 1 - 8.10.14231.372"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Hisense",
+    "slug": "hisense",
+    "devices": [
+      {
+        "name": "Hisense Nana",
+        "codename": "E260T\\E260T+",
+        "image": "/assets/hisensenana.png",
+        "required_tool": "ffutool",
+        "model": "Nana",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8610 (Dual-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "5.0\" IPS LCD (480x854)",
+          "battery": "2000 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "01110.00057.14980.60200",
+            "region": "China Telecom",
+            "type": "FFU",
+            "size": "1GB",
+            "filename": "E260T+_01110.00057.14980.60200_CNT-CN.ffu",
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14157.200"
           }
         ]
       }
@@ -1427,6 +1514,22 @@
             "os_version": "Windows Phone 8.0"
           },
           {
+            "version": "1.06.1401.01",
+            "region": "China Telecom",
+            "type": "Full RUU",
+            "size": "534MB",
+            "filename": "RUU_RIO_CR_POT_00_HTCCN_CHS_CT_1.06.1401.01_0.37.60_RETAIL_ENC_RELEASE.exe",
+            "os_version": "Windows Phone 8.0"
+          },
+          {
+            "version": "1.31.1403.04",
+            "region": "China Mobile",
+            "type": "Full RUU",
+            "size": "534MB",
+            "filename": "RUU_RIO_TD_POT_00_HTCCN_CHS_CMCC_1.31.1403.04_13.13.5058.23_13.03.50_RETAIL_ENC_RELEASE.exe",
+            "os_version": "Windows Phone"
+          },
+          {
             "version": "4.05.401.02",
             "region": "Europe",
             "type": "NBH File",
@@ -2094,7 +2197,7 @@
             "type": "Emergency files for QFIL",
             "size": "667MB",
             "filename": "Thunder 450WL.zip",
-            "os_version": "Windows Phone 8.1 Update 1 - 8.1.14226.359"
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14226.359"
           }
         ]
       }
@@ -2131,7 +2234,38 @@
       }
     ]
   },
-    {
+  {
+    "brand": "K-Touch",
+    "slug": "ktouch",
+    "devices": [
+      {
+        "name": "K-Touch E8",
+        "codename": "E8",
+        "image": "/assets/ktouche8.png",
+        "required_tool": "ffutool",
+        "model": "E8",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8610 (Dual-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" TFT (480x800)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "02047.00000.57072.03047",
+            "region": "China Telecom",
+            "type": "FFU",
+            "size": "1.1GB",
+            "filename": "E8_TBE570712_9722_WP_Retail_V3047.ffu",
+            "os_version": "Windows Phone 8.1 Update 1 - 8.10.14231.372"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "brand": "LG",
     "slug": "LG",
     "devices": [
@@ -2550,8 +2684,16 @@
             "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
           },
           {
+            "version": "2424.12.12.3 (XXALL3)",
+            "region": "OXX (Europe unlocked)",
+            "type": "Full Flash",
+            "size": "684MB",
+            "filename": "GT-I8750_XXALL3_R.zip",
+            "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
+          },
+          {
             "version": "2424.13.2 (XXAMB1)",
-            "region": "OXXAMB1 (Europe unlocked)",
+            "region": "OXX (Europe unlocked)",
             "type": "Full Flash",
             "size": "0MB",
             "files": [
@@ -2576,6 +2718,14 @@
                 "filename": "GT-I8750_OXXAMB1_R_SIGNED.csc"
               }              
             ],
+            "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
+          },
+          {
+            "version": "2603.13.02.1 (ZCAMB1)",
+            "region": "China",
+            "type": "Full Flash",
+            "size": "568MB",
+            "filename": "GT-I8750_ZCAMB1_R.zip",
             "os_version": "Windows Phone 8.0 GDR1 - 8.00.10211.204"
           }
         ]
@@ -3102,6 +3252,32 @@
             "size": "1.4GB",
             "filename": "flash_RS2_trekstor_RTM_1028.020.005.23_14393.0_1028.020.005.23.ffu",
             "os_version": "Windows 10 Mobile Creators Update - 10.0.15063.251"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Unistrong",
+    "slug": "unistrong",
+    "devices": [
+      {
+        "name": "Unistrong T536",
+        "codename": "EE7736A2+",
+        "image": "/assets/unistrongt536.png",
+        "required_tool": "ffutool",
+        "model": "T536",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8612 (Quad-core 1.2 GHz)"
+        },
+        "firmwares": [
+          {
+            "version": "01.12.01.13",
+            "region": "Worldwide (English)",
+            "type": "FFU",
+            "size": "1.44GB",
+            "filename": "retailos_unistrong_01120113_20151227_01.12.01.13.ffu",
+            "os_version": "Windows Phone 8.1 Update 2 - 8.10.15116.125"
           }
         ]
       }
