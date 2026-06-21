@@ -646,7 +646,7 @@
     "devices": [
       {
         "name": "Hisense Nana",
-        "codename": "E260T\\E260T+",
+        "codename": "E260T, E260T+",
         "image": "/assets/hisensenana.png",
         "required_tool": "ffutool",
         "model": "Nana",
