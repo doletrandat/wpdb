@@ -419,7 +419,7 @@
       }
     ]
   },
-   {
+  {
     "brand": "Dell",
     "slug": "dell",
     "devices": [
@@ -445,6 +445,37 @@
             "size": "163.3MB",
             "filename": "VenuePro_flash_GLEOS2A_US_TMO_SIGNED_SWV0105_LP0030_RV001_RETAIL.ffu",
             "os_version": "Windows Phone 7 - 7.0.7004.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Dexp",
+    "slug": "dexp",
+    "devices": [
+      {
+        "name": "Dexp Ixion W5",
+        "codename": "ixion-w5",
+        "image": "/assets/dexpixionw5.png",
+        "required_tool": "QFIL",
+        "model": "Ixion W5",
+        "specs": {
+          "system-on-chip": "Qualcomm Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "1GB",
+          "storage": "4GB (+ microSD)",
+          "display": "5\" IPS LCD (720x1280)",
+          "battery": "2500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1068.0031.0000.0182",
+            "region": "Russia",
+            "type": "EDL files for QFIL",
+            "size": "674MB",
+            "filename": "Dexp_Ixion_W5_I62SE_Retail_1068.0031.0000.0182_QFIL.zip",
+            "os_version": "Windows Phone 8.1 - 8.10.12400.899"
           }
         ]
       }
@@ -1289,7 +1320,7 @@
           },
           {
             "version": "1.08.1402.01",
-            "region": "China",
+            "region": "China Unicom",
             "type": "Full RUU",
             "size": "575.3MB",
             "filename": "RUU_ACCORD_U_POT_00_HTCCN_CHS_CU_1_08_1402_01_1_11c_32_19_27_2_15.rar",
@@ -1373,7 +1404,7 @@
         "firmwares": [
           {
             "version": "1.02.1402.02",
-            "region": "China",
+            "region": "China Unicom",
             "type": "Full RUU",
             "size": "521MB",
             "filename": "RUU_RIO_U_POT_00_HTCCN_CHS_CU_1.02.1402.02_1.12.3054.11_10.16.30_RETAIL_ENC_RELEASE.exe",
@@ -2579,7 +2610,7 @@
             "os_version": "Unknown"
           },
           {
-            "version": "2212.13.11.2 (VLCMK2_PS)",
+            "version": "2212.13.11.2 (VLCMK2)",
             "region": "Unknown",
             "type": "OS only",
             "size": "0MB",
