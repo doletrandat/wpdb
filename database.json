@@ -2177,6 +2177,31 @@
     "slug": "kazam",
     "devices": [
       {
+        "name": "KAZAM Thunder 340W",
+        "codename": "Thunder 340W",
+        "image": "/assets/kazamthunder340w.png",
+        "required_tool": "ffutool",
+        "model": "Thunder 340W",
+        "specs": {
+          "system-on-chip": "Snapdragon 200 MSM8212 (Quad-core 1.2 GHz)",
+          "gpu": "Adreno 302",
+          "ram": "512MB",
+          "storage": "4GB (+ microSD)",
+          "display": "4.0\" IPS LCD (480x800)",
+          "battery": "1500 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "2047.0001.0010.0001",
+            "region": "United Kingdom",
+            "type": "FFU",
+            "size": "757MB",
+            "filename": "Kazam_Thunder_340W_20150514_8.1_FFU.zip",
+            "os_version": "Windows Phone 8.1 - 8.10.14192.280"
+          }
+        ]
+      },
+      {
         "name": "KAZAM Thunder 450WL",
         "codename": "Thunder 450WL",
         "image": "/assets/kazamthunder450wl.png",
@@ -3480,6 +3505,37 @@
             "size": "1.5GB",
             "filename": "Zebra_TC700J_TC76x9_R_1078_10586_01_13_02_01078.00541.09001.11000.ffu",
             "os_version": "Windows 10 Mobile - 10.0.10586.494"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "ZTE",
+    "slug": "zte",
+    "devices": [
+      {
+        "name": "ZTE Tania",
+        "codename": "V965W",
+        "image": "/assets/ztetania.png",
+        "required_tool": "Unknown",
+        "model": "Tania",
+        "specs": {
+          "system-on-chip": "Snapdragon S2 MSM8255 (Single-core Scorpion 1.0 GHz)",
+          "gpu": "Adreno 205",
+          "ram": "512MB",
+          "storage": "4GB (Non-expandable)",
+          "display": "4.3\" TFT LCD (480x800)",
+          "battery": "1400 mAh"
+        },
+        "firmwares": [
+          {
+            "version": "1600.3000.7720.10015",
+            "region": "Unknown",
+            "type": "FFU",
+            "size": "635MB",
+            "filename": "ZTE_Tania_171200B04791600.3000.7720.10015_20120116_MIRA.zip",
+            "os_version": "Windows Phone 7.5 - 7.10.7720.68"
           }
         ]
       }
